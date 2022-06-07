@@ -14,22 +14,22 @@
 
 typedef struct
 {
-    uint16_t type;              // Magic identifier
-    uint32_t size;              // File size in bytes
-    uint16_t reserved1;         // Not used
-    uint16_t reserved2;         // Not used
+    uint16_t type;              // Identifica o tipo de arquivo
+    uint32_t size;              // Tamanho do arquivo em bytes
+    uint16_t reserved1;         // Bytes não usados
+    uint16_t reserved2;         // Bytes não usados
     uint32_t offset;            //
-    uint32_t header_size;       // Header size in bytes
-    uint32_t width;             // Width of the image
-    uint32_t height;            // Height of image
-    uint16_t planes;            // Number of color planes
-    uint16_t bits;              // Bits per pixel
-    uint32_t compression;       // Compression type
-    uint32_t imagesize;         // Image size in bytes
-    uint32_t xresolution;       // Pixels per meter
-    uint32_t yresolution;       // Pixels per meter
-    uint32_t ncolours;          // Number of colors
-    uint32_t importantcolours;  // Important colors
+    uint32_t header_size;       // Tamanho do cabecalho em bytes
+    uint32_t width;             // Largura da imagem
+    uint32_t height;            // Altura da imagem
+    uint16_t planes;            // numero de planos de cor
+    uint16_t bits;              // Bits por pixel
+    uint32_t compression;       // Tipo de compressao
+    uint32_t imagesize;         // Tamanho da imagem em bytes
+    uint32_t xresolution;       // Resolucao x em Pixels por metro
+    uint32_t yresolution;       // Resolucao y em Pixels por metro
+    uint32_t ncolours;          // Numero de cores
+    uint32_t importantcolours;  // Cores importantes
 } BMP_Header;
 
 typedef struct
@@ -64,6 +64,8 @@ BMP_Image * cleanUp(FILE * fptr, BMP_Image * img) // Fecha a stream de um arquiv
 
 BMP_Image *BMP_open(const char *filename) {
 
+    printf("Abrindo imagem...\n");
+
     FILE * fptr    = NULL; // Instancia estrutura de arquivos
     BMP_Image *img = NULL; // Instancia estrutura da imagem BMP
     fptr = fopen(filename, "rb"); // "rb" nao eh cessario no Linux, usar "r" no lugar
@@ -84,11 +86,6 @@ BMP_Image *BMP_open(const char *filename) {
     {
         return cleanUp(fptr, img); // Limpa memoria em caso de erro
     }
-
-    //if (checkHeader(& (img -> header)) == 0)
-    //{
-    //    return cleanUp(fptr, img);
-    //}
 
     img -> data_size = (img -> header).size - sizeof(BMP_Header);
     img -> width     = (img -> header).width;
@@ -120,6 +117,8 @@ BMP_Image *BMP_open(const char *filename) {
 
 int BMP_save(const BMP_Image *img, const char *filename)
 {
+    printf("Entrando no metodo de salvamento...\n");
+
     FILE * fptr    = NULL;
     fptr = fopen(filename, "w");
 
@@ -150,52 +149,38 @@ void BMP_destroy(BMP_Image *img)
     free (img);
 }
 
-//void BMP_invert(BMP_Image *img)
-//{
-//    int pxl;
-//    for (pxl = 0; pxl < (img -> data_size); pxl ++)
-//    {
-//        img -> data[pxl] = 255 - (img -> data[pxl]);
-//    }
-//}
-
 int main()
 {
-    BMP_Image *img1 = BMP_open("err1.bmp"); // Abre o arquivo BMP argv[1]
-    BMP_Image *img2 = BMP_open("err2.bmp");
-    BMP_Image *img3;
+    printf("Iniciando programa...\n");
+
+    BMP_Image *img1 = BMP_open("fruitA.bmp"); 
+    BMP_Image *img2 = BMP_open("fruitB.bmp");
 
 	if (img1 == NULL || img2 == NULL)
 	{
+        printf("Falha ao abrir imagem!\n");
 		return EXIT_FAILURE;
 	}
+    
+    int pxl, diff[img1 -> data_size], square[img1 -> data_size];
 
-	//BMP_invert(img);
-    //int pxl;
-    //for (pxl = 0; pxl < (img -> data_size); pxl ++)
-    //{
-    //    img -> data[pxl] = 255 - (img -> data[pxl]);
-    //}
-
-    int pxl;
-    int dt_size = img1 -> data_size;
-
-    for (pxl = 0; pxl < dt_size; pxl ++)
+    for (pxl = 0; pxl < (img1 -> data_size); pxl ++)
     {
-        img3 -> data[pxl] = (img1 -> data[pxl]) - (img2 -> data[pxl]);
-        img3 -> data[pxl] = pow(img3 -> data[pxl],2);
+        diff[pxl] = (img2 -> data[pxl]) - (img1 -> data[pxl]);
+        square[pxl] = diff[pxl]*diff[pxl];
+
+        img2 -> data[pxl] = square[pxl];
     }
 
-	if (BMP_save(img3,"err3.bmp") == 0) //  argv[2]
+	if (BMP_save(img2,"headerless.bmp") == 0) 
 	{
-		printf("Arquivo de Saida Invalido!\n");
-	    BMP_destroy(img3);
+	    printf("Arquivo de Saida Invalido!\n");
+	    BMP_destroy(img2);
 	    return EXIT_FAILURE;
 	}
-
-	BMP_destroy(img1);
+    
+    BMP_destroy(img1);
     BMP_destroy(img2);
-    BMP_destroy(img3);
 
     return EXIT_FAILURE;
 }
