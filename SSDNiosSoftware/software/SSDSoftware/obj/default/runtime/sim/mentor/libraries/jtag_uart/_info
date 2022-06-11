@@ -1,0 +1,120 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Projetos/Quartus/SSDNiosSoftware/software/SSDSoftware/obj/default/runtime/sim/mentor
+vSSDNiosSoftwareEmbarcado_jtag_uart
+Z1 !s110 1654907113
+!i10b 1
+!s100 c69GYD6UdV`0mgGRQ`[_;2
+IZ1N0n@kQPMFE9SIk2^0F_1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1654903806
+Z4 8C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_jtag_uart.v
+Z5 FC:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_jtag_uart.v
+L0 331
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1654907113.000000
+Z8 !s107 C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_jtag_uart.v|
+Z9 !s90 -reportprogress|300|C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_jtag_uart.v|-work|jtag_uart|
+!i113 1
+Z10 o-work jtag_uart
+Z11 tCvgOpt 0
+n@s@s@d@nios@software@embarcado_jtag_uart
+vSSDNiosSoftwareEmbarcado_jtag_uart_scfifo_r
+R1
+!i10b 1
+!s100 JDCj]mG]@mml3FPOUeYZ<2
+I8la2nU:?FHQ;G]^TE7]o^3
+R2
+R0
+R3
+R4
+R5
+L0 243
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@s@s@d@nios@software@embarcado_jtag_uart_scfifo_r
+vSSDNiosSoftwareEmbarcado_jtag_uart_scfifo_w
+R1
+!i10b 1
+!s100 XX<0Q:K;Y_zL<EAU9XfPT0
+IH=L9ib;3I200FS;I6>W9B0
+R2
+R0
+R3
+R4
+R5
+L0 78
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@s@s@d@nios@software@embarcado_jtag_uart_scfifo_w
+vSSDNiosSoftwareEmbarcado_jtag_uart_sim_scfifo_r
+R1
+!i10b 1
+!s100 <PaoMNlE=Rl0iO5zkXjBD3
+InWK^<Rf8oA[QZD=<K]jhE1
+R2
+R0
+R3
+R4
+R5
+L0 164
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@s@s@d@nios@software@embarcado_jtag_uart_sim_scfifo_r
+vSSDNiosSoftwareEmbarcado_jtag_uart_sim_scfifo_w
+R1
+!i10b 1
+!s100 mD^9C>S0NgHFh550<T9O13
+Ic;4F>oLHOGQ07BckTHffS0
+R2
+R0
+R3
+R4
+R5
+L0 21
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@s@s@d@nios@software@embarcado_jtag_uart_sim_scfifo_w

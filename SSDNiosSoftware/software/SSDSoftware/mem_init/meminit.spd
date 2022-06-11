@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+<file path="hdl_sim/ImagemA.dat" type="DAT" initParamName="INIT_FILE" memoryPath="ImagemA" />
+<file path="hdl_sim/ImagemB.dat" type="DAT" initParamName="INIT_FILE" memoryPath="ImagemB" />
+<file path="hdl_sim/SSDNiosSoftwareEmbarcado_ImagemC.dat" type="DAT" initParamName="INIT_FILE" memoryPath="ImagemC" />
+<file path="hdl_sim/SSDNiosSoftwareEmbarcado_MemoriaPrograma.dat" type="DAT" initParamName="INIT_FILE" memoryPath="MemoriaPrograma" />
+<file path="ImagemA.hex" type="HEX" initParamName="INIT_FILE" memoryPath="ImagemA" />
+<file path="ImagemB.hex" type="HEX" initParamName="INIT_FILE" memoryPath="ImagemB" />
+<file path="SSDNiosSoftwareEmbarcado_ImagemC.hex" type="HEX" initParamName="INIT_FILE" memoryPath="ImagemC" />
+<file path="SSDNiosSoftwareEmbarcado_MemoriaPrograma.hex" type="HEX" initParamName="INIT_FILE" memoryPath="MemoriaPrograma" />
+</simPackage>
