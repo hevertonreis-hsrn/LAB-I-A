@@ -12,14 +12,14 @@ module SSDNiosSoftwareEmbarcado (
 	wire  [31:0] processador_data_master_readdata;                          // mm_interconnect_0:Processador_data_master_readdata -> Processador:d_readdata
 	wire         processador_data_master_waitrequest;                       // mm_interconnect_0:Processador_data_master_waitrequest -> Processador:d_waitrequest
 	wire         processador_data_master_debugaccess;                       // Processador:debug_mem_slave_debugaccess_to_roms -> mm_interconnect_0:Processador_data_master_debugaccess
-	wire  [18:0] processador_data_master_address;                           // Processador:d_address -> mm_interconnect_0:Processador_data_master_address
+	wire  [21:0] processador_data_master_address;                           // Processador:d_address -> mm_interconnect_0:Processador_data_master_address
 	wire   [3:0] processador_data_master_byteenable;                        // Processador:d_byteenable -> mm_interconnect_0:Processador_data_master_byteenable
 	wire         processador_data_master_read;                              // Processador:d_read -> mm_interconnect_0:Processador_data_master_read
 	wire         processador_data_master_write;                             // Processador:d_write -> mm_interconnect_0:Processador_data_master_write
 	wire  [31:0] processador_data_master_writedata;                         // Processador:d_writedata -> mm_interconnect_0:Processador_data_master_writedata
 	wire  [31:0] processador_instruction_master_readdata;                   // mm_interconnect_0:Processador_instruction_master_readdata -> Processador:i_readdata
 	wire         processador_instruction_master_waitrequest;                // mm_interconnect_0:Processador_instruction_master_waitrequest -> Processador:i_waitrequest
-	wire  [18:0] processador_instruction_master_address;                    // Processador:i_address -> mm_interconnect_0:Processador_instruction_master_address
+	wire  [21:0] processador_instruction_master_address;                    // Processador:i_address -> mm_interconnect_0:Processador_instruction_master_address
 	wire         processador_instruction_master_read;                       // Processador:i_read -> mm_interconnect_0:Processador_instruction_master_read
 	wire         mm_interconnect_0_medidordesempenho_escrita_write;         // mm_interconnect_0:MedidorDesempenho_Escrita_write -> MedidorDesempenho:write
 	wire  [31:0] mm_interconnect_0_medidordesempenho_escrita_writedata;     // mm_interconnect_0:MedidorDesempenho_Escrita_writedata -> MedidorDesempenho:writedata
@@ -50,7 +50,7 @@ module SSDNiosSoftwareEmbarcado (
 	wire         mm_interconnect_0_imagema_s1_chipselect;                   // mm_interconnect_0:ImagemA_s1_chipselect -> ImagemA:chipselect
 	wire  [31:0] mm_interconnect_0_imagema_s1_readdata;                     // ImagemA:readdata -> mm_interconnect_0:ImagemA_s1_readdata
 	wire         mm_interconnect_0_imagema_s1_debugaccess;                  // mm_interconnect_0:ImagemA_s1_debugaccess -> ImagemA:debugaccess
-	wire  [13:0] mm_interconnect_0_imagema_s1_address;                      // mm_interconnect_0:ImagemA_s1_address -> ImagemA:address
+	wire  [17:0] mm_interconnect_0_imagema_s1_address;                      // mm_interconnect_0:ImagemA_s1_address -> ImagemA:address
 	wire   [3:0] mm_interconnect_0_imagema_s1_byteenable;                   // mm_interconnect_0:ImagemA_s1_byteenable -> ImagemA:byteenable
 	wire         mm_interconnect_0_imagema_s1_write;                        // mm_interconnect_0:ImagemA_s1_write -> ImagemA:write
 	wire  [31:0] mm_interconnect_0_imagema_s1_writedata;                    // mm_interconnect_0:ImagemA_s1_writedata -> ImagemA:writedata
@@ -58,14 +58,14 @@ module SSDNiosSoftwareEmbarcado (
 	wire         mm_interconnect_0_imagemb_s1_chipselect;                   // mm_interconnect_0:ImagemB_s1_chipselect -> ImagemB:chipselect
 	wire  [31:0] mm_interconnect_0_imagemb_s1_readdata;                     // ImagemB:readdata -> mm_interconnect_0:ImagemB_s1_readdata
 	wire         mm_interconnect_0_imagemb_s1_debugaccess;                  // mm_interconnect_0:ImagemB_s1_debugaccess -> ImagemB:debugaccess
-	wire  [13:0] mm_interconnect_0_imagemb_s1_address;                      // mm_interconnect_0:ImagemB_s1_address -> ImagemB:address
+	wire  [17:0] mm_interconnect_0_imagemb_s1_address;                      // mm_interconnect_0:ImagemB_s1_address -> ImagemB:address
 	wire   [3:0] mm_interconnect_0_imagemb_s1_byteenable;                   // mm_interconnect_0:ImagemB_s1_byteenable -> ImagemB:byteenable
 	wire         mm_interconnect_0_imagemb_s1_write;                        // mm_interconnect_0:ImagemB_s1_write -> ImagemB:write
 	wire  [31:0] mm_interconnect_0_imagemb_s1_writedata;                    // mm_interconnect_0:ImagemB_s1_writedata -> ImagemB:writedata
 	wire         mm_interconnect_0_imagemb_s1_clken;                        // mm_interconnect_0:ImagemB_s1_clken -> ImagemB:clken
 	wire         mm_interconnect_0_imagemc_s1_chipselect;                   // mm_interconnect_0:ImagemC_s1_chipselect -> ImagemC:chipselect
 	wire  [31:0] mm_interconnect_0_imagemc_s1_readdata;                     // ImagemC:readdata -> mm_interconnect_0:ImagemC_s1_readdata
-	wire  [13:0] mm_interconnect_0_imagemc_s1_address;                      // mm_interconnect_0:ImagemC_s1_address -> ImagemC:address
+	wire  [17:0] mm_interconnect_0_imagemc_s1_address;                      // mm_interconnect_0:ImagemC_s1_address -> ImagemC:address
 	wire   [3:0] mm_interconnect_0_imagemc_s1_byteenable;                   // mm_interconnect_0:ImagemC_s1_byteenable -> ImagemC:byteenable
 	wire         mm_interconnect_0_imagemc_s1_write;                        // mm_interconnect_0:ImagemC_s1_write -> ImagemC:write
 	wire  [31:0] mm_interconnect_0_imagemc_s1_writedata;                    // mm_interconnect_0:ImagemC_s1_writedata -> ImagemC:writedata

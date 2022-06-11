@@ -51,13 +51,13 @@ R3
 R4
 n@s@s@d@nios@software
 vSSDNiosSoftwareEmbarcado_tb
-!s110 1654907114
+!s110 1654968503
 !i10b 1
 !s100 NR@1RgJ7Ka7:ScFK[`UY63
 IlW>dgH>7GT;5;85V@cccH1
 R1
 R0
-w1654903797
+w1654967069
 8C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/SSDNiosSoftwareEmbarcado_tb.v
 FC:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/SSDNiosSoftwareEmbarcado_tb.v
 L0 6
@@ -65,7 +65,7 @@ R2
 r1
 !s85 0
 31
-!s108 1654907114.000000
+!s108 1654968503.000000
 !s107 C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/SSDNiosSoftwareEmbarcado_tb.v|
 !s90 -reportprogress|300|C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/SSDNiosSoftwareEmbarcado_tb.v|
 !i113 1

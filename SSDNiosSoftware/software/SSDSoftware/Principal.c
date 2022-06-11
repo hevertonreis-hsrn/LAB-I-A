@@ -1,9 +1,9 @@
-#define IMG_A (int *) 0X0000
-#define IMG_B (int *) 0X40000
-#define IMG_C (int *) 0X30000
+#define IMG_A (int *) 0x00000
+#define IMG_B (int *) 0x200000
+#define IMG_C (int *) 0x100000
 
-#define MEDIDOR_LEITURA (int *) 0x5100c
-#define MEDIDOR_ESCRITA (int *) 0x51008
+#define MEDIDOR_LEITURA (int *) 0x321008
+#define MEDIDOR_ESCRITA (int *) 0x32100c
 
 #define DATA_SIZE 57600
 
@@ -15,7 +15,6 @@ int main()
 {
 
   *MEDIDOR_ESCRITA = 0;
-  *MEDIDOR_ESCRITA = 1;
   int diff[DATA_SIZE], square[DATA_SIZE];
 
   for (int i = 0; i < DATA_SIZE; i++)

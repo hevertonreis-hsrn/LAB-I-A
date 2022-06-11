@@ -14,11 +14,10 @@
 
 // PROGRAM		"Quartus Prime"
 // VERSION		"Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition"
-// CREATED		"Fri Jun 10 20:45:19 2022"
+// CREATED		"Sat Jun 11 14:13:07 2022"
 
 module SSDNiosSoftware(
 	CLOCK_50,
-	entrada_1,
 	KEY,
 	SW,
 	LEDR
@@ -26,7 +25,6 @@ module SSDNiosSoftware(
 
 
 input wire	CLOCK_50;
-input wire	[31:0] entrada_1;
 input wire	[0:0] KEY;
 input wire	[1:0] SW;
 output wire	[15:0] LEDR;
@@ -47,7 +45,6 @@ Separador	b2v_inst1(
 	.seletor_HighLow(SW[0]),
 	.seletor_entrada(SW[1]),
 	.entrada_0(SYNTHESIZED_WIRE_0),
-	.entrada_1(entrada_1),
 	.saida_16(LEDR));
 
 

@@ -24,6 +24,6 @@ configure wave -gridoffset 0
 configure wave -gridperiod 1
 configure wave -griddelta 40
 configure wave -timeline 0
-configure wave -timelineunits ps
+configure wave -timelineunits ns
 update
-WaveRestoreZoom {0 ps} {2414 ps}
+WaveRestoreZoom {0 ps} {1 ns}

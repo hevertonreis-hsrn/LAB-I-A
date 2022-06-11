@@ -9,46 +9,46 @@ z2
 cModel Technology
 Z0 dC:/Projetos/Quartus/SSDNiosSoftware/software/SSDSoftware/obj/default/runtime/sim/mentor
 vClock_Counter
-Z1 !s110 1654907113
+!s110 1654968503
 !i10b 1
 !s100 hAbh9<HJh558ZEmMP>40@1
 IB[CL9iQW7Lk90QY1X?AFS1
-Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1654903804
+Z2 w1654967081
 8C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/Clock_Counter.v
 FC:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/Clock_Counter.v
 L0 1
-Z4 OV;L;10.5b;63
+Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1654907113.000000
+Z4 !s108 1654968502.000000
 !s107 C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/Clock_Counter.v|
 !s90 -reportprogress|300|C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/Clock_Counter.v|-work|MedidorDesempenho|
 !i113 1
-Z6 o-work MedidorDesempenho
-Z7 tCvgOpt 0
+Z5 o-work MedidorDesempenho
+Z6 tCvgOpt 0
 n@clock_@counter
 vClock_Counter_Interface
-R1
+!s110 1654968502
 !i10b 1
 !s100 ReeJOOzL4RA0?mW5e30PD2
 I6jZa8D32fS:[e12PMe2521
-R2
+R1
 R0
-R3
+R2
 8C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/Clock_Counter_Interface.v
 FC:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/Clock_Counter_Interface.v
 L0 1
-R4
+R3
 r1
 !s85 0
 31
-R5
+R4
 !s107 C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/Clock_Counter_Interface.v|
 !s90 -reportprogress|300|C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/Clock_Counter_Interface.v|-work|MedidorDesempenho|
 !i113 1
+R5
 R6
-R7
 n@clock_@counter_@interface
