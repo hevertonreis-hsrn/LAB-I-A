@@ -725,12 +725,12 @@ int main()
   310280:	423dff04 	addi	r8,r8,-2052
   310284:	da37883a 	add	sp,sp,r8
 
+
+  int diff[DATA_SIZE], square[DATA_SIZE];
   *MEDIDOR_ESCRITA = 0;
   310288:	00800cb4 	movhi	r2,50
   31028c:	10840304 	addi	r2,r2,4108
   310290:	10000015 	stw	zero,0(r2)
-  int diff[DATA_SIZE], square[DATA_SIZE];
-
   for (int i = 0; i < DATA_SIZE; i++)
   310294:	00bffe74 	movhi	r2,65529
   310298:	10bdff04 	addi	r2,r2,-2052
@@ -839,9 +839,9 @@ int main()
   310424:	18800015 	stw	r2,0(r3)
 {
 
-  *MEDIDOR_ESCRITA = 0;
-  int diff[DATA_SIZE], square[DATA_SIZE];
 
+  int diff[DATA_SIZE], square[DATA_SIZE];
+  *MEDIDOR_ESCRITA = 0;
   for (int i = 0; i < DATA_SIZE; i++)
   310428:	00fffe74 	movhi	r3,65529
   31042c:	18fdff04 	addi	r3,r3,-2052

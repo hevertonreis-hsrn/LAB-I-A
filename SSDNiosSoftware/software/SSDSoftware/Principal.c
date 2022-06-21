@@ -5,6 +5,8 @@
 #define MEDIDOR_LEITURA (int *) 0x321008
 #define MEDIDOR_ESCRITA (int *) 0x32100c
 
+#define LEDS (int *) 0x00000
+
 #define DATA_SIZE 57600
 
 int * imgA = IMG_A;
@@ -14,9 +16,11 @@ int * imgC = IMG_C;
 int main()
 {
 
-  *MEDIDOR_ESCRITA = 0;
-  int diff[DATA_SIZE], square[DATA_SIZE];
 
+  int diff[DATA_SIZE], square[DATA_SIZE];
+  *MEDIDOR_ESCRITA = 0;
+  *LEDS = 0;
+  *MEDIDOR_ESCRITA = 1;
   for (int i = 0; i < DATA_SIZE; i++)
   {
     diff[i] = imgB[i] - imgA[i];
@@ -24,6 +28,10 @@ int main()
     imgC[i] = square[i];
   }
   *MEDIDOR_ESCRITA = 2;
+  *LEDS = *MEDIDOR_LEITURA;
+
+  //Parte hardware
+  //...
 
   return 0;
 }

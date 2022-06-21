@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/Projetos/Quartus/SSDNiosSoftware/software/SSDSoftware/obj/default/runtime/sim/mentor
 valtera_reset_controller
-Z1 !s110 1654968502
+Z1 !s110 1654974856
 !i10b 1
 !s100 z[H_hRO9gO=:^2E3_jWH03
 IjjBfUB`[=]><J_8W?ZlSk1
@@ -23,12 +23,12 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-!s108 1654968501.000000
+Z5 !s108 1654974856.000000
 !s107 C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_reset_controller.v|
 !s90 -reportprogress|300|C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_reset_controller.v|-work|rst_controller|
 !i113 1
-Z5 o-work rst_controller
-Z6 tCvgOpt 0
+Z6 o-work rst_controller
+Z7 tCvgOpt 0
 valtera_reset_synchronizer
 R1
 !i10b 1
@@ -44,9 +44,9 @@ R4
 r1
 !s85 0
 31
-!s108 1654968502.000000
+R5
 !s107 C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_reset_synchronizer.v|
 !s90 -reportprogress|300|C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_reset_synchronizer.v|-work|rst_controller|
 !i113 1
-R5
 R6
+R7
