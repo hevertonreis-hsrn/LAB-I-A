@@ -43,186 +43,442 @@
 # [exec] dev_com
 # [exec] com
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:13 on Jun 11,2022
+# Start time: 17:23:28 on Jul 02,2022
 # vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/verbosity_pkg.sv -work altera_common_sv_packages 
 # -- Compiling package verbosity_pkg
 # 
 # Top level modules:
 # 	--none--
-# End time: 16:14:13 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:28 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:13 on Jun 11,2022
+# Start time: 17:23:28 on Jul 02,2022
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_mm_interconnect_0_avalon_st_adapter_004_error_adapter_0.sv -L altera_common_sv_packages -work error_adapter_0 
+# -- Compiling module SSDNiosSoftwareEmbarcado_mm_interconnect_0_avalon_st_adapter_004_error_adapter_0
+# 
+# Top level modules:
+# 	SSDNiosSoftwareEmbarcado_mm_interconnect_0_avalon_st_adapter_004_error_adapter_0
+# End time: 17:23:28 on Jul 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:23:28 on Jul 02,2022
 # vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv -L altera_common_sv_packages -work error_adapter_0 
 # -- Compiling module SSDNiosSoftwareEmbarcado_mm_interconnect_0_avalon_st_adapter_error_adapter_0
 # 
 # Top level modules:
 # 	SSDNiosSoftwareEmbarcado_mm_interconnect_0_avalon_st_adapter_error_adapter_0
-# End time: 16:14:13 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:28 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:13 on Jun 11,2022
+# Start time: 17:23:28 on Jul 02,2022
+# vlog -reportprogress 300 C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_mm_interconnect_0_avalon_st_adapter_004.v -work avalon_st_adapter_004 
+# -- Compiling module SSDNiosSoftwareEmbarcado_mm_interconnect_0_avalon_st_adapter_004
+# 
+# Top level modules:
+# 	SSDNiosSoftwareEmbarcado_mm_interconnect_0_avalon_st_adapter_004
+# End time: 17:23:28 on Jul 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:23:28 on Jul 02,2022
 # vlog -reportprogress 300 C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_mm_interconnect_0_avalon_st_adapter.v -work avalon_st_adapter 
 # -- Compiling module SSDNiosSoftwareEmbarcado_mm_interconnect_0_avalon_st_adapter
 # 
 # Top level modules:
 # 	SSDNiosSoftwareEmbarcado_mm_interconnect_0_avalon_st_adapter
-# End time: 16:14:13 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:28 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:13 on Jun 11,2022
+# Start time: 17:23:28 on Jul 02,2022
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_width_adapter.sv -L altera_common_sv_packages -work MemoriaPrograma_s1_rsp_width_adapter 
+# -- Compiling module altera_merlin_width_adapter
+# 
+# Top level modules:
+# 	altera_merlin_width_adapter
+# End time: 17:23:28 on Jul 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:23:28 on Jul 02,2022
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_address_alignment.sv -L altera_common_sv_packages -work MemoriaPrograma_s1_rsp_width_adapter 
+# -- Compiling module altera_merlin_address_alignment
+# 
+# Top level modules:
+# 	altera_merlin_address_alignment
+# End time: 17:23:28 on Jul 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:23:28 on Jul 02,2022
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_uncompressor.sv -L altera_common_sv_packages -work MemoriaPrograma_s1_rsp_width_adapter 
+# -- Compiling module altera_merlin_burst_uncompressor
+# 
+# Top level modules:
+# 	altera_merlin_burst_uncompressor
+# End time: 17:23:28 on Jul 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:23:28 on Jul 02,2022
 # vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_mm_interconnect_0_rsp_mux_001.sv -L altera_common_sv_packages -work rsp_mux_001 
 # -- Compiling module SSDNiosSoftwareEmbarcado_mm_interconnect_0_rsp_mux_001
 # 
 # Top level modules:
 # 	SSDNiosSoftwareEmbarcado_mm_interconnect_0_rsp_mux_001
-# End time: 16:14:13 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:28 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:13 on Jun 11,2022
+# Start time: 17:23:29 on Jul 02,2022
 # vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work rsp_mux_001 
 # -- Compiling module altera_merlin_arbitrator
 # -- Compiling module altera_merlin_arb_adder
 # 
 # Top level modules:
 # 	altera_merlin_arbitrator
-# End time: 16:14:13 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:29 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:13 on Jun 11,2022
+# Start time: 17:23:29 on Jul 02,2022
 # vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_mm_interconnect_0_rsp_mux.sv -L altera_common_sv_packages -work rsp_mux 
 # -- Compiling module SSDNiosSoftwareEmbarcado_mm_interconnect_0_rsp_mux
 # 
 # Top level modules:
 # 	SSDNiosSoftwareEmbarcado_mm_interconnect_0_rsp_mux
-# End time: 16:14:13 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:29 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:13 on Jun 11,2022
+# Start time: 17:23:29 on Jul 02,2022
 # vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work rsp_mux 
 # -- Compiling module altera_merlin_arbitrator
 # -- Compiling module altera_merlin_arb_adder
 # 
 # Top level modules:
 # 	altera_merlin_arbitrator
-# End time: 16:14:13 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:29 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:13 on Jun 11,2022
+# Start time: 17:23:29 on Jul 02,2022
 # vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_mm_interconnect_0_rsp_demux.sv -L altera_common_sv_packages -work rsp_demux 
 # -- Compiling module SSDNiosSoftwareEmbarcado_mm_interconnect_0_rsp_demux
 # 
 # Top level modules:
 # 	SSDNiosSoftwareEmbarcado_mm_interconnect_0_rsp_demux
-# End time: 16:14:13 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:29 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:13 on Jun 11,2022
+# Start time: 17:23:29 on Jul 02,2022
 # vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_mm_interconnect_0_cmd_mux_003.sv -L altera_common_sv_packages -work cmd_mux_003 
 # -- Compiling module SSDNiosSoftwareEmbarcado_mm_interconnect_0_cmd_mux_003
 # 
 # Top level modules:
 # 	SSDNiosSoftwareEmbarcado_mm_interconnect_0_cmd_mux_003
-# End time: 16:14:14 on Jun 11,2022, Elapsed time: 0:00:01
+# End time: 17:23:29 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:14 on Jun 11,2022
+# Start time: 17:23:29 on Jul 02,2022
 # vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work cmd_mux_003 
 # -- Compiling module altera_merlin_arbitrator
 # -- Compiling module altera_merlin_arb_adder
 # 
 # Top level modules:
 # 	altera_merlin_arbitrator
-# End time: 16:14:14 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:29 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:14 on Jun 11,2022
+# Start time: 17:23:29 on Jul 02,2022
 # vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_mm_interconnect_0_cmd_mux.sv -L altera_common_sv_packages -work cmd_mux 
 # -- Compiling module SSDNiosSoftwareEmbarcado_mm_interconnect_0_cmd_mux
 # 
 # Top level modules:
 # 	SSDNiosSoftwareEmbarcado_mm_interconnect_0_cmd_mux
-# End time: 16:14:14 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:29 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:14 on Jun 11,2022
+# Start time: 17:23:29 on Jul 02,2022
 # vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work cmd_mux 
 # -- Compiling module altera_merlin_arbitrator
 # -- Compiling module altera_merlin_arb_adder
 # 
 # Top level modules:
 # 	altera_merlin_arbitrator
-# End time: 16:14:14 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:29 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:14 on Jun 11,2022
+# Start time: 17:23:29 on Jul 02,2022
 # vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_mm_interconnect_0_cmd_demux_001.sv -L altera_common_sv_packages -work cmd_demux_001 
 # -- Compiling module SSDNiosSoftwareEmbarcado_mm_interconnect_0_cmd_demux_001
 # 
 # Top level modules:
 # 	SSDNiosSoftwareEmbarcado_mm_interconnect_0_cmd_demux_001
-# End time: 16:14:14 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:29 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:14 on Jun 11,2022
+# Start time: 17:23:29 on Jul 02,2022
 # vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_mm_interconnect_0_cmd_demux.sv -L altera_common_sv_packages -work cmd_demux 
 # -- Compiling module SSDNiosSoftwareEmbarcado_mm_interconnect_0_cmd_demux
 # 
 # Top level modules:
 # 	SSDNiosSoftwareEmbarcado_mm_interconnect_0_cmd_demux
-# End time: 16:14:14 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:30 on Jul 02,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:14 on Jun 11,2022
+# Start time: 17:23:30 on Jul 02,2022
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter.sv -L altera_common_sv_packages -work MemoriaPrograma_s1_burst_adapter 
+# -- Compiling module altera_merlin_burst_adapter
+# 
+# Top level modules:
+# 	altera_merlin_burst_adapter
+# End time: 17:23:30 on Jul 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:23:30 on Jul 02,2022
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_uncmpr.sv -L altera_common_sv_packages -work MemoriaPrograma_s1_burst_adapter 
+# -- Compiling module altera_merlin_burst_adapter_uncompressed_only
+# 
+# Top level modules:
+# 	altera_merlin_burst_adapter_uncompressed_only
+# End time: 17:23:30 on Jul 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:23:30 on Jul 02,2022
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_13_1.sv -L altera_common_sv_packages -work MemoriaPrograma_s1_burst_adapter 
+# -- Compiling module altera_merlin_burst_adapter_burstwrap_increment
+# -- Compiling module altera_merlin_burst_adapter_adder
+# -- Compiling module altera_merlin_burst_adapter_subtractor
+# -- Compiling module altera_merlin_burst_adapter_min
+# -- Compiling module altera_merlin_burst_adapter_13_1
+# 
+# Top level modules:
+# 	altera_merlin_burst_adapter_13_1
+# End time: 17:23:30 on Jul 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:23:30 on Jul 02,2022
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv -L altera_common_sv_packages -work MemoriaPrograma_s1_burst_adapter 
+# -- Compiling module altera_merlin_burst_adapter_new
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(500): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(501): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(502): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(503): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(504): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(505): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(506): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(507): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(508): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(509): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(511): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(512): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(513): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(514): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(515): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(516): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(517): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(518): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(519): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(520): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(521): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(522): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(523): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(526): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(527): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(614): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(615): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(616): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(617): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(618): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(619): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(620): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(621): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(622): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(623): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(624): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(625): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(746): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(762): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(860): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(861): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(862): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(863): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(864): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(865): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(866): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(867): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(900): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(901): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(902): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(903): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(940): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(942): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(945): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(947): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1040): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1041): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1042): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1043): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1044): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1045): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1046): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1047): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1048): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1049): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1084): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1085): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1086): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1087): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1088): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1089): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1104): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1106): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1206): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1207): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1208): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1209): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1210): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1211): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1212): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1213): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1214): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1215): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1216): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1256): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1257): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1258): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1259): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1260): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1261): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1291): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1294): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# 	altera_merlin_burst_adapter_new
+# End time: 17:23:30 on Jul 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 92
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:23:30 on Jul 02,2022
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_incr_burst_converter.sv -L altera_common_sv_packages -work MemoriaPrograma_s1_burst_adapter 
+# -- Compiling module altera_incr_burst_converter
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_incr_burst_converter.sv(266): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_incr_burst_converter.sv(268): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_incr_burst_converter.sv(283): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_incr_burst_converter.sv(285): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# 	altera_incr_burst_converter
+# End time: 17:23:30 on Jul 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:23:30 on Jul 02,2022
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_wrap_burst_converter.sv -L altera_common_sv_packages -work MemoriaPrograma_s1_burst_adapter 
+# -- Compiling module altera_wrap_burst_converter
+# 
+# Top level modules:
+# 	altera_wrap_burst_converter
+# End time: 17:23:30 on Jul 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:23:30 on Jul 02,2022
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_default_burst_converter.sv -L altera_common_sv_packages -work MemoriaPrograma_s1_burst_adapter 
+# -- Compiling module altera_default_burst_converter
+# ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_default_burst_converter.sv(102): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# 	altera_default_burst_converter
+# End time: 17:23:30 on Jul 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:23:31 on Jul 02,2022
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_address_alignment.sv -L altera_common_sv_packages -work MemoriaPrograma_s1_burst_adapter 
+# -- Compiling module altera_merlin_address_alignment
+# 
+# Top level modules:
+# 	altera_merlin_address_alignment
+# End time: 17:23:31 on Jul 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:23:31 on Jul 02,2022
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_avalon_st_pipeline_stage.sv -L altera_common_sv_packages -work MemoriaPrograma_s1_burst_adapter 
+# -- Compiling module altera_avalon_st_pipeline_stage
+# 
+# Top level modules:
+# 	altera_avalon_st_pipeline_stage
+# End time: 17:23:31 on Jul 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:23:31 on Jul 02,2022
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_avalon_st_pipeline_base.v -L altera_common_sv_packages -work MemoriaPrograma_s1_burst_adapter 
+# -- Compiling module altera_avalon_st_pipeline_base
+# 
+# Top level modules:
+# 	altera_avalon_st_pipeline_base
+# End time: 17:23:31 on Jul 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:23:31 on Jul 02,2022
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_007.sv -L altera_common_sv_packages -work router_007 
+# -- Compiling module SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_007_default_decode
+# -- Compiling module SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_007
+# 
+# Top level modules:
+# 	SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_007
+# End time: 17:23:31 on Jul 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:23:31 on Jul 02,2022
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_006.sv -L altera_common_sv_packages -work router_006 
+# -- Compiling module SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_006_default_decode
+# -- Compiling module SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_006
+# 
+# Top level modules:
+# 	SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_006
+# End time: 17:23:31 on Jul 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:23:31 on Jul 02,2022
 # vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_005.sv -L altera_common_sv_packages -work router_005 
 # -- Compiling module SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_005_default_decode
 # -- Compiling module SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_005
 # 
 # Top level modules:
 # 	SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_005
-# End time: 16:14:14 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:31 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:14 on Jun 11,2022
+# Start time: 17:23:31 on Jul 02,2022
 # vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_002.sv -L altera_common_sv_packages -work router_002 
 # -- Compiling module SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_002_default_decode
 # -- Compiling module SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_002
 # 
 # Top level modules:
 # 	SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_002
-# End time: 16:14:14 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:31 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:14 on Jun 11,2022
+# Start time: 17:23:31 on Jul 02,2022
 # vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_001.sv -L altera_common_sv_packages -work router_001 
 # -- Compiling module SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_001_default_decode
 # -- Compiling module SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_001
 # 
 # Top level modules:
 # 	SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_001
-# End time: 16:14:14 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:31 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:14 on Jun 11,2022
+# Start time: 17:23:31 on Jul 02,2022
 # vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_mm_interconnect_0_router.sv -L altera_common_sv_packages -work router 
 # -- Compiling module SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_default_decode
 # -- Compiling module SSDNiosSoftwareEmbarcado_mm_interconnect_0_router
 # 
 # Top level modules:
 # 	SSDNiosSoftwareEmbarcado_mm_interconnect_0_router
-# End time: 16:14:14 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:31 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:15 on Jun 11,2022
+# Start time: 17:23:31 on Jul 02,2022
 # vlog -reportprogress 300 C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_avalon_sc_fifo.v -work MedidorDesempenho_Escrita_agent_rsp_fifo 
 # -- Compiling module altera_avalon_sc_fifo
 # 
 # Top level modules:
 # 	altera_avalon_sc_fifo
-# End time: 16:14:15 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:31 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:15 on Jun 11,2022
+# Start time: 17:23:31 on Jul 02,2022
 # vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_slave_agent.sv -L altera_common_sv_packages -work MedidorDesempenho_Escrita_agent 
 # -- Compiling module altera_merlin_slave_agent
 # ** Warning: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_slave_agent.sv(618): (vlog-2186) SystemVerilog testbench feature
@@ -238,46 +494,46 @@
 # 
 # Top level modules:
 # 	altera_merlin_slave_agent
-# End time: 16:14:15 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:32 on Jul 02,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 6
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:15 on Jun 11,2022
+# Start time: 17:23:32 on Jul 02,2022
 # vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_uncompressor.sv -L altera_common_sv_packages -work MedidorDesempenho_Escrita_agent 
 # -- Compiling module altera_merlin_burst_uncompressor
 # 
 # Top level modules:
 # 	altera_merlin_burst_uncompressor
-# End time: 16:14:15 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:32 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:15 on Jun 11,2022
+# Start time: 17:23:32 on Jul 02,2022
 # vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_master_agent.sv -L altera_common_sv_packages -work Processador_data_master_agent 
 # -- Compiling module altera_merlin_master_agent
 # 
 # Top level modules:
 # 	altera_merlin_master_agent
-# End time: 16:14:15 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:32 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:15 on Jun 11,2022
+# Start time: 17:23:32 on Jul 02,2022
 # vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_slave_translator.sv -L altera_common_sv_packages -work MedidorDesempenho_Escrita_translator 
 # -- Compiling module altera_merlin_slave_translator
 # 
 # Top level modules:
 # 	altera_merlin_slave_translator
-# End time: 16:14:15 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:32 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:15 on Jun 11,2022
+# Start time: 17:23:32 on Jul 02,2022
 # vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_master_translator.sv -L altera_common_sv_packages -work Processador_data_master_translator 
 # -- Compiling module altera_merlin_master_translator
 # 
 # Top level modules:
 # 	altera_merlin_master_translator
-# End time: 16:14:15 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:32 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:15 on Jun 11,2022
+# Start time: 17:23:32 on Jul 02,2022
 # vlog -reportprogress 300 C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v -work cpu 
 # -- Compiling module SSDNiosSoftwareEmbarcado_Processador_cpu_register_bank_a_module
 # -- Compiling module SSDNiosSoftwareEmbarcado_Processador_cpu_register_bank_b_module
@@ -304,82 +560,82 @@
 # Top level modules:
 # 	SSDNiosSoftwareEmbarcado_Processador_cpu_nios2_performance_monitors
 # 	SSDNiosSoftwareEmbarcado_Processador_cpu
-# End time: 16:14:15 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:32 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:15 on Jun 11,2022
+# Start time: 17:23:32 on Jul 02,2022
 # vlog -reportprogress 300 C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu_debug_slave_sysclk.v -work cpu 
 # -- Compiling module SSDNiosSoftwareEmbarcado_Processador_cpu_debug_slave_sysclk
 # 
 # Top level modules:
 # 	SSDNiosSoftwareEmbarcado_Processador_cpu_debug_slave_sysclk
-# End time: 16:14:15 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:32 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:16 on Jun 11,2022
+# Start time: 17:23:32 on Jul 02,2022
 # vlog -reportprogress 300 C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu_debug_slave_tck.v -work cpu 
 # -- Compiling module SSDNiosSoftwareEmbarcado_Processador_cpu_debug_slave_tck
 # 
 # Top level modules:
 # 	SSDNiosSoftwareEmbarcado_Processador_cpu_debug_slave_tck
-# End time: 16:14:16 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:32 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:16 on Jun 11,2022
+# Start time: 17:23:32 on Jul 02,2022
 # vlog -reportprogress 300 C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu_debug_slave_wrapper.v -work cpu 
 # -- Compiling module SSDNiosSoftwareEmbarcado_Processador_cpu_debug_slave_wrapper
 # 
 # Top level modules:
 # 	SSDNiosSoftwareEmbarcado_Processador_cpu_debug_slave_wrapper
-# End time: 16:14:16 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:32 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:16 on Jun 11,2022
+# Start time: 17:23:32 on Jul 02,2022
 # vlog -reportprogress 300 C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu_test_bench.v -work cpu 
 # -- Compiling module SSDNiosSoftwareEmbarcado_Processador_cpu_test_bench
 # 
 # Top level modules:
 # 	SSDNiosSoftwareEmbarcado_Processador_cpu_test_bench
-# End time: 16:14:16 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:33 on Jul 02,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:16 on Jun 11,2022
+# Start time: 17:23:33 on Jul 02,2022
 # vlog -reportprogress 300 C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_reset_controller.v -work rst_controller 
 # -- Compiling module altera_reset_controller
 # 
 # Top level modules:
 # 	altera_reset_controller
-# End time: 16:14:16 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:33 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:16 on Jun 11,2022
+# Start time: 17:23:33 on Jul 02,2022
 # vlog -reportprogress 300 C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_reset_synchronizer.v -work rst_controller 
 # -- Compiling module altera_reset_synchronizer
 # 
 # Top level modules:
 # 	altera_reset_synchronizer
-# End time: 16:14:16 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:33 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:16 on Jun 11,2022
+# Start time: 17:23:33 on Jul 02,2022
 # vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_irq_mapper.sv -L altera_common_sv_packages -work irq_mapper 
 # -- Compiling module SSDNiosSoftwareEmbarcado_irq_mapper
 # 
 # Top level modules:
 # 	SSDNiosSoftwareEmbarcado_irq_mapper
-# End time: 16:14:16 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:33 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:16 on Jun 11,2022
+# Start time: 17:23:33 on Jul 02,2022
 # vlog -reportprogress 300 C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_mm_interconnect_0.v -work mm_interconnect_0 
 # -- Compiling module SSDNiosSoftwareEmbarcado_mm_interconnect_0
 # 
 # Top level modules:
 # 	SSDNiosSoftwareEmbarcado_mm_interconnect_0
-# End time: 16:14:16 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:33 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:16 on Jun 11,2022
+# Start time: 17:23:33 on Jul 02,2022
 # vlog -reportprogress 300 C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_jtag_uart.v -work jtag_uart 
 # -- Compiling module SSDNiosSoftwareEmbarcado_jtag_uart_sim_scfifo_w
 # -- Compiling module SSDNiosSoftwareEmbarcado_jtag_uart_scfifo_w
@@ -389,122 +645,141 @@
 # 
 # Top level modules:
 # 	SSDNiosSoftwareEmbarcado_jtag_uart
-# End time: 16:14:16 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:33 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:16 on Jun 11,2022
+# Start time: 17:23:33 on Jul 02,2022
+# vlog -reportprogress 300 C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_SaidaImagem.v -work SaidaImagem 
+# -- Compiling module SSDNiosSoftwareEmbarcado_SaidaImagem
+# 
+# Top level modules:
+# 	SSDNiosSoftwareEmbarcado_SaidaImagem
+# End time: 17:23:33 on Jul 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:23:33 on Jul 02,2022
 # vlog -reportprogress 300 C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador.v -work Processador 
 # -- Compiling module SSDNiosSoftwareEmbarcado_Processador
 # 
 # Top level modules:
 # 	SSDNiosSoftwareEmbarcado_Processador
-# End time: 16:14:16 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:33 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:16 on Jun 11,2022
+# Start time: 17:23:33 on Jul 02,2022
 # vlog -reportprogress 300 C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v -work MemoriaPrograma 
 # -- Compiling module SSDNiosSoftwareEmbarcado_MemoriaPrograma
 # 
 # Top level modules:
 # 	SSDNiosSoftwareEmbarcado_MemoriaPrograma
-# End time: 16:14:17 on Jun 11,2022, Elapsed time: 0:00:01
+# End time: 17:23:33 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:17 on Jun 11,2022
+# Start time: 17:23:33 on Jul 02,2022
 # vlog -reportprogress 300 C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/Clock_Counter_Interface.v -work MedidorDesempenho 
 # -- Compiling module Clock_Counter_Interface
 # 
 # Top level modules:
 # 	Clock_Counter_Interface
-# End time: 16:14:17 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:33 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:17 on Jun 11,2022
+# Start time: 17:23:33 on Jul 02,2022
 # vlog -reportprogress 300 C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/Clock_Counter.v -work MedidorDesempenho 
 # -- Compiling module Clock_Counter
 # 
 # Top level modules:
 # 	Clock_Counter
-# End time: 16:14:17 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:33 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:17 on Jun 11,2022
+# Start time: 17:23:33 on Jul 02,2022
 # vlog -reportprogress 300 C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v -work ImagemC 
 # -- Compiling module SSDNiosSoftwareEmbarcado_ImagemC
 # 
 # Top level modules:
 # 	SSDNiosSoftwareEmbarcado_ImagemC
-# End time: 16:14:17 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:33 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:17 on Jun 11,2022
+# Start time: 17:23:34 on Jul 02,2022
 # vlog -reportprogress 300 C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v -work ImagemB 
 # -- Compiling module SSDNiosSoftwareEmbarcado_ImagemB
 # 
 # Top level modules:
 # 	SSDNiosSoftwareEmbarcado_ImagemB
-# End time: 16:14:17 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:34 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:17 on Jun 11,2022
+# Start time: 17:23:34 on Jul 02,2022
 # vlog -reportprogress 300 C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v -work ImagemA 
 # -- Compiling module SSDNiosSoftwareEmbarcado_ImagemA
 # 
 # Top level modules:
 # 	SSDNiosSoftwareEmbarcado_ImagemA
-# End time: 16:14:17 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:34 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:17 on Jun 11,2022
+# Start time: 17:23:34 on Jul 02,2022
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_conduit_bfm_0002.sv -L altera_common_sv_packages -work SSDNiosSoftwareEmbarcado_inst_saidaimagem_external_connection_bfm 
+# -- Compiling module altera_conduit_bfm_0002
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# 
+# Top level modules:
+# 	altera_conduit_bfm_0002
+# End time: 17:23:34 on Jul 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:23:34 on Jul 02,2022
 # vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_avalon_reset_source.sv -L altera_common_sv_packages -work SSDNiosSoftwareEmbarcado_inst_reset_bfm 
 # -- Compiling module altera_avalon_reset_source
 # -- Importing package altera_common_sv_packages.verbosity_pkg
 # 
 # Top level modules:
 # 	altera_avalon_reset_source
-# End time: 16:14:17 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:34 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:17 on Jun 11,2022
+# Start time: 17:23:34 on Jul 02,2022
 # vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_conduit_bfm.sv -L altera_common_sv_packages -work SSDNiosSoftwareEmbarcado_inst_medidordesempenho_conduit_bfm 
 # -- Compiling module altera_conduit_bfm
 # -- Importing package altera_common_sv_packages.verbosity_pkg
 # 
 # Top level modules:
 # 	altera_conduit_bfm
-# End time: 16:14:17 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:34 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:17 on Jun 11,2022
+# Start time: 17:23:34 on Jul 02,2022
 # vlog -reportprogress 300 -sv C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_avalon_clock_source.sv -L altera_common_sv_packages -work SSDNiosSoftwareEmbarcado_inst_clk_bfm 
 # -- Compiling module altera_avalon_clock_source
 # -- Importing package altera_common_sv_packages.verbosity_pkg
 # 
 # Top level modules:
 # 	altera_avalon_clock_source
-# End time: 16:14:17 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:34 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:17 on Jun 11,2022
+# Start time: 17:23:34 on Jul 02,2022
 # vlog -reportprogress 300 C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado.v -work SSDNiosSoftwareEmbarcado_inst 
 # -- Compiling module SSDNiosSoftwareEmbarcado
 # 
 # Top level modules:
 # 	SSDNiosSoftwareEmbarcado
-# End time: 16:14:17 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:34 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:14:17 on Jun 11,2022
+# Start time: 17:23:34 on Jul 02,2022
 # vlog -reportprogress 300 C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/SSDNiosSoftwareEmbarcado_tb.v 
 # -- Compiling module SSDNiosSoftwareEmbarcado_tb
 # 
 # Top level modules:
 # 	SSDNiosSoftwareEmbarcado_tb
-# End time: 16:14:17 on Jun 11,2022, Elapsed time: 0:00:00
+# End time: 17:23:34 on Jul 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # [exec] elab
-# vsim -t ps -L work -L work_lib -L altera_common_sv_packages -L error_adapter_0 -L avalon_st_adapter -L rsp_mux_001 -L rsp_mux -L rsp_demux -L cmd_mux_003 -L cmd_mux -L cmd_demux_001 -L cmd_demux -L router_005 -L router_002 -L router_001 -L router -L MedidorDesempenho_Escrita_agent_rsp_fifo -L MedidorDesempenho_Escrita_agent -L Processador_data_master_agent -L MedidorDesempenho_Escrita_translator -L Processador_data_master_translator -L cpu -L rst_controller -L irq_mapper -L mm_interconnect_0 -L jtag_uart -L Processador -L MemoriaPrograma -L MedidorDesempenho -L ImagemC -L ImagemB -L ImagemA -L SSDNiosSoftwareEmbarcado_inst_reset_bfm -L SSDNiosSoftwareEmbarcado_inst_medidordesempenho_conduit_bfm -L SSDNiosSoftwareEmbarcado_inst_clk_bfm -L SSDNiosSoftwareEmbarcado_inst -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver SSDNiosSoftwareEmbarcado_tb 
-# Start time: 16:14:18 on Jun 11,2022
+# vsim -t ps -L work -L work_lib -L altera_common_sv_packages -L error_adapter_0 -L avalon_st_adapter_004 -L avalon_st_adapter -L MemoriaPrograma_s1_rsp_width_adapter -L rsp_mux_001 -L rsp_mux -L rsp_demux -L cmd_mux_003 -L cmd_mux -L cmd_demux_001 -L cmd_demux -L MemoriaPrograma_s1_burst_adapter -L router_007 -L router_006 -L router_005 -L router_002 -L router_001 -L router -L MedidorDesempenho_Escrita_agent_rsp_fifo -L MedidorDesempenho_Escrita_agent -L Processador_data_master_agent -L MedidorDesempenho_Escrita_translator -L Processador_data_master_translator -L cpu -L rst_controller -L irq_mapper -L mm_interconnect_0 -L jtag_uart -L SaidaImagem -L Processador -L MemoriaPrograma -L MedidorDesempenho -L ImagemC -L ImagemB -L ImagemA -L SSDNiosSoftwareEmbarcado_inst_saidaimagem_external_connection_bfm -L SSDNiosSoftwareEmbarcado_inst_reset_bfm -L SSDNiosSoftwareEmbarcado_inst_medidordesempenho_conduit_bfm -L SSDNiosSoftwareEmbarcado_inst_clk_bfm -L SSDNiosSoftwareEmbarcado_inst -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver SSDNiosSoftwareEmbarcado_tb 
+# Start time: 17:23:34 on Jul 02,2022
 # Loading work.SSDNiosSoftwareEmbarcado_tb
 # Loading SSDNiosSoftwareEmbarcado_inst.SSDNiosSoftwareEmbarcado
 # Loading ImagemA.SSDNiosSoftwareEmbarcado_ImagemA
@@ -540,6 +815,7 @@
 # Loading cpu.SSDNiosSoftwareEmbarcado_Processador_cpu_debug_slave_wrapper
 # Loading cpu.SSDNiosSoftwareEmbarcado_Processador_cpu_debug_slave_tck
 # Loading cpu.SSDNiosSoftwareEmbarcado_Processador_cpu_debug_slave_sysclk
+# Loading SaidaImagem.SSDNiosSoftwareEmbarcado_SaidaImagem
 # Loading jtag_uart.SSDNiosSoftwareEmbarcado_jtag_uart
 # Loading jtag_uart.SSDNiosSoftwareEmbarcado_jtag_uart_scfifo_w
 # Loading jtag_uart.SSDNiosSoftwareEmbarcado_jtag_uart_sim_scfifo_w
@@ -561,6 +837,11 @@
 # Loading router_002.SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_002_default_decode
 # Loading router_005.SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_005
 # Loading router_005.SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_005_default_decode
+# Loading router_006.SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_006
+# Loading router_006.SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_006_default_decode
+# Loading router_007.SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_007
+# Loading router_007.SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_007_default_decode
+# Loading MemoriaPrograma_s1_burst_adapter.altera_merlin_burst_adapter
 # Loading cmd_demux.SSDNiosSoftwareEmbarcado_mm_interconnect_0_cmd_demux
 # Loading cmd_demux_001.SSDNiosSoftwareEmbarcado_mm_interconnect_0_cmd_demux_001
 # Loading cmd_mux.SSDNiosSoftwareEmbarcado_mm_interconnect_0_cmd_mux
@@ -574,91 +855,101 @@
 # Loading rsp_mux_001.SSDNiosSoftwareEmbarcado_mm_interconnect_0_rsp_mux_001
 # Loading rsp_mux_001.altera_merlin_arbitrator
 # Loading rsp_mux_001.altera_merlin_arb_adder
+# Loading MemoriaPrograma_s1_rsp_width_adapter.altera_merlin_width_adapter
 # Loading avalon_st_adapter.SSDNiosSoftwareEmbarcado_mm_interconnect_0_avalon_st_adapter
 # Loading error_adapter_0.SSDNiosSoftwareEmbarcado_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# Loading avalon_st_adapter_004.SSDNiosSoftwareEmbarcado_mm_interconnect_0_avalon_st_adapter_004
+# Loading error_adapter_0.SSDNiosSoftwareEmbarcado_mm_interconnect_0_avalon_st_adapter_004_error_adapter_0
 # Loading irq_mapper.SSDNiosSoftwareEmbarcado_irq_mapper
 # Loading rst_controller.altera_reset_controller
 # Loading altera_common_sv_packages.verbosity_pkg
 # Loading SSDNiosSoftwareEmbarcado_inst_clk_bfm.altera_avalon_clock_source
 # Loading SSDNiosSoftwareEmbarcado_inst_medidordesempenho_conduit_bfm.altera_conduit_bfm
 # Loading SSDNiosSoftwareEmbarcado_inst_reset_bfm.altera_avalon_reset_source
+# Loading SSDNiosSoftwareEmbarcado_inst_saidaimagem_external_connection_bfm.altera_conduit_bfm_0002
 # Loading altera_mf_ver.altsyncram_body
 # Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
 # Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading MemoriaPrograma_s1_burst_adapter.altera_merlin_burst_adapter_uncompressed_only
+# Loading MemoriaPrograma_s1_rsp_width_adapter.altera_merlin_burst_uncompressor
 # Loading rst_controller.altera_reset_synchronizer
 # ** Warning: (vsim-8311) System Verilog assertions are supported only in Questasim.
-# ** Warning: (vsim-3017) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(62): [TFMPC] - Too few port connections. Expected 23, found 7.
+# ** Warning: (vsim-3017) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(60): [TFMPC] - Too few port connections. Expected 23, found 6.
 #    Time: 0 ps  Iteration: 0  Instance: /SSDNiosSoftwareEmbarcado_tb/ssdniossoftwareembarcado_inst/imagema/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(62): [TFMPC] - Missing connection for port 'wren_b'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(62): [TFMPC] - Missing connection for port 'rden_a'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(62): [TFMPC] - Missing connection for port 'rden_b'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(62): [TFMPC] - Missing connection for port 'data_b'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(62): [TFMPC] - Missing connection for port 'address_b'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(62): [TFMPC] - Missing connection for port 'clock1'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(62): [TFMPC] - Missing connection for port 'clocken1'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(62): [TFMPC] - Missing connection for port 'clocken2'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(62): [TFMPC] - Missing connection for port 'clocken3'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(62): [TFMPC] - Missing connection for port 'aclr0'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(62): [TFMPC] - Missing connection for port 'aclr1'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(62): [TFMPC] - Missing connection for port 'byteena_b'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(62): [TFMPC] - Missing connection for port 'addressstall_a'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(62): [TFMPC] - Missing connection for port 'addressstall_b'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(62): [TFMPC] - Missing connection for port 'q_b'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(62): [TFMPC] - Missing connection for port 'eccstatus'.
-# ** Warning: (vsim-3017) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(62): [TFMPC] - Too few port connections. Expected 23, found 7.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(60): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(60): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(60): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(60): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(60): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(60): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(60): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(60): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(60): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(60): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(60): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(60): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(60): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(60): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(60): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(60): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(60): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(60): [TFMPC] - Too few port connections. Expected 23, found 6.
 #    Time: 0 ps  Iteration: 0  Instance: /SSDNiosSoftwareEmbarcado_tb/ssdniossoftwareembarcado_inst/imagemb/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(62): [TFMPC] - Missing connection for port 'wren_b'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(62): [TFMPC] - Missing connection for port 'rden_a'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(62): [TFMPC] - Missing connection for port 'rden_b'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(62): [TFMPC] - Missing connection for port 'data_b'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(62): [TFMPC] - Missing connection for port 'address_b'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(62): [TFMPC] - Missing connection for port 'clock1'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(62): [TFMPC] - Missing connection for port 'clocken1'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(62): [TFMPC] - Missing connection for port 'clocken2'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(62): [TFMPC] - Missing connection for port 'clocken3'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(62): [TFMPC] - Missing connection for port 'aclr0'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(62): [TFMPC] - Missing connection for port 'aclr1'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(62): [TFMPC] - Missing connection for port 'byteena_b'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(62): [TFMPC] - Missing connection for port 'addressstall_a'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(62): [TFMPC] - Missing connection for port 'addressstall_b'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(62): [TFMPC] - Missing connection for port 'q_b'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(62): [TFMPC] - Missing connection for port 'eccstatus'.
-# ** Warning: (vsim-3017) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(60): [TFMPC] - Too few port connections. Expected 23, found 7.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(60): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(60): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(60): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(60): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(60): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(60): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(60): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(60): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(60): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(60): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(60): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(60): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(60): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(60): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(60): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(60): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(60): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(58): [TFMPC] - Too few port connections. Expected 23, found 6.
 #    Time: 0 ps  Iteration: 0  Instance: /SSDNiosSoftwareEmbarcado_tb/ssdniossoftwareembarcado_inst/imagemc/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(60): [TFMPC] - Missing connection for port 'wren_b'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(60): [TFMPC] - Missing connection for port 'rden_a'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(60): [TFMPC] - Missing connection for port 'rden_b'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(60): [TFMPC] - Missing connection for port 'data_b'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(60): [TFMPC] - Missing connection for port 'address_b'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(60): [TFMPC] - Missing connection for port 'clock1'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(60): [TFMPC] - Missing connection for port 'clocken1'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(60): [TFMPC] - Missing connection for port 'clocken2'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(60): [TFMPC] - Missing connection for port 'clocken3'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(60): [TFMPC] - Missing connection for port 'aclr0'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(60): [TFMPC] - Missing connection for port 'aclr1'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(60): [TFMPC] - Missing connection for port 'byteena_b'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(60): [TFMPC] - Missing connection for port 'addressstall_a'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(60): [TFMPC] - Missing connection for port 'addressstall_b'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(60): [TFMPC] - Missing connection for port 'q_b'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(60): [TFMPC] - Missing connection for port 'eccstatus'.
-# ** Warning: (vsim-3017) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(60): [TFMPC] - Too few port connections. Expected 23, found 7.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(58): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(58): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(58): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(58): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(58): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(58): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(58): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(58): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(58): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(58): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(58): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(58): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(58): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(58): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(58): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(58): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(58): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(58): [TFMPC] - Too few port connections. Expected 23, found 6.
 #    Time: 0 ps  Iteration: 0  Instance: /SSDNiosSoftwareEmbarcado_tb/ssdniossoftwareembarcado_inst/memoriaprograma/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(60): [TFMPC] - Missing connection for port 'wren_b'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(60): [TFMPC] - Missing connection for port 'rden_a'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(60): [TFMPC] - Missing connection for port 'rden_b'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(60): [TFMPC] - Missing connection for port 'data_b'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(60): [TFMPC] - Missing connection for port 'address_b'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(60): [TFMPC] - Missing connection for port 'clock1'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(60): [TFMPC] - Missing connection for port 'clocken1'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(60): [TFMPC] - Missing connection for port 'clocken2'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(60): [TFMPC] - Missing connection for port 'clocken3'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(60): [TFMPC] - Missing connection for port 'aclr0'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(60): [TFMPC] - Missing connection for port 'aclr1'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(60): [TFMPC] - Missing connection for port 'byteena_b'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(60): [TFMPC] - Missing connection for port 'addressstall_a'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(60): [TFMPC] - Missing connection for port 'addressstall_b'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(60): [TFMPC] - Missing connection for port 'q_b'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(60): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(58): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(58): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(58): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(58): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(58): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(58): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(58): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(58): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(58): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(58): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(58): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(58): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(58): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(58): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(58): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(58): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(58): [TFMPC] - Missing connection for port 'eccstatus'.
 # ** Warning: (vsim-3017) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(50): [TFMPC] - Too few port connections. Expected 23, found 6.
 #    Time: 0 ps  Iteration: 0  Instance: /SSDNiosSoftwareEmbarcado_tb/ssdniossoftwareembarcado_inst/processador/cpu/SSDNiosSoftwareEmbarcado_Processador_cpu_register_bank_a/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
 # ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'wren_b'.
@@ -717,15 +1008,279 @@
 # ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'addressstall_b'.
 # ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'q_b'.
 # ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'eccstatus'.
-# ** Warning: (vsim-3017) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado.v(177): [TFMPC] - Too few port connections. Expected 12, found 10.
+# ** Warning: (vsim-3017) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado.v(186): [TFMPC] - Too few port connections. Expected 12, found 10.
 #    Time: 0 ps  Iteration: 0  Instance: /SSDNiosSoftwareEmbarcado_tb/ssdniossoftwareembarcado_inst/jtag_uart File: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_jtag_uart.v
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado.v(177): [TFMPC] - Missing connection for port 'dataavailable'.
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado.v(177): [TFMPC] - Missing connection for port 'readyfordata'.
-# ** Warning: (vsim-3017) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/SSDNiosSoftwareEmbarcado_tb.v(26): [TFMPC] - Too few port connections. Expected 4, found 3.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado.v(186): [TFMPC] - Missing connection for port 'dataavailable'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado.v(186): [TFMPC] - Missing connection for port 'readyfordata'.
+# ** Warning: (vsim-3017) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/SSDNiosSoftwareEmbarcado_tb.v(28): [TFMPC] - Too few port connections. Expected 4, found 3.
 #    Time: 0 ps  Iteration: 0  Instance: /SSDNiosSoftwareEmbarcado_tb/ssdniossoftwareembarcado_inst_medidordesempenho_conduit_bfm File: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_conduit_bfm.sv
-# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/SSDNiosSoftwareEmbarcado_tb.v(26): [TFMPC] - Missing connection for port 'reset_n'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/SSDNiosSoftwareEmbarcado_tb.v(28): [TFMPC] - Missing connection for port 'reset_n'.
+# ** Warning: Design size of 11810 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
 #  
-run 8ms
+do C:/Projetos/Quartus/SSDNiosSoftware/software/SSDSoftware/obj/default/runtime/sim/mentor/simulacao.do
+# C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/mentor
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:24:18 on Jul 02,2022
+# vlog -reportprogress 300 C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/mentor/../../../SSDNiosSoftware.v 
+# -- Compiling module SSDNiosSoftware
+# 
+# Top level modules:
+# 	SSDNiosSoftware
+# End time: 17:24:18 on Jul 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:24:18 on Jul 02,2022
+# vlog -reportprogress 300 C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/mentor/../../../SSDNiosSoftwareTB.v 
+# -- Compiling module SSDNiosSoftwareTB
+# 
+# Top level modules:
+# 	SSDNiosSoftwareTB
+# End time: 17:24:18 on Jul 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# [exec] elab
+# End time: 17:24:20 on Jul 02,2022, Elapsed time: 0:00:46
+# Errors: 0, Warnings: 133
+# vsim -t ps -L work -L work_lib -L altera_common_sv_packages -L error_adapter_0 -L avalon_st_adapter_004 -L avalon_st_adapter -L MemoriaPrograma_s1_rsp_width_adapter -L rsp_mux_001 -L rsp_mux -L rsp_demux -L cmd_mux_003 -L cmd_mux -L cmd_demux_001 -L cmd_demux -L MemoriaPrograma_s1_burst_adapter -L router_007 -L router_006 -L router_005 -L router_002 -L router_001 -L router -L MedidorDesempenho_Escrita_agent_rsp_fifo -L MedidorDesempenho_Escrita_agent -L Processador_data_master_agent -L MedidorDesempenho_Escrita_translator -L Processador_data_master_translator -L cpu -L rst_controller -L irq_mapper -L mm_interconnect_0 -L jtag_uart -L SaidaImagem -L Processador -L MemoriaPrograma -L MedidorDesempenho -L ImagemC -L ImagemB -L ImagemA -L SSDNiosSoftwareEmbarcado_inst_saidaimagem_external_connection_bfm -L SSDNiosSoftwareEmbarcado_inst_reset_bfm -L SSDNiosSoftwareEmbarcado_inst_medidordesempenho_conduit_bfm -L SSDNiosSoftwareEmbarcado_inst_clk_bfm -L SSDNiosSoftwareEmbarcado_inst -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver SSDNiosSoftwareEmbarcado_tb 
+# Start time: 17:24:20 on Jul 02,2022
+# Loading work.SSDNiosSoftwareEmbarcado_tb
+# Loading SSDNiosSoftwareEmbarcado_inst.SSDNiosSoftwareEmbarcado
+# Loading ImagemA.SSDNiosSoftwareEmbarcado_ImagemA
+# Loading altera_mf_ver.altsyncram
+# Loading ImagemB.SSDNiosSoftwareEmbarcado_ImagemB
+# Loading ImagemC.SSDNiosSoftwareEmbarcado_ImagemC
+# Loading MedidorDesempenho.Clock_Counter_Interface
+# Loading MedidorDesempenho.Clock_Counter
+# Loading MemoriaPrograma.SSDNiosSoftwareEmbarcado_MemoriaPrograma
+# Loading Processador.SSDNiosSoftwareEmbarcado_Processador
+# Loading cpu.SSDNiosSoftwareEmbarcado_Processador_cpu
+# Loading cpu.SSDNiosSoftwareEmbarcado_Processador_cpu_test_bench
+# Loading cpu.SSDNiosSoftwareEmbarcado_Processador_cpu_register_bank_a_module
+# Loading cpu.SSDNiosSoftwareEmbarcado_Processador_cpu_register_bank_b_module
+# Loading cpu.SSDNiosSoftwareEmbarcado_Processador_cpu_nios2_oci
+# Loading cpu.SSDNiosSoftwareEmbarcado_Processador_cpu_nios2_oci_debug
+# Loading altera_mf_ver.altera_std_synchronizer
+# Loading cpu.SSDNiosSoftwareEmbarcado_Processador_cpu_nios2_oci_break
+# Loading cpu.SSDNiosSoftwareEmbarcado_Processador_cpu_nios2_oci_xbrk
+# Loading cpu.SSDNiosSoftwareEmbarcado_Processador_cpu_nios2_oci_dbrk
+# Loading cpu.SSDNiosSoftwareEmbarcado_Processador_cpu_nios2_oci_itrace
+# Loading cpu.SSDNiosSoftwareEmbarcado_Processador_cpu_nios2_oci_dtrace
+# Loading cpu.SSDNiosSoftwareEmbarcado_Processador_cpu_nios2_oci_td_mode
+# Loading cpu.SSDNiosSoftwareEmbarcado_Processador_cpu_nios2_oci_fifo
+# Loading cpu.SSDNiosSoftwareEmbarcado_Processador_cpu_nios2_oci_compute_input_tm_cnt
+# Loading cpu.SSDNiosSoftwareEmbarcado_Processador_cpu_nios2_oci_fifo_wrptr_inc
+# Loading cpu.SSDNiosSoftwareEmbarcado_Processador_cpu_nios2_oci_fifo_cnt_inc
+# Loading cpu.SSDNiosSoftwareEmbarcado_Processador_cpu_nios2_oci_pib
+# Loading cpu.SSDNiosSoftwareEmbarcado_Processador_cpu_nios2_oci_im
+# Loading cpu.SSDNiosSoftwareEmbarcado_Processador_cpu_nios2_avalon_reg
+# Loading cpu.SSDNiosSoftwareEmbarcado_Processador_cpu_nios2_ocimem
+# Loading cpu.SSDNiosSoftwareEmbarcado_Processador_cpu_ociram_sp_ram_module
+# Loading cpu.SSDNiosSoftwareEmbarcado_Processador_cpu_debug_slave_wrapper
+# Loading cpu.SSDNiosSoftwareEmbarcado_Processador_cpu_debug_slave_tck
+# Loading cpu.SSDNiosSoftwareEmbarcado_Processador_cpu_debug_slave_sysclk
+# Loading SaidaImagem.SSDNiosSoftwareEmbarcado_SaidaImagem
+# Loading jtag_uart.SSDNiosSoftwareEmbarcado_jtag_uart
+# Loading jtag_uart.SSDNiosSoftwareEmbarcado_jtag_uart_scfifo_w
+# Loading jtag_uart.SSDNiosSoftwareEmbarcado_jtag_uart_sim_scfifo_w
+# Loading jtag_uart.SSDNiosSoftwareEmbarcado_jtag_uart_scfifo_r
+# Loading jtag_uart.SSDNiosSoftwareEmbarcado_jtag_uart_sim_scfifo_r
+# Loading mm_interconnect_0.SSDNiosSoftwareEmbarcado_mm_interconnect_0
+# Loading sv_std.std
+# Loading Processador_data_master_translator.altera_merlin_master_translator
+# Loading MedidorDesempenho_Escrita_translator.altera_merlin_slave_translator
+# Loading Processador_data_master_agent.altera_merlin_master_agent
+# Loading MedidorDesempenho_Escrita_agent.altera_merlin_slave_agent
+# Loading MedidorDesempenho_Escrita_agent.altera_merlin_burst_uncompressor
+# Loading MedidorDesempenho_Escrita_agent_rsp_fifo.altera_avalon_sc_fifo
+# Loading router.SSDNiosSoftwareEmbarcado_mm_interconnect_0_router
+# Loading router.SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_default_decode
+# Loading router_001.SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_001
+# Loading router_001.SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_001_default_decode
+# Loading router_002.SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_002
+# Loading router_002.SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_002_default_decode
+# Loading router_005.SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_005
+# Loading router_005.SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_005_default_decode
+# Loading router_006.SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_006
+# Loading router_006.SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_006_default_decode
+# Loading router_007.SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_007
+# Loading router_007.SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_007_default_decode
+# Loading MemoriaPrograma_s1_burst_adapter.altera_merlin_burst_adapter
+# Loading cmd_demux.SSDNiosSoftwareEmbarcado_mm_interconnect_0_cmd_demux
+# Loading cmd_demux_001.SSDNiosSoftwareEmbarcado_mm_interconnect_0_cmd_demux_001
+# Loading cmd_mux.SSDNiosSoftwareEmbarcado_mm_interconnect_0_cmd_mux
+# Loading cmd_mux_003.SSDNiosSoftwareEmbarcado_mm_interconnect_0_cmd_mux_003
+# Loading cmd_mux_003.altera_merlin_arbitrator
+# Loading cmd_mux_003.altera_merlin_arb_adder
+# Loading rsp_demux.SSDNiosSoftwareEmbarcado_mm_interconnect_0_rsp_demux
+# Loading rsp_mux.SSDNiosSoftwareEmbarcado_mm_interconnect_0_rsp_mux
+# Loading rsp_mux.altera_merlin_arbitrator
+# Loading rsp_mux.altera_merlin_arb_adder
+# Loading rsp_mux_001.SSDNiosSoftwareEmbarcado_mm_interconnect_0_rsp_mux_001
+# Loading rsp_mux_001.altera_merlin_arbitrator
+# Loading rsp_mux_001.altera_merlin_arb_adder
+# Loading MemoriaPrograma_s1_rsp_width_adapter.altera_merlin_width_adapter
+# Loading avalon_st_adapter.SSDNiosSoftwareEmbarcado_mm_interconnect_0_avalon_st_adapter
+# Loading error_adapter_0.SSDNiosSoftwareEmbarcado_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# Loading avalon_st_adapter_004.SSDNiosSoftwareEmbarcado_mm_interconnect_0_avalon_st_adapter_004
+# Loading error_adapter_0.SSDNiosSoftwareEmbarcado_mm_interconnect_0_avalon_st_adapter_004_error_adapter_0
+# Loading irq_mapper.SSDNiosSoftwareEmbarcado_irq_mapper
+# Loading rst_controller.altera_reset_controller
+# Loading altera_common_sv_packages.verbosity_pkg
+# Loading SSDNiosSoftwareEmbarcado_inst_clk_bfm.altera_avalon_clock_source
+# Loading SSDNiosSoftwareEmbarcado_inst_medidordesempenho_conduit_bfm.altera_conduit_bfm
+# Loading SSDNiosSoftwareEmbarcado_inst_reset_bfm.altera_avalon_reset_source
+# Loading SSDNiosSoftwareEmbarcado_inst_saidaimagem_external_connection_bfm.altera_conduit_bfm_0002
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading MemoriaPrograma_s1_burst_adapter.altera_merlin_burst_adapter_uncompressed_only
+# Loading MemoriaPrograma_s1_rsp_width_adapter.altera_merlin_burst_uncompressor
+# Loading rst_controller.altera_reset_synchronizer
+# ** Warning: (vsim-8311) System Verilog assertions are supported only in Questasim.
+# ** Warning: (vsim-3017) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(60): [TFMPC] - Too few port connections. Expected 23, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /SSDNiosSoftwareEmbarcado_tb/ssdniossoftwareembarcado_inst/imagema/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(60): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(60): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(60): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(60): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(60): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(60): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(60): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(60): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(60): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(60): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(60): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(60): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(60): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(60): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(60): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(60): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v(60): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(60): [TFMPC] - Too few port connections. Expected 23, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /SSDNiosSoftwareEmbarcado_tb/ssdniossoftwareembarcado_inst/imagemb/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(60): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(60): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(60): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(60): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(60): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(60): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(60): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(60): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(60): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(60): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(60): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(60): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(60): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(60): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(60): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(60): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v(60): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(58): [TFMPC] - Too few port connections. Expected 23, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /SSDNiosSoftwareEmbarcado_tb/ssdniossoftwareembarcado_inst/imagemc/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(58): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(58): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(58): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(58): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(58): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(58): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(58): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(58): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(58): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(58): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(58): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(58): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(58): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(58): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(58): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(58): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v(58): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(58): [TFMPC] - Too few port connections. Expected 23, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /SSDNiosSoftwareEmbarcado_tb/ssdniossoftwareembarcado_inst/memoriaprograma/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(58): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(58): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(58): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(58): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(58): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(58): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(58): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(58): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(58): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(58): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(58): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(58): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(58): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(58): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(58): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(58): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v(58): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(50): [TFMPC] - Too few port connections. Expected 23, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /SSDNiosSoftwareEmbarcado_tb/ssdniossoftwareembarcado_inst/processador/cpu/SSDNiosSoftwareEmbarcado_Processador_cpu_register_bank_a/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'clocken0'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(116): [TFMPC] - Too few port connections. Expected 23, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /SSDNiosSoftwareEmbarcado_tb/ssdniossoftwareembarcado_inst/processador/cpu/SSDNiosSoftwareEmbarcado_Processador_cpu_register_bank_b/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'clocken0'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3015) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(2610): [PCDPC] - Port size (16) does not match connection size (38) for port 'jdo'. The port definition is at: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(987).
+#    Time: 0 ps  Iteration: 0  Instance: /SSDNiosSoftwareEmbarcado_tb/ssdniossoftwareembarcado_inst/processador/cpu/the_SSDNiosSoftwareEmbarcado_Processador_cpu_nios2_oci/the_SSDNiosSoftwareEmbarcado_Processador_cpu_nios2_oci_itrace File: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v
+# ** Warning: (vsim-3017) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(2147): [TFMPC] - Too few port connections. Expected 23, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /SSDNiosSoftwareEmbarcado_tb/ssdniossoftwareembarcado_inst/processador/cpu/the_SSDNiosSoftwareEmbarcado_Processador_cpu_nios2_oci/the_SSDNiosSoftwareEmbarcado_Processador_cpu_nios2_ocimem/SSDNiosSoftwareEmbarcado_Processador_cpu_ociram_sp_ram/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado.v(186): [TFMPC] - Too few port connections. Expected 12, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /SSDNiosSoftwareEmbarcado_tb/ssdniossoftwareembarcado_inst/jtag_uart File: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_jtag_uart.v
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado.v(186): [TFMPC] - Missing connection for port 'dataavailable'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado.v(186): [TFMPC] - Missing connection for port 'readyfordata'.
+# ** Warning: (vsim-3017) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/SSDNiosSoftwareEmbarcado_tb.v(28): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /SSDNiosSoftwareEmbarcado_tb/ssdniossoftwareembarcado_inst_medidordesempenho_conduit_bfm File: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_conduit_bfm.sv
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/SSDNiosSoftwareEmbarcado_tb.v(28): [TFMPC] - Missing connection for port 'reset_n'.
+# ** Warning: Design size of 11810 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+run 4ms
 # Warning: DONT_CARE value for read_during_write_mode_port_a is not supported in Stratix device family, it might cause incorrect behavioural simulation result
 # Time: 0  Instance: SSDNiosSoftwareEmbarcado_tb.ssdniossoftwareembarcado_inst.imagema.the_altsyncram.m_default.altsyncram_inst
 # Warning: DONT_CARE value for read_during_write_mode_port_a is not supported in Stratix device family, it might cause incorrect behavioural simulation result
@@ -749,14 +1304,5 @@ run 8ms
 #                    0: INFO: ------------------------------------------------------------
 #                    0: INFO: SSDNiosSoftwareEmbarcado_tb.ssdniossoftwareembarcado_inst_reset_bfm.reset_assert: Reset asserted
 #               990000: INFO: SSDNiosSoftwareEmbarcado_tb.ssdniossoftwareembarcado_inst_reset_bfm.reset_deassert: Reset deasserted
-add wave -position end  sim:/SSDNiosSoftwareEmbarcado_tb/ssdniossoftwareembarcado_inst/medidordesempenho/clk
-add wave -position end  sim:/SSDNiosSoftwareEmbarcado_tb/ssdniossoftwareembarcado_inst/medidordesempenho/reset_n
-add wave -position end  sim:/SSDNiosSoftwareEmbarcado_tb/ssdniossoftwareembarcado_inst/medidordesempenho/write
-add wave -position end  sim:/SSDNiosSoftwareEmbarcado_tb/ssdniossoftwareembarcado_inst/medidordesempenho/read
-add wave -position end  sim:/SSDNiosSoftwareEmbarcado_tb/ssdniossoftwareembarcado_inst/medidordesempenho/writedata
-add wave -position end  sim:/SSDNiosSoftwareEmbarcado_tb/ssdniossoftwareembarcado_inst/medidordesempenho/clk_count
-add wave -position end  sim:/SSDNiosSoftwareEmbarcado_tb/ssdniossoftwareembarcado_inst/medidordesempenho/readdata
-add wave -position end  sim:/SSDNiosSoftwareEmbarcado_tb/ssdniossoftwareembarcado_inst/medidordesempenho/data
-run 8ms
-# End time: 16:36:37 on Jun 11,2022, Elapsed time: 0:22:19
-# Errors: 0, Warnings: 128
+# End time: 17:43:20 on Jul 02,2022, Elapsed time: 0:19:00
+# Errors: 0, Warnings: 133

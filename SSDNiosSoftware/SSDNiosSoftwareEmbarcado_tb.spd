@@ -6,13 +6,33 @@
    library="altera_common_sv_packages"
    systemVerilogPackageName="avalon_vip_verbosity_pkg" />
  <file
+   path="SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_mm_interconnect_0_avalon_st_adapter_004_error_adapter_0.sv"
+   type="SYSTEM_VERILOG"
+   library="error_adapter_0" />
+ <file
    path="SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv"
    type="SYSTEM_VERILOG"
    library="error_adapter_0" />
  <file
+   path="SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_mm_interconnect_0_avalon_st_adapter_004.v"
+   type="VERILOG"
+   library="avalon_st_adapter_004" />
+ <file
    path="SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_mm_interconnect_0_avalon_st_adapter.v"
    type="VERILOG"
    library="avalon_st_adapter" />
+ <file
+   path="SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_width_adapter.sv"
+   type="SYSTEM_VERILOG"
+   library="MemoriaPrograma_s1_rsp_width_adapter" />
+ <file
+   path="SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_address_alignment.sv"
+   type="SYSTEM_VERILOG"
+   library="MemoriaPrograma_s1_rsp_width_adapter" />
+ <file
+   path="SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_uncompressor.sv"
+   type="SYSTEM_VERILOG"
+   library="MemoriaPrograma_s1_rsp_width_adapter" />
  <file
    path="SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_mm_interconnect_0_rsp_mux_001.sv"
    type="SYSTEM_VERILOG"
@@ -57,6 +77,54 @@
    path="SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_mm_interconnect_0_cmd_demux.sv"
    type="SYSTEM_VERILOG"
    library="cmd_demux" />
+ <file
+   path="SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter.sv"
+   type="SYSTEM_VERILOG"
+   library="MemoriaPrograma_s1_burst_adapter" />
+ <file
+   path="SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_uncmpr.sv"
+   type="SYSTEM_VERILOG"
+   library="MemoriaPrograma_s1_burst_adapter" />
+ <file
+   path="SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_13_1.sv"
+   type="SYSTEM_VERILOG"
+   library="MemoriaPrograma_s1_burst_adapter" />
+ <file
+   path="SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv"
+   type="SYSTEM_VERILOG"
+   library="MemoriaPrograma_s1_burst_adapter" />
+ <file
+   path="SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_incr_burst_converter.sv"
+   type="SYSTEM_VERILOG"
+   library="MemoriaPrograma_s1_burst_adapter" />
+ <file
+   path="SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_wrap_burst_converter.sv"
+   type="SYSTEM_VERILOG"
+   library="MemoriaPrograma_s1_burst_adapter" />
+ <file
+   path="SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_default_burst_converter.sv"
+   type="SYSTEM_VERILOG"
+   library="MemoriaPrograma_s1_burst_adapter" />
+ <file
+   path="SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_address_alignment.sv"
+   type="SYSTEM_VERILOG"
+   library="MemoriaPrograma_s1_burst_adapter" />
+ <file
+   path="SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_avalon_st_pipeline_stage.sv"
+   type="SYSTEM_VERILOG"
+   library="MemoriaPrograma_s1_burst_adapter" />
+ <file
+   path="SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_avalon_st_pipeline_base.v"
+   type="SYSTEM_VERILOG"
+   library="MemoriaPrograma_s1_burst_adapter" />
+ <file
+   path="SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_007.sv"
+   type="SYSTEM_VERILOG"
+   library="router_007" />
+ <file
+   path="SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_006.sv"
+   type="SYSTEM_VERILOG"
+   library="router_006" />
  <file
    path="SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_mm_interconnect_0_router_005.sv"
    type="SYSTEM_VERILOG"
@@ -186,6 +254,10 @@
    type="VERILOG"
    library="jtag_uart" />
  <file
+   path="SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_SaidaImagem.v"
+   type="VERILOG"
+   library="SaidaImagem" />
+ <file
    path="SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador.v"
    type="VERILOG"
    library="Processador" />
@@ -221,6 +293,10 @@
    path="SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v"
    type="VERILOG"
    library="ImagemA" />
+ <file
+   path="SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_conduit_bfm_0002.sv"
+   type="SYSTEM_VERILOG"
+   library="SSDNiosSoftwareEmbarcado_inst_saidaimagem_external_connection_bfm" />
  <file
    path="SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_avalon_reset_source.sv"
    type="SYSTEM_VERILOG"

@@ -41,6 +41,14 @@
          type = "int";
       }
    }
+   element SSDNiosSoftwareEmbarcado_inst_saidaimagem_external_connection_bfm
+   {
+      datum _sortIndex
+      {
+         value = "4";
+         type = "int";
+      }
+   }
 }
 ]]></parameter>
  <parameter name="clockCrossingAdapter" value="HANDSHAKE" />
@@ -103,6 +111,17 @@
   <parameter name="ASSERT_HIGH_RESET" value="0" />
   <parameter name="INITIAL_RESET_CYCLES" value="50" />
  </module>
+ <module
+   name="SSDNiosSoftwareEmbarcado_inst_saidaimagem_external_connection_bfm"
+   kind="altera_conduit_bfm"
+   version="18.1"
+   enabled="1">
+  <parameter name="CLOCKED_SIGNAL" value="false" />
+  <parameter name="ENABLE_RESET" value="false" />
+  <parameter name="SIGNAL_DIRECTIONS" value="input" />
+  <parameter name="SIGNAL_ROLES" value="export" />
+  <parameter name="SIGNAL_WIDTHS" value="8" />
+ </module>
  <connection
    kind="clock"
    version="18.1"
@@ -123,6 +142,17 @@
    version="18.1"
    start="SSDNiosSoftwareEmbarcado_inst_medidordesempenho_conduit_bfm.conduit"
    end="SSDNiosSoftwareEmbarcado_inst.medidordesempenho_conduit">
+  <parameter name="endPort" value="" />
+  <parameter name="endPortLSB" value="0" />
+  <parameter name="startPort" value="" />
+  <parameter name="startPortLSB" value="0" />
+  <parameter name="width" value="0" />
+ </connection>
+ <connection
+   kind="conduit"
+   version="18.1"
+   start="SSDNiosSoftwareEmbarcado_inst_saidaimagem_external_connection_bfm.conduit"
+   end="SSDNiosSoftwareEmbarcado_inst.saidaimagem_external_connection">
   <parameter name="endPort" value="" />
   <parameter name="endPortLSB" value="0" />
   <parameter name="startPort" value="" />

@@ -4,22 +4,23 @@
 
 `timescale 1 ps / 1 ps
 module SSDNiosSoftwareEmbarcado (
-		input  wire        clk_clk,                            //                       clk.clk
-		output wire [31:0] medidordesempenho_conduit_readdata, // medidordesempenho_conduit.readdata
-		input  wire        reset_reset_n                       //                     reset.reset_n
+		input  wire        clk_clk,                                //                             clk.clk
+		output wire [31:0] medidordesempenho_conduit_readdata,     //       medidordesempenho_conduit.readdata
+		input  wire        reset_reset_n,                          //                           reset.reset_n
+		output wire [7:0]  saidaimagem_external_connection_export  // saidaimagem_external_connection.export
 	);
 
 	wire  [31:0] processador_data_master_readdata;                          // mm_interconnect_0:Processador_data_master_readdata -> Processador:d_readdata
 	wire         processador_data_master_waitrequest;                       // mm_interconnect_0:Processador_data_master_waitrequest -> Processador:d_waitrequest
 	wire         processador_data_master_debugaccess;                       // Processador:debug_mem_slave_debugaccess_to_roms -> mm_interconnect_0:Processador_data_master_debugaccess
-	wire  [21:0] processador_data_master_address;                           // Processador:d_address -> mm_interconnect_0:Processador_data_master_address
+	wire  [18:0] processador_data_master_address;                           // Processador:d_address -> mm_interconnect_0:Processador_data_master_address
 	wire   [3:0] processador_data_master_byteenable;                        // Processador:d_byteenable -> mm_interconnect_0:Processador_data_master_byteenable
 	wire         processador_data_master_read;                              // Processador:d_read -> mm_interconnect_0:Processador_data_master_read
 	wire         processador_data_master_write;                             // Processador:d_write -> mm_interconnect_0:Processador_data_master_write
 	wire  [31:0] processador_data_master_writedata;                         // Processador:d_writedata -> mm_interconnect_0:Processador_data_master_writedata
 	wire  [31:0] processador_instruction_master_readdata;                   // mm_interconnect_0:Processador_instruction_master_readdata -> Processador:i_readdata
 	wire         processador_instruction_master_waitrequest;                // mm_interconnect_0:Processador_instruction_master_waitrequest -> Processador:i_waitrequest
-	wire  [21:0] processador_instruction_master_address;                    // Processador:i_address -> mm_interconnect_0:Processador_instruction_master_address
+	wire  [18:0] processador_instruction_master_address;                    // Processador:i_address -> mm_interconnect_0:Processador_instruction_master_address
 	wire         processador_instruction_master_read;                       // Processador:i_read -> mm_interconnect_0:Processador_instruction_master_read
 	wire         mm_interconnect_0_medidordesempenho_escrita_write;         // mm_interconnect_0:MedidorDesempenho_Escrita_write -> MedidorDesempenho:write
 	wire  [31:0] mm_interconnect_0_medidordesempenho_escrita_writedata;     // mm_interconnect_0:MedidorDesempenho_Escrita_writedata -> MedidorDesempenho:writedata
@@ -41,41 +42,42 @@ module SSDNiosSoftwareEmbarcado (
 	wire         mm_interconnect_0_processador_debug_mem_slave_write;       // mm_interconnect_0:Processador_debug_mem_slave_write -> Processador:debug_mem_slave_write
 	wire  [31:0] mm_interconnect_0_processador_debug_mem_slave_writedata;   // mm_interconnect_0:Processador_debug_mem_slave_writedata -> Processador:debug_mem_slave_writedata
 	wire         mm_interconnect_0_memoriaprograma_s1_chipselect;           // mm_interconnect_0:MemoriaPrograma_s1_chipselect -> MemoriaPrograma:chipselect
-	wire  [31:0] mm_interconnect_0_memoriaprograma_s1_readdata;             // MemoriaPrograma:readdata -> mm_interconnect_0:MemoriaPrograma_s1_readdata
-	wire  [13:0] mm_interconnect_0_memoriaprograma_s1_address;              // mm_interconnect_0:MemoriaPrograma_s1_address -> MemoriaPrograma:address
-	wire   [3:0] mm_interconnect_0_memoriaprograma_s1_byteenable;           // mm_interconnect_0:MemoriaPrograma_s1_byteenable -> MemoriaPrograma:byteenable
+	wire   [7:0] mm_interconnect_0_memoriaprograma_s1_readdata;             // MemoriaPrograma:readdata -> mm_interconnect_0:MemoriaPrograma_s1_readdata
+	wire  [15:0] mm_interconnect_0_memoriaprograma_s1_address;              // mm_interconnect_0:MemoriaPrograma_s1_address -> MemoriaPrograma:address
 	wire         mm_interconnect_0_memoriaprograma_s1_write;                // mm_interconnect_0:MemoriaPrograma_s1_write -> MemoriaPrograma:write
-	wire  [31:0] mm_interconnect_0_memoriaprograma_s1_writedata;            // mm_interconnect_0:MemoriaPrograma_s1_writedata -> MemoriaPrograma:writedata
+	wire   [7:0] mm_interconnect_0_memoriaprograma_s1_writedata;            // mm_interconnect_0:MemoriaPrograma_s1_writedata -> MemoriaPrograma:writedata
 	wire         mm_interconnect_0_memoriaprograma_s1_clken;                // mm_interconnect_0:MemoriaPrograma_s1_clken -> MemoriaPrograma:clken
 	wire         mm_interconnect_0_imagema_s1_chipselect;                   // mm_interconnect_0:ImagemA_s1_chipselect -> ImagemA:chipselect
-	wire  [31:0] mm_interconnect_0_imagema_s1_readdata;                     // ImagemA:readdata -> mm_interconnect_0:ImagemA_s1_readdata
+	wire   [7:0] mm_interconnect_0_imagema_s1_readdata;                     // ImagemA:readdata -> mm_interconnect_0:ImagemA_s1_readdata
 	wire         mm_interconnect_0_imagema_s1_debugaccess;                  // mm_interconnect_0:ImagemA_s1_debugaccess -> ImagemA:debugaccess
-	wire  [17:0] mm_interconnect_0_imagema_s1_address;                      // mm_interconnect_0:ImagemA_s1_address -> ImagemA:address
-	wire   [3:0] mm_interconnect_0_imagema_s1_byteenable;                   // mm_interconnect_0:ImagemA_s1_byteenable -> ImagemA:byteenable
+	wire  [15:0] mm_interconnect_0_imagema_s1_address;                      // mm_interconnect_0:ImagemA_s1_address -> ImagemA:address
 	wire         mm_interconnect_0_imagema_s1_write;                        // mm_interconnect_0:ImagemA_s1_write -> ImagemA:write
-	wire  [31:0] mm_interconnect_0_imagema_s1_writedata;                    // mm_interconnect_0:ImagemA_s1_writedata -> ImagemA:writedata
+	wire   [7:0] mm_interconnect_0_imagema_s1_writedata;                    // mm_interconnect_0:ImagemA_s1_writedata -> ImagemA:writedata
 	wire         mm_interconnect_0_imagema_s1_clken;                        // mm_interconnect_0:ImagemA_s1_clken -> ImagemA:clken
 	wire         mm_interconnect_0_imagemb_s1_chipselect;                   // mm_interconnect_0:ImagemB_s1_chipselect -> ImagemB:chipselect
-	wire  [31:0] mm_interconnect_0_imagemb_s1_readdata;                     // ImagemB:readdata -> mm_interconnect_0:ImagemB_s1_readdata
+	wire   [7:0] mm_interconnect_0_imagemb_s1_readdata;                     // ImagemB:readdata -> mm_interconnect_0:ImagemB_s1_readdata
 	wire         mm_interconnect_0_imagemb_s1_debugaccess;                  // mm_interconnect_0:ImagemB_s1_debugaccess -> ImagemB:debugaccess
-	wire  [17:0] mm_interconnect_0_imagemb_s1_address;                      // mm_interconnect_0:ImagemB_s1_address -> ImagemB:address
-	wire   [3:0] mm_interconnect_0_imagemb_s1_byteenable;                   // mm_interconnect_0:ImagemB_s1_byteenable -> ImagemB:byteenable
+	wire  [15:0] mm_interconnect_0_imagemb_s1_address;                      // mm_interconnect_0:ImagemB_s1_address -> ImagemB:address
 	wire         mm_interconnect_0_imagemb_s1_write;                        // mm_interconnect_0:ImagemB_s1_write -> ImagemB:write
-	wire  [31:0] mm_interconnect_0_imagemb_s1_writedata;                    // mm_interconnect_0:ImagemB_s1_writedata -> ImagemB:writedata
+	wire   [7:0] mm_interconnect_0_imagemb_s1_writedata;                    // mm_interconnect_0:ImagemB_s1_writedata -> ImagemB:writedata
 	wire         mm_interconnect_0_imagemb_s1_clken;                        // mm_interconnect_0:ImagemB_s1_clken -> ImagemB:clken
 	wire         mm_interconnect_0_imagemc_s1_chipselect;                   // mm_interconnect_0:ImagemC_s1_chipselect -> ImagemC:chipselect
-	wire  [31:0] mm_interconnect_0_imagemc_s1_readdata;                     // ImagemC:readdata -> mm_interconnect_0:ImagemC_s1_readdata
-	wire  [17:0] mm_interconnect_0_imagemc_s1_address;                      // mm_interconnect_0:ImagemC_s1_address -> ImagemC:address
-	wire   [3:0] mm_interconnect_0_imagemc_s1_byteenable;                   // mm_interconnect_0:ImagemC_s1_byteenable -> ImagemC:byteenable
+	wire   [7:0] mm_interconnect_0_imagemc_s1_readdata;                     // ImagemC:readdata -> mm_interconnect_0:ImagemC_s1_readdata
+	wire  [15:0] mm_interconnect_0_imagemc_s1_address;                      // mm_interconnect_0:ImagemC_s1_address -> ImagemC:address
 	wire         mm_interconnect_0_imagemc_s1_write;                        // mm_interconnect_0:ImagemC_s1_write -> ImagemC:write
-	wire  [31:0] mm_interconnect_0_imagemc_s1_writedata;                    // mm_interconnect_0:ImagemC_s1_writedata -> ImagemC:writedata
+	wire   [7:0] mm_interconnect_0_imagemc_s1_writedata;                    // mm_interconnect_0:ImagemC_s1_writedata -> ImagemC:writedata
 	wire         mm_interconnect_0_imagemc_s1_clken;                        // mm_interconnect_0:ImagemC_s1_clken -> ImagemC:clken
+	wire         mm_interconnect_0_saidaimagem_s1_chipselect;               // mm_interconnect_0:SaidaImagem_s1_chipselect -> SaidaImagem:chipselect
+	wire  [31:0] mm_interconnect_0_saidaimagem_s1_readdata;                 // SaidaImagem:readdata -> mm_interconnect_0:SaidaImagem_s1_readdata
+	wire   [1:0] mm_interconnect_0_saidaimagem_s1_address;                  // mm_interconnect_0:SaidaImagem_s1_address -> SaidaImagem:address
+	wire         mm_interconnect_0_saidaimagem_s1_write;                    // mm_interconnect_0:SaidaImagem_s1_write -> SaidaImagem:write_n
+	wire  [31:0] mm_interconnect_0_saidaimagem_s1_writedata;                // mm_interconnect_0:SaidaImagem_s1_writedata -> SaidaImagem:writedata
 	wire         irq_mapper_receiver0_irq;                                  // jtag_uart:av_irq -> irq_mapper:receiver0_irq
 	wire  [31:0] processador_irq_irq;                                       // irq_mapper:sender_irq -> Processador:irq
 	wire         rst_controller_reset_out_reset;                            // rst_controller:reset_out -> [ImagemA:reset, ImagemB:reset, ImagemC:reset, MemoriaPrograma:reset, Processador:reset_n, irq_mapper:reset, mm_interconnect_0:Processador_reset_reset_bridge_in_reset_reset]
 	wire         rst_controller_reset_out_reset_req;                        // rst_controller:reset_req -> [ImagemA:reset_req, ImagemB:reset_req, ImagemC:reset_req, MemoriaPrograma:reset_req, Processador:reset_req, rst_translator:reset_req_in]
 	wire         processador_debug_reset_request_reset;                     // Processador:debug_reset_request -> rst_controller:reset_in1
-	wire         rst_controller_001_reset_out_reset;                        // rst_controller_001:reset_out -> [MedidorDesempenho:reset_n, jtag_uart:rst_n, mm_interconnect_0:MedidorDesempenho_reset_reset_bridge_in_reset_reset]
+	wire         rst_controller_001_reset_out_reset;                        // rst_controller_001:reset_out -> [MedidorDesempenho:reset_n, SaidaImagem:reset_n, jtag_uart:rst_n, mm_interconnect_0:MedidorDesempenho_reset_reset_bridge_in_reset_reset]
 
 	SSDNiosSoftwareEmbarcado_ImagemA imagema (
 		.clk         (clk_clk),                                  //   clk1.clk
@@ -86,7 +88,6 @@ module SSDNiosSoftwareEmbarcado (
 		.write       (mm_interconnect_0_imagema_s1_write),       //       .write
 		.readdata    (mm_interconnect_0_imagema_s1_readdata),    //       .readdata
 		.writedata   (mm_interconnect_0_imagema_s1_writedata),   //       .writedata
-		.byteenable  (mm_interconnect_0_imagema_s1_byteenable),  //       .byteenable
 		.reset       (rst_controller_reset_out_reset),           // reset1.reset
 		.reset_req   (rst_controller_reset_out_reset_req),       //       .reset_req
 		.freeze      (1'b0)                                      // (terminated)
@@ -101,7 +102,6 @@ module SSDNiosSoftwareEmbarcado (
 		.write       (mm_interconnect_0_imagemb_s1_write),       //       .write
 		.readdata    (mm_interconnect_0_imagemb_s1_readdata),    //       .readdata
 		.writedata   (mm_interconnect_0_imagemb_s1_writedata),   //       .writedata
-		.byteenable  (mm_interconnect_0_imagemb_s1_byteenable),  //       .byteenable
 		.reset       (rst_controller_reset_out_reset),           // reset1.reset
 		.reset_req   (rst_controller_reset_out_reset_req),       //       .reset_req
 		.freeze      (1'b0)                                      // (terminated)
@@ -115,7 +115,6 @@ module SSDNiosSoftwareEmbarcado (
 		.write      (mm_interconnect_0_imagemc_s1_write),      //       .write
 		.readdata   (mm_interconnect_0_imagemc_s1_readdata),   //       .readdata
 		.writedata  (mm_interconnect_0_imagemc_s1_writedata),  //       .writedata
-		.byteenable (mm_interconnect_0_imagemc_s1_byteenable), //       .byteenable
 		.reset      (rst_controller_reset_out_reset),          // reset1.reset
 		.reset_req  (rst_controller_reset_out_reset_req),      //       .reset_req
 		.freeze     (1'b0)                                     // (terminated)
@@ -139,7 +138,6 @@ module SSDNiosSoftwareEmbarcado (
 		.write      (mm_interconnect_0_memoriaprograma_s1_write),      //       .write
 		.readdata   (mm_interconnect_0_memoriaprograma_s1_readdata),   //       .readdata
 		.writedata  (mm_interconnect_0_memoriaprograma_s1_writedata),  //       .writedata
-		.byteenable (mm_interconnect_0_memoriaprograma_s1_byteenable), //       .byteenable
 		.reset      (rst_controller_reset_out_reset),                  // reset1.reset
 		.reset_req  (rst_controller_reset_out_reset_req),              //       .reset_req
 		.freeze     (1'b0)                                             // (terminated)
@@ -172,6 +170,17 @@ module SSDNiosSoftwareEmbarcado (
 		.debug_mem_slave_write               (mm_interconnect_0_processador_debug_mem_slave_write),       //                          .write
 		.debug_mem_slave_writedata           (mm_interconnect_0_processador_debug_mem_slave_writedata),   //                          .writedata
 		.dummy_ci_port                       ()                                                           // custom_instruction_master.readra
+	);
+
+	SSDNiosSoftwareEmbarcado_SaidaImagem saidaimagem (
+		.clk        (clk_clk),                                     //                 clk.clk
+		.reset_n    (~rst_controller_001_reset_out_reset),         //               reset.reset_n
+		.address    (mm_interconnect_0_saidaimagem_s1_address),    //                  s1.address
+		.write_n    (~mm_interconnect_0_saidaimagem_s1_write),     //                    .write_n
+		.writedata  (mm_interconnect_0_saidaimagem_s1_writedata),  //                    .writedata
+		.chipselect (mm_interconnect_0_saidaimagem_s1_chipselect), //                    .chipselect
+		.readdata   (mm_interconnect_0_saidaimagem_s1_readdata),   //                    .readdata
+		.out_port   (saidaimagem_external_connection_export)       // external_connection.export
 	);
 
 	SSDNiosSoftwareEmbarcado_jtag_uart jtag_uart (
@@ -207,7 +216,6 @@ module SSDNiosSoftwareEmbarcado (
 		.ImagemA_s1_write                                    (mm_interconnect_0_imagema_s1_write),                        //                                              .write
 		.ImagemA_s1_readdata                                 (mm_interconnect_0_imagema_s1_readdata),                     //                                              .readdata
 		.ImagemA_s1_writedata                                (mm_interconnect_0_imagema_s1_writedata),                    //                                              .writedata
-		.ImagemA_s1_byteenable                               (mm_interconnect_0_imagema_s1_byteenable),                   //                                              .byteenable
 		.ImagemA_s1_chipselect                               (mm_interconnect_0_imagema_s1_chipselect),                   //                                              .chipselect
 		.ImagemA_s1_clken                                    (mm_interconnect_0_imagema_s1_clken),                        //                                              .clken
 		.ImagemA_s1_debugaccess                              (mm_interconnect_0_imagema_s1_debugaccess),                  //                                              .debugaccess
@@ -215,7 +223,6 @@ module SSDNiosSoftwareEmbarcado (
 		.ImagemB_s1_write                                    (mm_interconnect_0_imagemb_s1_write),                        //                                              .write
 		.ImagemB_s1_readdata                                 (mm_interconnect_0_imagemb_s1_readdata),                     //                                              .readdata
 		.ImagemB_s1_writedata                                (mm_interconnect_0_imagemb_s1_writedata),                    //                                              .writedata
-		.ImagemB_s1_byteenable                               (mm_interconnect_0_imagemb_s1_byteenable),                   //                                              .byteenable
 		.ImagemB_s1_chipselect                               (mm_interconnect_0_imagemb_s1_chipselect),                   //                                              .chipselect
 		.ImagemB_s1_clken                                    (mm_interconnect_0_imagemb_s1_clken),                        //                                              .clken
 		.ImagemB_s1_debugaccess                              (mm_interconnect_0_imagemb_s1_debugaccess),                  //                                              .debugaccess
@@ -223,7 +230,6 @@ module SSDNiosSoftwareEmbarcado (
 		.ImagemC_s1_write                                    (mm_interconnect_0_imagemc_s1_write),                        //                                              .write
 		.ImagemC_s1_readdata                                 (mm_interconnect_0_imagemc_s1_readdata),                     //                                              .readdata
 		.ImagemC_s1_writedata                                (mm_interconnect_0_imagemc_s1_writedata),                    //                                              .writedata
-		.ImagemC_s1_byteenable                               (mm_interconnect_0_imagemc_s1_byteenable),                   //                                              .byteenable
 		.ImagemC_s1_chipselect                               (mm_interconnect_0_imagemc_s1_chipselect),                   //                                              .chipselect
 		.ImagemC_s1_clken                                    (mm_interconnect_0_imagemc_s1_clken),                        //                                              .clken
 		.jtag_uart_avalon_jtag_slave_address                 (mm_interconnect_0_jtag_uart_avalon_jtag_slave_address),     //                   jtag_uart_avalon_jtag_slave.address
@@ -241,7 +247,6 @@ module SSDNiosSoftwareEmbarcado (
 		.MemoriaPrograma_s1_write                            (mm_interconnect_0_memoriaprograma_s1_write),                //                                              .write
 		.MemoriaPrograma_s1_readdata                         (mm_interconnect_0_memoriaprograma_s1_readdata),             //                                              .readdata
 		.MemoriaPrograma_s1_writedata                        (mm_interconnect_0_memoriaprograma_s1_writedata),            //                                              .writedata
-		.MemoriaPrograma_s1_byteenable                       (mm_interconnect_0_memoriaprograma_s1_byteenable),           //                                              .byteenable
 		.MemoriaPrograma_s1_chipselect                       (mm_interconnect_0_memoriaprograma_s1_chipselect),           //                                              .chipselect
 		.MemoriaPrograma_s1_clken                            (mm_interconnect_0_memoriaprograma_s1_clken),                //                                              .clken
 		.Processador_debug_mem_slave_address                 (mm_interconnect_0_processador_debug_mem_slave_address),     //                   Processador_debug_mem_slave.address
@@ -251,7 +256,12 @@ module SSDNiosSoftwareEmbarcado (
 		.Processador_debug_mem_slave_writedata               (mm_interconnect_0_processador_debug_mem_slave_writedata),   //                                              .writedata
 		.Processador_debug_mem_slave_byteenable              (mm_interconnect_0_processador_debug_mem_slave_byteenable),  //                                              .byteenable
 		.Processador_debug_mem_slave_waitrequest             (mm_interconnect_0_processador_debug_mem_slave_waitrequest), //                                              .waitrequest
-		.Processador_debug_mem_slave_debugaccess             (mm_interconnect_0_processador_debug_mem_slave_debugaccess)  //                                              .debugaccess
+		.Processador_debug_mem_slave_debugaccess             (mm_interconnect_0_processador_debug_mem_slave_debugaccess), //                                              .debugaccess
+		.SaidaImagem_s1_address                              (mm_interconnect_0_saidaimagem_s1_address),                  //                                SaidaImagem_s1.address
+		.SaidaImagem_s1_write                                (mm_interconnect_0_saidaimagem_s1_write),                    //                                              .write
+		.SaidaImagem_s1_readdata                             (mm_interconnect_0_saidaimagem_s1_readdata),                 //                                              .readdata
+		.SaidaImagem_s1_writedata                            (mm_interconnect_0_saidaimagem_s1_writedata),                //                                              .writedata
+		.SaidaImagem_s1_chipselect                           (mm_interconnect_0_saidaimagem_s1_chipselect)                //                                              .chipselect
 	);
 
 	SSDNiosSoftwareEmbarcado_irq_mapper irq_mapper (

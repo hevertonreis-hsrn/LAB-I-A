@@ -22,10 +22,10 @@
 <td width="20%" bgcolor="#77BBFF">BSP Version:</td><td>default</td>
 </tr>
 <tr mode="wrap">
-<td width="20%" bgcolor="#77BBFF">BSP Generated On:</td><td>11/06/2022 14:27:11</td>
+<td width="20%" bgcolor="#77BBFF">BSP Generated On:</td><td>02/07/2022 17:19:50</td>
 </tr>
 <tr mode="wrap">
-<td width="20%" bgcolor="#77BBFF">BSP Generated Timestamp:</td><td>1654968431696</td>
+<td width="20%" bgcolor="#77BBFF">BSP Generated Timestamp:</td><td>1656793190980</td>
 </tr>
 <tr mode="wrap">
 <td width="20%" bgcolor="#77BBFF">BSP Generated Location:</td><td>C:\Projetos\Quartus\SSDNiosSoftware\software\SSDSoftware_bsp</td>
@@ -38,25 +38,28 @@
 <th align="left" width="20%">Slave Descriptor</th><th align="left" width="40%">Address Range</th><th align="left" width="20%">Size</th><th align="left" width="20%">Attributes</th>
 </tr>
 <tr mode="wrap" STYLE="display: 'block'; font-family: 'courier'; color: '#000000'; font-weight: '500'; font-size: '14'; margin-top: '10pt'; text-align: 'left'">
-<td>MedidorDesempenho_Escrita</td><td>0x0032100C - 0x0032100F</td><td>4</td><td class="listing">&nbsp;</td>
+<td>MedidorDesempenho_Escrita</td><td>0x0005101C - 0x0005101F</td><td>4</td><td class="listing">&nbsp;</td>
 </tr>
 <tr mode="wrap" STYLE="display: 'block'; font-family: 'courier'; color: '#000000'; font-weight: '500'; font-size: '14'; margin-top: '10pt'; text-align: 'left'">
-<td>MedidorDesempenho_Leitura</td><td>0x00321008 - 0x0032100B</td><td>4</td><td class="listing">&nbsp;</td>
+<td>MedidorDesempenho_Leitura</td><td>0x00051018 - 0x0005101B</td><td>4</td><td class="listing">&nbsp;</td>
 </tr>
 <tr mode="wrap" STYLE="display: 'block'; font-family: 'courier'; color: '#000000'; font-weight: '500'; font-size: '14'; margin-top: '10pt'; text-align: 'left'">
-<td>jtag_uart</td><td>0x00321000 - 0x00321007</td><td>8</td><td class="listing">printable</td>
+<td>jtag_uart</td><td>0x00051010 - 0x00051017</td><td>8</td><td class="listing">printable</td>
 </tr>
 <tr mode="wrap" STYLE="display: 'block'; font-family: 'courier'; color: '#000000'; font-weight: '500'; font-size: '14'; margin-top: '10pt'; text-align: 'left'">
-<td>MemoriaPrograma</td><td>0x00310000 - 0x0031FFFF</td><td>65536</td><td class="listing">memory</td>
+<td>SaidaImagem</td><td>0x00051000 - 0x0005100F</td><td>16</td><td class="listing">&nbsp;</td>
 </tr>
 <tr mode="wrap" STYLE="display: 'block'; font-family: 'courier'; color: '#000000'; font-weight: '500'; font-size: '14'; margin-top: '10pt'; text-align: 'left'">
-<td>ImagemB</td><td>0x00200000 - 0x002FFFFF</td><td>1048576</td><td class="listing">memory, non-volatile</td>
+<td>ImagemB</td><td>0x00040000 - 0x0004E3FF</td><td>58368</td><td class="listing">memory, non-volatile</td>
 </tr>
 <tr mode="wrap" STYLE="display: 'block'; font-family: 'courier'; color: '#000000'; font-weight: '500'; font-size: '14'; margin-top: '10pt'; text-align: 'left'">
-<td>ImagemC</td><td>0x00100000 - 0x001FFFFF</td><td>1048576</td><td class="listing">memory</td>
+<td>ImagemC</td><td>0x00030000 - 0x0003E3FF</td><td>58368</td><td class="listing">memory</td>
 </tr>
 <tr mode="wrap" STYLE="display: 'block'; font-family: 'courier'; color: '#000000'; font-weight: '500'; font-size: '14'; margin-top: '10pt'; text-align: 'left'">
-<td>ImagemA</td><td>0x00000000 - 0x000FFFFF</td><td>1048576</td><td class="listing">memory, non-volatile</td>
+<td>MemoriaPrograma</td><td>0x00020000 - 0x0002FFFF</td><td>65536</td><td class="listing">memory</td>
+</tr>
+<tr mode="wrap" STYLE="display: 'block'; font-family: 'courier'; color: '#000000'; font-weight: '500'; font-size: '14'; margin-top: '10pt'; text-align: 'left'">
+<td>ImagemA</td><td>0x00000000 - 0x0000E3FF</td><td>58368</td><td class="listing">memory, non-volatile</td>
 </tr>
 </table>
 <br>
@@ -93,6 +96,19 @@
 <td>.stack</td><td>MemoriaPrograma</td>
 </tr>
 </table>
+<br>
+<br>
+<h3>Software Packages</h3>
+<table border="1" bgcolor="#FFFFCC" width="50%">
+<tr bgcolor="#77BBFF" mode="wrap">
+<th align="left" width="15%">Software Package</th><th align="left" width="15%">Version</th>
+</tr>
+<tr mode="wrap" STYLE="display: 'block'; font-family: 'courier'; color: '#000000'; font-weight: '500'; font-size: '14'; margin-top: '10pt'; text-align: 'left'">
+<td>altera_hostfs</td><td>default</td>
+</tr>
+</table>
+<br>
+<br>
 <h3>Settings</h3>
 <table border="1" bgcolor="#FFFFCC" width="60%">
 <tr bgcolor="#77BBFF">
@@ -142,6 +158,33 @@
 </tr>
 <tr mode="wrap">
 <td width="20%">Description:</td><td>Small-footprint (polled mode) driver</td>
+</tr>
+<tr mode="wrap">
+<td width="20%">Restrictions:</td><td>none</td>
+</tr>
+</table>
+<br>
+<table border="1" bgcolor="#FFFFCC" width="60%">
+<tr bgcolor="#77BBFF">
+<td align="left" width="15%">Setting Name:</td><td align="left">altera_hostfs.hostfs_name</td>
+</tr>
+<tr>
+<td width="20%">Identifier:</td><td>ALTERA_HOSTFS_NAME</td>
+</tr>
+<tr>
+<td width="20%">Default Value:</td><td>/mnt/host</td>
+</tr>
+<tr>
+<td width="20%">Value:</td><td>/mnt/host</td>
+</tr>
+<tr>
+<td width="20%">Type:</td><td>QuotedString</td>
+</tr>
+<tr mode="wrap">
+<td width="20%">Destination:</td><td>system_h_define</td>
+</tr>
+<tr mode="wrap">
+<td width="20%">Description:</td><td>Mount point</td>
 </tr>
 <tr mode="wrap">
 <td width="20%">Restrictions:</td><td>none</td>

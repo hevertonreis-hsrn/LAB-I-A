@@ -1,6 +1,6 @@
-16:13:45 **** Incremental Build of configuration Nios II for project SSDSoftware_bsp ****
+17:22:55 **** Incremental Build of configuration Nios II for project SSDSoftware_bsp ****
 make all 
 [BSP build complete]
 
-16:13:46 Build Finished (took 893ms)
+17:22:56 Build Finished (took 1s.200ms)
 

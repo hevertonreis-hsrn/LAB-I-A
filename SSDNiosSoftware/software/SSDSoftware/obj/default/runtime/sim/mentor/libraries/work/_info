@@ -23,20 +23,20 @@ Z2 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z3 !s108 1654907329.000000
+!s108 1654907329.000000
 !s107 C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/mentor/../../../Separador.v|
 !s90 -reportprogress|300|C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/mentor/../../../Separador.v|
 !i113 1
-Z4 tCvgOpt 0
+Z3 tCvgOpt 0
 n@separador
 vSSDNiosSoftware
-Z5 !s110 1654907329
+Z4 !s110 1656793458
 !i10b 1
-!s100 LahH^mAI<5i8j]6?cjU@l2
-IKTE0IgzEl`1UPNd[R7dg=1
+!s100 fcX]XBkMA<SRka4T?fL;n0
+IY`hG2bnom:Ql29caBU0_S2
 R1
 R0
-w1654904719
+w1656793119
 8C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/mentor/../../../SSDNiosSoftware.v
 FC:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/mentor/../../../SSDNiosSoftware.v
 L0 19
@@ -44,20 +44,20 @@ R2
 r1
 !s85 0
 31
-R3
+Z5 !s108 1656793458.000000
 !s107 C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/mentor/../../../SSDNiosSoftware.v|
 !s90 -reportprogress|300|C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/mentor/../../../SSDNiosSoftware.v|
 !i113 1
-R4
+R3
 n@s@s@d@nios@software
 vSSDNiosSoftwareEmbarcado_tb
-!s110 1654974857
+!s110 1656793414
 !i10b 1
-!s100 NR@1RgJ7Ka7:ScFK[`UY63
-IlW>dgH>7GT;5;85V@cccH1
+!s100 _nS<nT<<:c[hlUQ0c:ZQ?2
+I41VP`U`GCLi0cmJzM9m920
 R1
 R0
-w1654967069
+w1656792798
 8C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/SSDNiosSoftwareEmbarcado_tb.v
 FC:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/SSDNiosSoftwareEmbarcado_tb.v
 L0 6
@@ -65,20 +65,20 @@ R2
 r1
 !s85 0
 31
-!s108 1654974857.000000
+!s108 1656793414.000000
 !s107 C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/SSDNiosSoftwareEmbarcado_tb.v|
 !s90 -reportprogress|300|C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/SSDNiosSoftwareEmbarcado_tb.v|
 !i113 1
-R4
+R3
 n@s@s@d@nios@software@embarcado_tb
 vSSDNiosSoftwareTB
-R5
+R4
 !i10b 1
-!s100 8mY[`7FFRMao]Yg5zSF?L2
-I_J?5?2lSX1=XRHOjLh1^20
+!s100 ;VVfo77Ugik]@hS9ImFNz3
+Ini4TQbSCB6`GgVWzI<_n`0
 R1
 R0
-w1654905503
+w1656789197
 8C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/mentor/../../../SSDNiosSoftwareTB.v
 FC:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/mentor/../../../SSDNiosSoftwareTB.v
 L0 3
@@ -86,9 +86,9 @@ R2
 r1
 !s85 0
 31
-R3
+R5
 !s107 C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/mentor/../../../SSDNiosSoftwareTB.v|
 !s90 -reportprogress|300|C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/mentor/../../../SSDNiosSoftwareTB.v|
 !i113 1
-R4
+R3
 n@s@s@d@nios@software@t@b

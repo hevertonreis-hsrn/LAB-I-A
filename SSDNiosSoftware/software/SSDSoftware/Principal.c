@@ -1,11 +1,12 @@
+//Enderecos de Memoria
 #define IMG_A (int *) 0x00000
-#define IMG_B (int *) 0x200000
-#define IMG_C (int *) 0x100000
+#define IMG_B (int *) 0x40000
+#define IMG_C (int *) 0x30000
 
-#define MEDIDOR_LEITURA (int *) 0x321008
-#define MEDIDOR_ESCRITA (int *) 0x32100c
+#define MEDIDOR_LEITURA (int *) 0x51018
+#define MEDIDOR_ESCRITA (int *) 0x5101c
 
-#define LEDS (int *) 0x00000
+#define SAIDA_IMAGEM (int *) 0x51000
 
 #define DATA_SIZE 57600
 
@@ -16,22 +17,26 @@ int * imgC = IMG_C;
 int main()
 {
 
+	//Calculo SSD Software
+	int diff[DATA_SIZE], square[DATA_SIZE];
+	*MEDIDOR_ESCRITA = 0;
+	*MEDIDOR_ESCRITA = 1;
+	for (int i = 0; i < DATA_SIZE; i++)
+	{
+		diff[i] = imgB[i] - imgA[i];
+		square[i] = diff[i]*diff[i];
+		imgC[i] = square[i];
+	}
+	*MEDIDOR_ESCRITA = 2;
 
-  int diff[DATA_SIZE], square[DATA_SIZE];
-  *MEDIDOR_ESCRITA = 0;
-  *LEDS = 0;
-  *MEDIDOR_ESCRITA = 1;
-  for (int i = 0; i < DATA_SIZE; i++)
-  {
-    diff[i] = imgB[i] - imgA[i];
-    square[i] = diff[i]*diff[i];
-    imgC[i] = square[i];
-  }
-  *MEDIDOR_ESCRITA = 2;
-  *LEDS = *MEDIDOR_LEITURA;
+	//Exportando Imagem
+	for (int i = 0; i < DATA_SIZE; i++)
+	{
+		*SAIDA_IMAGEM = imgC[i];
+	}
 
-  //Parte hardware
-  //...
+	//Parte hardware
+	//...
 
-  return 0;
+	return 0;
 }

@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>11/06/2022 14:27:11</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1654968431696</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>02/07/2022 17:19:50</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1656793190980</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>C:\Projetos\Quartus\SSDNiosSoftware\software\SSDSoftware_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>..\..\SSDNiosSoftwareEmbarcado.sopcinfo</SopcDesignFile>
@@ -875,6 +875,18 @@
                 <Group>none</Group>
         </Setting>
         <Setting>
+                <SettingName>altera_hostfs.hostfs_name</SettingName>
+                <Identifier>ALTERA_HOSTFS_NAME</Identifier>
+                <Type>QuotedString</Type>
+                <Value>/mnt/host</Value>
+                <DefaultValue>/mnt/host</DefaultValue>
+                <DestinationFile>system_h_define</DestinationFile>
+                <Description>Mount point</Description>
+                <Restrictions>none</Restrictions>
+                <Enabled>false</Enabled>
+                <Group xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        </Setting>
+        <Setting>
                 <SettingName>altera_avalon_jtag_uart_driver.enable_small_driver</SettingName>
                 <Identifier>ALTERA_AVALON_JTAG_UART_SMALL</Identifier>
                 <Type>BooleanDefineOnly</Type>
@@ -900,43 +912,49 @@
         </Setting>
         <MemoryMap>
                 <slaveDescriptor>ImagemA</slaveDescriptor>
-                <addressRange>0x00000000 - 0x000FFFFF</addressRange>
-                <addressSpan>1048576</addressSpan>
-                <attributes>memory, non-volatile</attributes>
-        </MemoryMap>
-        <MemoryMap>
-                <slaveDescriptor>ImagemC</slaveDescriptor>
-                <addressRange>0x00100000 - 0x001FFFFF</addressRange>
-                <addressSpan>1048576</addressSpan>
-                <attributes>memory</attributes>
-        </MemoryMap>
-        <MemoryMap>
-                <slaveDescriptor>ImagemB</slaveDescriptor>
-                <addressRange>0x00200000 - 0x002FFFFF</addressRange>
-                <addressSpan>1048576</addressSpan>
+                <addressRange>0x00000000 - 0x0000E3FF</addressRange>
+                <addressSpan>58368</addressSpan>
                 <attributes>memory, non-volatile</attributes>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>MemoriaPrograma</slaveDescriptor>
-                <addressRange>0x00310000 - 0x0031FFFF</addressRange>
+                <addressRange>0x00020000 - 0x0002FFFF</addressRange>
                 <addressSpan>65536</addressSpan>
                 <attributes>memory</attributes>
         </MemoryMap>
         <MemoryMap>
+                <slaveDescriptor>ImagemC</slaveDescriptor>
+                <addressRange>0x00030000 - 0x0003E3FF</addressRange>
+                <addressSpan>58368</addressSpan>
+                <attributes>memory</attributes>
+        </MemoryMap>
+        <MemoryMap>
+                <slaveDescriptor>ImagemB</slaveDescriptor>
+                <addressRange>0x00040000 - 0x0004E3FF</addressRange>
+                <addressSpan>58368</addressSpan>
+                <attributes>memory, non-volatile</attributes>
+        </MemoryMap>
+        <MemoryMap>
+                <slaveDescriptor>SaidaImagem</slaveDescriptor>
+                <addressRange>0x00051000 - 0x0005100F</addressRange>
+                <addressSpan>16</addressSpan>
+                <attributes/>
+        </MemoryMap>
+        <MemoryMap>
                 <slaveDescriptor>jtag_uart</slaveDescriptor>
-                <addressRange>0x00321000 - 0x00321007</addressRange>
+                <addressRange>0x00051010 - 0x00051017</addressRange>
                 <addressSpan>8</addressSpan>
                 <attributes>printable</attributes>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>MedidorDesempenho_Leitura</slaveDescriptor>
-                <addressRange>0x00321008 - 0x0032100B</addressRange>
+                <addressRange>0x00051018 - 0x0005101B</addressRange>
                 <addressSpan>4</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>MedidorDesempenho_Escrita</slaveDescriptor>
-                <addressRange>0x0032100C - 0x0032100F</addressRange>
+                <addressRange>0x0005101C - 0x0005101F</addressRange>
                 <addressSpan>4</addressSpan>
                 <attributes/>
         </MemoryMap>
@@ -964,4 +982,8 @@
                 <sectionName>.stack</sectionName>
                 <regionName>MemoriaPrograma</regionName>
         </LinkerSection>
+        <SoftwarePackageInfo>
+                <name>altera_hostfs</name>
+                <version>default</version>
+        </SoftwarePackageInfo>
 </sch:Settings>
