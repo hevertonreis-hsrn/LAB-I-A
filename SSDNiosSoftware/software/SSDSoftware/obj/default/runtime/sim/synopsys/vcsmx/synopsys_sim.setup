@@ -33,6 +33,7 @@ mm_interconnect_0:                                                 ./libraries/m
 jtag_uart:                                                         ./libraries/jtag_uart/                                                        
 SaidaImagem:                                                       ./libraries/SaidaImagem/                                                      
 Processador:                                                       ./libraries/Processador/                                                      
+PixelFlag:                                                         ./libraries/PixelFlag/                                                        
 MemoriaPrograma:                                                   ./libraries/MemoriaPrograma/                                                  
 MedidorDesempenho:                                                 ./libraries/MedidorDesempenho/                                                
 ImagemC:                                                           ./libraries/ImagemC/                                                          
@@ -40,6 +41,7 @@ ImagemB:                                                           ./libraries/I
 ImagemA:                                                           ./libraries/ImagemA/                                                          
 SSDNiosSoftwareEmbarcado_inst_saidaimagem_external_connection_bfm: ./libraries/SSDNiosSoftwareEmbarcado_inst_saidaimagem_external_connection_bfm/
 SSDNiosSoftwareEmbarcado_inst_reset_bfm:                           ./libraries/SSDNiosSoftwareEmbarcado_inst_reset_bfm/                          
+SSDNiosSoftwareEmbarcado_inst_pixelflag_external_connection_bfm:   ./libraries/SSDNiosSoftwareEmbarcado_inst_pixelflag_external_connection_bfm/  
 SSDNiosSoftwareEmbarcado_inst_medidordesempenho_conduit_bfm:       ./libraries/SSDNiosSoftwareEmbarcado_inst_medidordesempenho_conduit_bfm/      
 SSDNiosSoftwareEmbarcado_inst_clk_bfm:                             ./libraries/SSDNiosSoftwareEmbarcado_inst_clk_bfm/                            
 SSDNiosSoftwareEmbarcado_inst:                                     ./libraries/SSDNiosSoftwareEmbarcado_inst/                                    

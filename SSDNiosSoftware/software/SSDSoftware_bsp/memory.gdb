@@ -3,7 +3,7 @@
 # Machine generated for CPU 'Processador' in SOPC Builder design 'SSDNiosSoftwareEmbarcado'
 # SOPC Builder design path: ../../SSDNiosSoftwareEmbarcado.sopcinfo
 #
-# Generated: Thu Jun 30 19:56:16 BRT 2022
+# Generated: Mon Jul 04 22:08:27 BRT 2022
 
 # DO NOT MODIFY THIS FILE
 #
@@ -47,13 +47,13 @@
 # by allowing GDB to cache memory contents on the host.
 
 # ImagemA
-memory 0x0 0xe400 cache
-
-# MemoriaPrograma
-memory 0x20000 0x30000 cache
+memory 0x0 0x10000 cache
 
 # ImagemC
-memory 0x30000 0x3e400 cache
+memory 0x20000 0x30000 cache
 
 # ImagemB
-memory 0x40000 0x4e400 cache
+memory 0x30000 0x40000 cache
+
+# MemoriaPrograma
+memory 0x40000 0x50000 cache

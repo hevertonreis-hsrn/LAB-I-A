@@ -12,7 +12,7 @@
 # or its authorized distributors. Please refer to the applicable 
 # agreement for further details.
 
-# ACDS 18.1 625 win32 2022.07.02.17:23:17
+# ACDS 18.1 625 win32 2022.07.04.22:09:11
 
 # ----------------------------------------
 # ncsim - auto-generated simulation script
@@ -106,7 +106,7 @@
 # within the Quartus project, and generate a unified
 # script which supports all the Altera IP within the design.
 # ----------------------------------------
-# ACDS 18.1 625 win32 2022.07.02.17:23:17
+# ACDS 18.1 625 win32 2022.07.04.22:09:11
 # ----------------------------------------
 # initialize variables
 TOP_LEVEL_NAME="SSDNiosSoftwareEmbarcado_tb"
@@ -177,6 +177,7 @@ mkdir -p ./libraries/mm_interconnect_0/
 mkdir -p ./libraries/jtag_uart/
 mkdir -p ./libraries/SaidaImagem/
 mkdir -p ./libraries/Processador/
+mkdir -p ./libraries/PixelFlag/
 mkdir -p ./libraries/MemoriaPrograma/
 mkdir -p ./libraries/MedidorDesempenho/
 mkdir -p ./libraries/ImagemC/
@@ -184,6 +185,7 @@ mkdir -p ./libraries/ImagemB/
 mkdir -p ./libraries/ImagemA/
 mkdir -p ./libraries/SSDNiosSoftwareEmbarcado_inst_saidaimagem_external_connection_bfm/
 mkdir -p ./libraries/SSDNiosSoftwareEmbarcado_inst_reset_bfm/
+mkdir -p ./libraries/SSDNiosSoftwareEmbarcado_inst_pixelflag_external_connection_bfm/
 mkdir -p ./libraries/SSDNiosSoftwareEmbarcado_inst_medidordesempenho_conduit_bfm/
 mkdir -p ./libraries/SSDNiosSoftwareEmbarcado_inst_clk_bfm/
 mkdir -p ./libraries/SSDNiosSoftwareEmbarcado_inst/
@@ -277,14 +279,16 @@ if [ $SKIP_COM -eq 0 ]; then
   ncvlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_jtag_uart.v"                                                -work jtag_uart                                                         -cdslib ./cds_libs/jtag_uart.cds.lib                                                        
   ncvlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_SaidaImagem.v"                                              -work SaidaImagem                                                       -cdslib ./cds_libs/SaidaImagem.cds.lib                                                      
   ncvlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador.v"                                              -work Processador                                                       -cdslib ./cds_libs/Processador.cds.lib                                                      
+  ncvlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_PixelFlag.v"                                                -work PixelFlag                                                         -cdslib ./cds_libs/PixelFlag.cds.lib                                                        
   ncvlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v"                                          -work MemoriaPrograma                                                   -cdslib ./cds_libs/MemoriaPrograma.cds.lib                                                  
   ncvlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/Clock_Counter_Interface.v"                                                           -work MedidorDesempenho                                                 -cdslib ./cds_libs/MedidorDesempenho.cds.lib                                                
   ncvlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/Clock_Counter.v"                                                                     -work MedidorDesempenho                                                 -cdslib ./cds_libs/MedidorDesempenho.cds.lib                                                
   ncvlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v"                                                  -work ImagemC                                                           -cdslib ./cds_libs/ImagemC.cds.lib                                                          
   ncvlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v"                                                  -work ImagemB                                                           -cdslib ./cds_libs/ImagemB.cds.lib                                                          
   ncvlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v"                                                  -work ImagemA                                                           -cdslib ./cds_libs/ImagemA.cds.lib                                                          
-  ncvlog -sv $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_conduit_bfm_0002.sv"                                                          -work SSDNiosSoftwareEmbarcado_inst_saidaimagem_external_connection_bfm -cdslib ./cds_libs/SSDNiosSoftwareEmbarcado_inst_saidaimagem_external_connection_bfm.cds.lib
+  ncvlog -sv $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_conduit_bfm_0003.sv"                                                          -work SSDNiosSoftwareEmbarcado_inst_saidaimagem_external_connection_bfm -cdslib ./cds_libs/SSDNiosSoftwareEmbarcado_inst_saidaimagem_external_connection_bfm.cds.lib
   ncvlog -sv $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_avalon_reset_source.sv"                                                       -work SSDNiosSoftwareEmbarcado_inst_reset_bfm                           -cdslib ./cds_libs/SSDNiosSoftwareEmbarcado_inst_reset_bfm.cds.lib                          
+  ncvlog -sv $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_conduit_bfm_0002.sv"                                                          -work SSDNiosSoftwareEmbarcado_inst_pixelflag_external_connection_bfm   -cdslib ./cds_libs/SSDNiosSoftwareEmbarcado_inst_pixelflag_external_connection_bfm.cds.lib  
   ncvlog -sv $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_conduit_bfm.sv"                                                               -work SSDNiosSoftwareEmbarcado_inst_medidordesempenho_conduit_bfm       -cdslib ./cds_libs/SSDNiosSoftwareEmbarcado_inst_medidordesempenho_conduit_bfm.cds.lib      
   ncvlog -sv $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_avalon_clock_source.sv"                                                       -work SSDNiosSoftwareEmbarcado_inst_clk_bfm                             -cdslib ./cds_libs/SSDNiosSoftwareEmbarcado_inst_clk_bfm.cds.lib                            
   ncvlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado.v"                                                          -work SSDNiosSoftwareEmbarcado_inst                                     -cdslib ./cds_libs/SSDNiosSoftwareEmbarcado_inst.cds.lib                                    

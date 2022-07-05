@@ -4,7 +4,7 @@
  * Machine generated for CPU 'Processador' in SOPC Builder design 'SSDNiosSoftwareEmbarcado'
  * SOPC Builder design path: ../../SSDNiosSoftwareEmbarcado.sopcinfo
  *
- * Generated: Thu Jun 30 19:56:16 BRT 2022
+ * Generated: Mon Jul 04 22:08:27 BRT 2022
  */
 
 /*
@@ -66,14 +66,14 @@
  */
 
 #define IMAGEMA_REGION_BASE 0x0
-#define IMAGEMA_REGION_SPAN 58368
-#define IMAGEMB_REGION_BASE 0x40000
-#define IMAGEMB_REGION_SPAN 58368
-#define IMAGEMC_REGION_BASE 0x30000
-#define IMAGEMC_REGION_SPAN 58368
-#define MEMORIAPROGRAMA_REGION_BASE 0x20020
+#define IMAGEMA_REGION_SPAN 65536
+#define IMAGEMB_REGION_BASE 0x30000
+#define IMAGEMB_REGION_SPAN 65536
+#define IMAGEMC_REGION_BASE 0x20000
+#define IMAGEMC_REGION_SPAN 65536
+#define MEMORIAPROGRAMA_REGION_BASE 0x40020
 #define MEMORIAPROGRAMA_REGION_SPAN 65504
-#define RESET_REGION_BASE 0x20000
+#define RESET_REGION_BASE 0x40000
 #define RESET_REGION_SPAN 32
 
 

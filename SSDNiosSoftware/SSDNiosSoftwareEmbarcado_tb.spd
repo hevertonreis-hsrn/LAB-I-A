@@ -262,6 +262,10 @@
    type="VERILOG"
    library="Processador" />
  <file
+   path="SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_PixelFlag.v"
+   type="VERILOG"
+   library="PixelFlag" />
+ <file
    path="SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.hex"
    type="HEX"
    library="MemoriaPrograma" />
@@ -294,13 +298,17 @@
    type="VERILOG"
    library="ImagemA" />
  <file
-   path="SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_conduit_bfm_0002.sv"
+   path="SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_conduit_bfm_0003.sv"
    type="SYSTEM_VERILOG"
    library="SSDNiosSoftwareEmbarcado_inst_saidaimagem_external_connection_bfm" />
  <file
    path="SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_avalon_reset_source.sv"
    type="SYSTEM_VERILOG"
    library="SSDNiosSoftwareEmbarcado_inst_reset_bfm" />
+ <file
+   path="SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_conduit_bfm_0002.sv"
+   type="SYSTEM_VERILOG"
+   library="SSDNiosSoftwareEmbarcado_inst_pixelflag_external_connection_bfm" />
  <file
    path="SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_conduit_bfm.sv"
    type="SYSTEM_VERILOG"

@@ -13,6 +13,8 @@ Progress: Adding MedidorDesempenho [MedidorDesempenho 1.0]
 Progress: Parameterizing module MedidorDesempenho
 Progress: Adding MemoriaPrograma [altera_avalon_onchip_memory2 18.1]
 Progress: Parameterizing module MemoriaPrograma
+Progress: Adding PixelFlag [altera_avalon_pio 18.1]
+Progress: Parameterizing module PixelFlag
 Progress: Adding Processador [altera_nios2_gen2 18.1]
 Progress: Parameterizing module Processador
 Progress: Adding SaidaImagem [altera_avalon_pio 18.1]
@@ -41,30 +43,30 @@ Info: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/ip/
 Info: Reading index C:\Projetos\Quartus\SSDNiosSoftware\SSDNiosSoftwareEmbarcado\testbench\SSDNiosSoftwareEmbarcado.ipx
 Progress: Loading SSDNiosSoftware/MedidorDesempenho_hw.tcl
 Progress: Loading SSDNiosSoftware/SSDNiosSoftwareEmbarcado.qsys
-Info: C:/Projetos/Quartus/SSDNiosSoftware/* matched 32 files in 0,04 seconds
+Info: C:/Projetos/Quartus/SSDNiosSoftware/* matched 29 files in 0,04 seconds
 Info: C:/Projetos/Quartus/SSDNiosSoftware/ip/**/* matched 0 files in 0,00 seconds
-Info: C:/Projetos/Quartus/SSDNiosSoftware/*/* matched 27 files in 0,00 seconds
-Info: C:\Projetos\Quartus\SSDNiosSoftware\SSDNiosSoftwareEmbarcado\testbench\SSDNiosSoftwareEmbarcado.ipx described 0 plugins, 3 paths, in 0,04 seconds
+Info: C:/Projetos/Quartus/SSDNiosSoftware/*/* matched 27 files in 0,01 seconds
+Info: C:\Projetos\Quartus\SSDNiosSoftware\SSDNiosSoftwareEmbarcado\testbench\SSDNiosSoftwareEmbarcado.ipx described 0 plugins, 3 paths, in 0,05 seconds
 Progress: Loading testbench/SSDNiosSoftwareEmbarcado_tb.qsys
-Info: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/* matched 12 files in 0,05 seconds
+Info: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/* matched 12 files in 0,06 seconds
 Info: C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/*/* matched 11 files in 0,00 seconds
 Info: C:/Users/Heverton Reis/.altera.quartus/ip/18.1/**/* matched 0 files in 0,00 seconds
 Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/$$QUARTUS_IP_PROJECTDIR/* matched 0 files in 0,00 seconds
 Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/$$QUARTUS_IP_USERDIR/* matched 0 files in 0,00 seconds
 Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/$$QUARTUS_IP_GLOBALDIR/* matched 0 files in 0,00 seconds
 Info: Reading index C:\intelfpga_lite\18.1\ip\altera\altera_components.ipx
-Info: C:\intelfpga_lite\18.1\ip\altera\altera_components.ipx described 2035 plugins, 0 paths, in 0,10 seconds
-Info: C:/intelfpga_lite/18.1/ip/**/* matched 139 files in 0,10 seconds
+Info: C:\intelfpga_lite\18.1\ip\altera\altera_components.ipx described 2035 plugins, 0 paths, in 0,24 seconds
+Info: C:/intelfpga_lite/18.1/ip/**/* matched 139 files in 0,25 seconds
 Info: C:/intelfpga_lite/ip/**/* matched 0 files in 0,00 seconds
 Info: Reading index C:\intelfpga_lite\18.1\quartus\sopc_builder\builtin.ipx
 Info: C:\intelfpga_lite\18.1\quartus\sopc_builder\builtin.ipx described 83 plugins, 0 paths, in 0,01 seconds
 Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/**/* matched 8 files in 0,01 seconds
 Info: Reading index C:\intelfpga_lite\18.1\quartus\common\librarian\factories\index.ipx
 Info: C:\intelfpga_lite\18.1\quartus\common\librarian\factories\index.ipx described 151 plugins, 0 paths, in 0,01 seconds
-Info: C:/intelfpga_lite/18.1/quartus/common/librarian/factories/**/* matched 4 files in 0,01 seconds
+Info: C:/intelfpga_lite/18.1/quartus/common/librarian/factories/**/* matched 4 files in 0,02 seconds
 Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/$IP_IPX_PATH matched 1 files in 0,00 seconds
-Info: C:\intelfpga_lite\18.1\quartus\sopc_builder\bin\root_components.ipx described 0 plugins, 13 paths, in 0,18 seconds
-Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/root_components.ipx matched 1 files in 0,18 seconds
+Info: C:\intelfpga_lite\18.1\quartus\sopc_builder\bin\root_components.ipx described 0 plugins, 13 paths, in 0,35 seconds
+Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/root_components.ipx matched 1 files in 0,35 seconds
 Progress: 
 Progress: 
 Progress: 
@@ -82,6 +84,9 @@ Info: get_instance_assignment clock testbench.partner.map.clk_in
 Info: get_interface_property medidordesempenho_conduit EXPORT_OF
 Info: get_instance_property MedidorDesempenho CLASS_NAME
 Info: get_instance_assignment MedidorDesempenho testbench.partner.map.conduit
+Info: get_interface_property pixelflag_external_connection EXPORT_OF
+Info: get_instance_property PixelFlag CLASS_NAME
+Info: get_instance_assignment PixelFlag testbench.partner.map.external_connection
 Info: get_interface_property reset EXPORT_OF
 Info: get_instance_property clock CLASS_NAME
 Info: get_instance_assignment clock testbench.partner.map.clk_in_reset
@@ -96,6 +101,7 @@ Info: set_use_testbench_naming_pattern true SSDNiosSoftwareEmbarcado
 Info: get_instance_interfaces SSDNiosSoftwareEmbarcado_inst
 Info: get_instance_interface_property SSDNiosSoftwareEmbarcado_inst clk CLASS_NAME
 Info: get_instance_interface_property SSDNiosSoftwareEmbarcado_inst medidordesempenho_conduit CLASS_NAME
+Info: get_instance_interface_property SSDNiosSoftwareEmbarcado_inst pixelflag_external_connection CLASS_NAME
 Info: get_instance_interface_property SSDNiosSoftwareEmbarcado_inst reset CLASS_NAME
 Info: get_instance_interface_property SSDNiosSoftwareEmbarcado_inst saidaimagem_external_connection CLASS_NAME
 Info: get_instance_interface_property SSDNiosSoftwareEmbarcado_inst clk CLASS_NAME
@@ -184,6 +190,28 @@ Info: get_instance_interface_property SSDNiosSoftwareEmbarcado_inst_medidordesem
 Info: get_instance_interface_property SSDNiosSoftwareEmbarcado_inst_medidordesempenho_conduit_bfm conduit CLASS_NAME
 Info: get_instance_interface_property SSDNiosSoftwareEmbarcado_inst_medidordesempenho_conduit_bfm reset CLASS_NAME
 Info: add_connection SSDNiosSoftwareEmbarcado_inst_medidordesempenho_conduit_bfm.conduit SSDNiosSoftwareEmbarcado_inst.medidordesempenho_conduit
+Info: get_instance_interface_property SSDNiosSoftwareEmbarcado_inst pixelflag_external_connection CLASS_NAME
+Info: send_message Info TB_Gen: conduit_end found: pixelflag_external_connection
+Info: TB_Gen: conduit_end found: pixelflag_external_connection
+Info: get_instance_interface_property SSDNiosSoftwareEmbarcado_inst pixelflag_external_connection CLASS_NAME
+Info: add_instance SSDNiosSoftwareEmbarcado_inst_pixelflag_external_connection_bfm altera_conduit_bfm 
+Info: get_instance_property SSDNiosSoftwareEmbarcado_inst_pixelflag_external_connection_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value SSDNiosSoftwareEmbarcado_inst pixelflag_external_connection associatedClock
+Info: get_instance_interface_parameter_value SSDNiosSoftwareEmbarcado_inst pixelflag_external_connection associatedReset
+Info: get_instance_interface_ports SSDNiosSoftwareEmbarcado_inst pixelflag_external_connection
+Info: get_instance_interface_port_property SSDNiosSoftwareEmbarcado_inst pixelflag_external_connection pixelflag_external_connection_export ROLE
+Info: get_instance_interface_port_property SSDNiosSoftwareEmbarcado_inst pixelflag_external_connection pixelflag_external_connection_export WIDTH
+Info: get_instance_interface_port_property SSDNiosSoftwareEmbarcado_inst pixelflag_external_connection pixelflag_external_connection_export DIRECTION
+Info: set_instance_parameter_value SSDNiosSoftwareEmbarcado_inst_pixelflag_external_connection_bfm CLOCKED_SIGNAL 0
+Info: set_instance_parameter_value SSDNiosSoftwareEmbarcado_inst_pixelflag_external_connection_bfm ENABLE_RESET 0
+Info: set_instance_parameter_value SSDNiosSoftwareEmbarcado_inst_pixelflag_external_connection_bfm SIGNAL_ROLES export
+Info: set_instance_parameter_value SSDNiosSoftwareEmbarcado_inst_pixelflag_external_connection_bfm SIGNAL_WIDTHS 1
+Info: set_instance_parameter_value SSDNiosSoftwareEmbarcado_inst_pixelflag_external_connection_bfm SIGNAL_DIRECTIONS input
+Info: get_instance_property SSDNiosSoftwareEmbarcado_inst_pixelflag_external_connection_bfm CLASS_NAME
+Info: get_instance_interface_property SSDNiosSoftwareEmbarcado_inst pixelflag_external_connection CLASS_NAME
+Info: get_instance_interfaces SSDNiosSoftwareEmbarcado_inst_pixelflag_external_connection_bfm
+Info: get_instance_interface_property SSDNiosSoftwareEmbarcado_inst_pixelflag_external_connection_bfm conduit CLASS_NAME
+Info: add_connection SSDNiosSoftwareEmbarcado_inst_pixelflag_external_connection_bfm.conduit SSDNiosSoftwareEmbarcado_inst.pixelflag_external_connection
 Info: get_instance_interface_property SSDNiosSoftwareEmbarcado_inst saidaimagem_external_connection CLASS_NAME
 Info: send_message Info TB_Gen: conduit_end found: saidaimagem_external_connection
 Info: TB_Gen: conduit_end found: saidaimagem_external_connection
@@ -222,6 +250,8 @@ Progress: Adding SSDNiosSoftwareEmbarcado_inst_clk_bfm [altera_avalon_clock_sour
 Progress: Parameterizing module SSDNiosSoftwareEmbarcado_inst_clk_bfm
 Progress: Adding SSDNiosSoftwareEmbarcado_inst_medidordesempenho_conduit_bfm [altera_conduit_bfm 18.1]
 Progress: Parameterizing module SSDNiosSoftwareEmbarcado_inst_medidordesempenho_conduit_bfm
+Progress: Adding SSDNiosSoftwareEmbarcado_inst_pixelflag_external_connection_bfm [altera_conduit_bfm 18.1]
+Progress: Parameterizing module SSDNiosSoftwareEmbarcado_inst_pixelflag_external_connection_bfm
 Progress: Adding SSDNiosSoftwareEmbarcado_inst_reset_bfm [altera_avalon_reset_source 18.1]
 Progress: Parameterizing module SSDNiosSoftwareEmbarcado_inst_reset_bfm
 Progress: Adding SSDNiosSoftwareEmbarcado_inst_saidaimagem_external_connection_bfm [altera_conduit_bfm 18.1]
@@ -243,34 +273,40 @@ Info: SSDNiosSoftwareEmbarcado_inst: "SSDNiosSoftwareEmbarcado_tb" instantiated 
 Info: SSDNiosSoftwareEmbarcado_inst_clk_bfm: "SSDNiosSoftwareEmbarcado_tb" instantiated altera_avalon_clock_source "SSDNiosSoftwareEmbarcado_inst_clk_bfm"
 Info: SSDNiosSoftwareEmbarcado_inst_medidordesempenho_conduit_bfm: "SSDNiosSoftwareEmbarcado_tb" instantiated altera_conduit_bfm "SSDNiosSoftwareEmbarcado_inst_medidordesempenho_conduit_bfm"
 Info: Reusing file C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/verbosity_pkg.sv
+Info: SSDNiosSoftwareEmbarcado_inst_pixelflag_external_connection_bfm: "SSDNiosSoftwareEmbarcado_tb" instantiated altera_conduit_bfm "SSDNiosSoftwareEmbarcado_inst_pixelflag_external_connection_bfm"
+Info: Reusing file C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/verbosity_pkg.sv
 Info: SSDNiosSoftwareEmbarcado_inst_reset_bfm: "SSDNiosSoftwareEmbarcado_tb" instantiated altera_avalon_reset_source "SSDNiosSoftwareEmbarcado_inst_reset_bfm"
 Info: Reusing file C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/verbosity_pkg.sv
 Info: SSDNiosSoftwareEmbarcado_inst_saidaimagem_external_connection_bfm: "SSDNiosSoftwareEmbarcado_tb" instantiated altera_conduit_bfm "SSDNiosSoftwareEmbarcado_inst_saidaimagem_external_connection_bfm"
 Info: Reusing file C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/verbosity_pkg.sv
 Info: ImagemA: Starting RTL generation for module 'SSDNiosSoftwareEmbarcado_ImagemA'
-Info: ImagemA:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=SSDNiosSoftwareEmbarcado_ImagemA --dir=C:/Users/HEVERT~1/AppData/Local/Temp/alt9172_1017345521003792256.dir/0104_ImagemA_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/HEVERT~1/AppData/Local/Temp/alt9172_1017345521003792256.dir/0104_ImagemA_gen//SSDNiosSoftwareEmbarcado_ImagemA_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/HEVERT~1/AppData/Local/Temp/alt9172_1017345521003792256.dir/0104_ImagemA_gen/  ]
+Info: ImagemA:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=SSDNiosSoftwareEmbarcado_ImagemA --dir=C:/Users/HEVERT~1/AppData/Local/Temp/alt9178_8815861971404709911.dir/0007_ImagemA_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/HEVERT~1/AppData/Local/Temp/alt9178_8815861971404709911.dir/0007_ImagemA_gen//SSDNiosSoftwareEmbarcado_ImagemA_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/HEVERT~1/AppData/Local/Temp/alt9178_8815861971404709911.dir/0007_ImagemA_gen/  ]
 Info: ImagemA: Done RTL generation for module 'SSDNiosSoftwareEmbarcado_ImagemA'
 Info: ImagemA: "SSDNiosSoftwareEmbarcado_inst" instantiated altera_avalon_onchip_memory2 "ImagemA"
 Info: ImagemB: Starting RTL generation for module 'SSDNiosSoftwareEmbarcado_ImagemB'
-Info: ImagemB:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=SSDNiosSoftwareEmbarcado_ImagemB --dir=C:/Users/HEVERT~1/AppData/Local/Temp/alt9172_1017345521003792256.dir/0105_ImagemB_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/HEVERT~1/AppData/Local/Temp/alt9172_1017345521003792256.dir/0105_ImagemB_gen//SSDNiosSoftwareEmbarcado_ImagemB_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/HEVERT~1/AppData/Local/Temp/alt9172_1017345521003792256.dir/0105_ImagemB_gen/  ]
+Info: ImagemB:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=SSDNiosSoftwareEmbarcado_ImagemB --dir=C:/Users/HEVERT~1/AppData/Local/Temp/alt9178_8815861971404709911.dir/0008_ImagemB_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/HEVERT~1/AppData/Local/Temp/alt9178_8815861971404709911.dir/0008_ImagemB_gen//SSDNiosSoftwareEmbarcado_ImagemB_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/HEVERT~1/AppData/Local/Temp/alt9178_8815861971404709911.dir/0008_ImagemB_gen/  ]
 Info: ImagemB: Done RTL generation for module 'SSDNiosSoftwareEmbarcado_ImagemB'
 Info: ImagemB: "SSDNiosSoftwareEmbarcado_inst" instantiated altera_avalon_onchip_memory2 "ImagemB"
 Info: ImagemC: Starting RTL generation for module 'SSDNiosSoftwareEmbarcado_ImagemC'
-Info: ImagemC:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=SSDNiosSoftwareEmbarcado_ImagemC --dir=C:/Users/HEVERT~1/AppData/Local/Temp/alt9172_1017345521003792256.dir/0106_ImagemC_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/HEVERT~1/AppData/Local/Temp/alt9172_1017345521003792256.dir/0106_ImagemC_gen//SSDNiosSoftwareEmbarcado_ImagemC_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/HEVERT~1/AppData/Local/Temp/alt9172_1017345521003792256.dir/0106_ImagemC_gen/  ]
+Info: ImagemC:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=SSDNiosSoftwareEmbarcado_ImagemC --dir=C:/Users/HEVERT~1/AppData/Local/Temp/alt9178_8815861971404709911.dir/0009_ImagemC_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/HEVERT~1/AppData/Local/Temp/alt9178_8815861971404709911.dir/0009_ImagemC_gen//SSDNiosSoftwareEmbarcado_ImagemC_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/HEVERT~1/AppData/Local/Temp/alt9178_8815861971404709911.dir/0009_ImagemC_gen/  ]
 Info: ImagemC: Done RTL generation for module 'SSDNiosSoftwareEmbarcado_ImagemC'
 Info: ImagemC: "SSDNiosSoftwareEmbarcado_inst" instantiated altera_avalon_onchip_memory2 "ImagemC"
 Info: MedidorDesempenho: "SSDNiosSoftwareEmbarcado_inst" instantiated MedidorDesempenho "MedidorDesempenho"
 Info: MemoriaPrograma: Starting RTL generation for module 'SSDNiosSoftwareEmbarcado_MemoriaPrograma'
-Info: MemoriaPrograma:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=SSDNiosSoftwareEmbarcado_MemoriaPrograma --dir=C:/Users/HEVERT~1/AppData/Local/Temp/alt9172_1017345521003792256.dir/0108_MemoriaPrograma_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/HEVERT~1/AppData/Local/Temp/alt9172_1017345521003792256.dir/0108_MemoriaPrograma_gen//SSDNiosSoftwareEmbarcado_MemoriaPrograma_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/HEVERT~1/AppData/Local/Temp/alt9172_1017345521003792256.dir/0108_MemoriaPrograma_gen/  ]
+Info: MemoriaPrograma:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=SSDNiosSoftwareEmbarcado_MemoriaPrograma --dir=C:/Users/HEVERT~1/AppData/Local/Temp/alt9178_8815861971404709911.dir/0011_MemoriaPrograma_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/HEVERT~1/AppData/Local/Temp/alt9178_8815861971404709911.dir/0011_MemoriaPrograma_gen//SSDNiosSoftwareEmbarcado_MemoriaPrograma_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/HEVERT~1/AppData/Local/Temp/alt9178_8815861971404709911.dir/0011_MemoriaPrograma_gen/  ]
 Info: MemoriaPrograma: Done RTL generation for module 'SSDNiosSoftwareEmbarcado_MemoriaPrograma'
 Info: MemoriaPrograma: "SSDNiosSoftwareEmbarcado_inst" instantiated altera_avalon_onchip_memory2 "MemoriaPrograma"
+Info: PixelFlag: Starting RTL generation for module 'SSDNiosSoftwareEmbarcado_PixelFlag'
+Info: PixelFlag:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=SSDNiosSoftwareEmbarcado_PixelFlag --dir=C:/Users/HEVERT~1/AppData/Local/Temp/alt9178_8815861971404709911.dir/0012_PixelFlag_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/HEVERT~1/AppData/Local/Temp/alt9178_8815861971404709911.dir/0012_PixelFlag_gen//SSDNiosSoftwareEmbarcado_PixelFlag_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/HEVERT~1/AppData/Local/Temp/alt9178_8815861971404709911.dir/0012_PixelFlag_gen/  ]
+Info: PixelFlag: Done RTL generation for module 'SSDNiosSoftwareEmbarcado_PixelFlag'
+Info: PixelFlag: "SSDNiosSoftwareEmbarcado_inst" instantiated altera_avalon_pio "PixelFlag"
 Info: Processador: "SSDNiosSoftwareEmbarcado_inst" instantiated altera_nios2_gen2 "Processador"
 Info: SaidaImagem: Starting RTL generation for module 'SSDNiosSoftwareEmbarcado_SaidaImagem'
-Info: SaidaImagem:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=SSDNiosSoftwareEmbarcado_SaidaImagem --dir=C:/Users/HEVERT~1/AppData/Local/Temp/alt9172_1017345521003792256.dir/0109_SaidaImagem_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/HEVERT~1/AppData/Local/Temp/alt9172_1017345521003792256.dir/0109_SaidaImagem_gen//SSDNiosSoftwareEmbarcado_SaidaImagem_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/HEVERT~1/AppData/Local/Temp/alt9172_1017345521003792256.dir/0109_SaidaImagem_gen/  ]
+Info: SaidaImagem:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=SSDNiosSoftwareEmbarcado_SaidaImagem --dir=C:/Users/HEVERT~1/AppData/Local/Temp/alt9178_8815861971404709911.dir/0013_SaidaImagem_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/HEVERT~1/AppData/Local/Temp/alt9178_8815861971404709911.dir/0013_SaidaImagem_gen//SSDNiosSoftwareEmbarcado_SaidaImagem_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/HEVERT~1/AppData/Local/Temp/alt9178_8815861971404709911.dir/0013_SaidaImagem_gen/  ]
 Info: SaidaImagem: Done RTL generation for module 'SSDNiosSoftwareEmbarcado_SaidaImagem'
 Info: SaidaImagem: "SSDNiosSoftwareEmbarcado_inst" instantiated altera_avalon_pio "SaidaImagem"
 Info: jtag_uart: Starting RTL generation for module 'SSDNiosSoftwareEmbarcado_jtag_uart'
-Info: jtag_uart:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=SSDNiosSoftwareEmbarcado_jtag_uart --dir=C:/Users/HEVERT~1/AppData/Local/Temp/alt9172_1017345521003792256.dir/0110_jtag_uart_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/HEVERT~1/AppData/Local/Temp/alt9172_1017345521003792256.dir/0110_jtag_uart_gen//SSDNiosSoftwareEmbarcado_jtag_uart_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/HEVERT~1/AppData/Local/Temp/alt9172_1017345521003792256.dir/0110_jtag_uart_gen/  ]
+Info: jtag_uart:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=SSDNiosSoftwareEmbarcado_jtag_uart --dir=C:/Users/HEVERT~1/AppData/Local/Temp/alt9178_8815861971404709911.dir/0014_jtag_uart_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/HEVERT~1/AppData/Local/Temp/alt9178_8815861971404709911.dir/0014_jtag_uart_gen//SSDNiosSoftwareEmbarcado_jtag_uart_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/HEVERT~1/AppData/Local/Temp/alt9178_8815861971404709911.dir/0014_jtag_uart_gen/  ]
 Info: jtag_uart: Done RTL generation for module 'SSDNiosSoftwareEmbarcado_jtag_uart'
 Info: jtag_uart: "SSDNiosSoftwareEmbarcado_inst" instantiated altera_avalon_jtag_uart "jtag_uart"
 Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
@@ -282,24 +318,25 @@ Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
 Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
 Info: avalon_st_adapter_007: Inserting error_adapter: error_adapter_0
 Info: avalon_st_adapter_008: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_009: Inserting error_adapter: error_adapter_0
 Info: mm_interconnect_0: "SSDNiosSoftwareEmbarcado_inst" instantiated altera_mm_interconnect "mm_interconnect_0"
 Info: irq_mapper: "SSDNiosSoftwareEmbarcado_inst" instantiated altera_irq_mapper "irq_mapper"
 Info: rst_controller: "SSDNiosSoftwareEmbarcado_inst" instantiated altera_reset_controller "rst_controller"
 Info: cpu: Starting RTL generation for module 'SSDNiosSoftwareEmbarcado_Processador_cpu'
-Info: cpu:   Generation command is [exec C:/intelFPGA_lite/18.1/quartus/bin64//eperlcmd.exe -I C:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=SSDNiosSoftwareEmbarcado_Processador_cpu --dir=C:/Users/HEVERT~1/AppData/Local/Temp/alt9172_1017345521003792256.dir/0113_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/18.1/quartus/bin64/ --verilog --config=C:/Users/HEVERT~1/AppData/Local/Temp/alt9172_1017345521003792256.dir/0113_cpu_gen//SSDNiosSoftwareEmbarcado_Processador_cpu_processor_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/HEVERT~1/AppData/Local/Temp/alt9172_1017345521003792256.dir/0113_cpu_gen/  ]
-Info: cpu: # 2022.06.29 21:54:46 (*) Starting Nios II generation
-Info: cpu: # 2022.06.29 21:54:46 (*)   Checking for plaintext license.
-Info: cpu: # 2022.06.29 21:54:47 (*)   Couldn't query license setup in Quartus directory C:/intelFPGA_lite/18.1/quartus/bin64/
-Info: cpu: # 2022.06.29 21:54:47 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
-Info: cpu: # 2022.06.29 21:54:47 (*)   LM_LICENSE_FILE environment variable is empty
-Info: cpu: # 2022.06.29 21:54:47 (*)   Plaintext license not found.
-Info: cpu: # 2022.06.29 21:54:47 (*)   No license required to generate encrypted Nios II/e.
-Info: cpu: # 2022.06.29 21:54:47 (*)   Elaborating CPU configuration settings
-Info: cpu: # 2022.06.29 21:54:47 (*)   Creating all objects for CPU
-Info: cpu: # 2022.06.29 21:54:48 (*)   Creating 'C:/Users/HEVERT~1/AppData/Local/Temp/alt9172_1017345521003792256.dir/0113_cpu_gen//SSDNiosSoftwareEmbarcado_Processador_cpu_nios2_waves.do'
-Info: cpu: # 2022.06.29 21:54:48 (*)   Generating RTL from CPU objects
-Info: cpu: # 2022.06.29 21:54:48 (*)   Creating plain-text RTL
-Info: cpu: # 2022.06.29 21:54:49 (*) Done Nios II generation
+Info: cpu:   Generation command is [exec C:/intelFPGA_lite/18.1/quartus/bin64//eperlcmd.exe -I C:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=SSDNiosSoftwareEmbarcado_Processador_cpu --dir=C:/Users/HEVERT~1/AppData/Local/Temp/alt9178_8815861971404709911.dir/0017_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/18.1/quartus/bin64/ --verilog --config=C:/Users/HEVERT~1/AppData/Local/Temp/alt9178_8815861971404709911.dir/0017_cpu_gen//SSDNiosSoftwareEmbarcado_Processador_cpu_processor_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/HEVERT~1/AppData/Local/Temp/alt9178_8815861971404709911.dir/0017_cpu_gen/  ]
+Info: cpu: # 2022.07.04 21:45:32 (*) Starting Nios II generation
+Info: cpu: # 2022.07.04 21:45:32 (*)   Checking for plaintext license.
+Info: cpu: # 2022.07.04 21:45:33 (*)   Couldn't query license setup in Quartus directory C:/intelFPGA_lite/18.1/quartus/bin64/
+Info: cpu: # 2022.07.04 21:45:33 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2022.07.04 21:45:33 (*)   LM_LICENSE_FILE environment variable is empty
+Info: cpu: # 2022.07.04 21:45:33 (*)   Plaintext license not found.
+Info: cpu: # 2022.07.04 21:45:33 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2022.07.04 21:45:33 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2022.07.04 21:45:33 (*)   Creating all objects for CPU
+Info: cpu: # 2022.07.04 21:45:34 (*)   Creating 'C:/Users/HEVERT~1/AppData/Local/Temp/alt9178_8815861971404709911.dir/0017_cpu_gen//SSDNiosSoftwareEmbarcado_Processador_cpu_nios2_waves.do'
+Info: cpu: # 2022.07.04 21:45:34 (*)   Generating RTL from CPU objects
+Info: cpu: # 2022.07.04 21:45:34 (*)   Creating plain-text RTL
+Info: cpu: # 2022.07.04 21:45:35 (*) Done Nios II generation
 Info: cpu: Done RTL generation for module 'SSDNiosSoftwareEmbarcado_Processador_cpu'
 Info: cpu: "Processador" instantiated altera_nios2_gen2_unit "cpu"
 Info: Processador_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "Processador_data_master_translator"
@@ -311,8 +348,9 @@ Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
 Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
 Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
 Info: router_005: "mm_interconnect_0" instantiated altera_merlin_router "router_005"
+Info: router_006: "mm_interconnect_0" instantiated altera_merlin_router "router_006"
 Info: router_007: "mm_interconnect_0" instantiated altera_merlin_router "router_007"
-Info: ImagemA_s1_burst_adapter: "mm_interconnect_0" instantiated altera_merlin_burst_adapter "ImagemA_s1_burst_adapter"
+Info: MemoriaPrograma_s1_burst_adapter: "mm_interconnect_0" instantiated altera_merlin_burst_adapter "MemoriaPrograma_s1_burst_adapter"
 Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
 Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
 Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
@@ -323,14 +361,14 @@ Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_m
 Info: Reusing file C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_arbitrator.sv
 Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
 Info: Reusing file C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_arbitrator.sv
-Info: ImagemA_s1_rsp_width_adapter: "mm_interconnect_0" instantiated altera_merlin_width_adapter "ImagemA_s1_rsp_width_adapter"
+Info: MemoriaPrograma_s1_rsp_width_adapter: "mm_interconnect_0" instantiated altera_merlin_width_adapter "MemoriaPrograma_s1_rsp_width_adapter"
 Info: Reusing file C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_address_alignment.sv
 Info: Reusing file C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_merlin_burst_uncompressor.sv
 Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
-Info: avalon_st_adapter_005: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter_005"
+Info: avalon_st_adapter_004: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter_004"
 Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
-Info: error_adapter_0: "avalon_st_adapter_005" instantiated error_adapter "error_adapter_0"
-Info: SSDNiosSoftwareEmbarcado_tb: Done "SSDNiosSoftwareEmbarcado_tb" with 41 modules, 73 files
+Info: error_adapter_0: "avalon_st_adapter_004" instantiated error_adapter "error_adapter_0"
+Info: SSDNiosSoftwareEmbarcado_tb: Done "SSDNiosSoftwareEmbarcado_tb" with 44 modules, 76 files
 Info: qsys-generate succeeded.
 Info: sim-script-gen --spd=C:\Projetos\Quartus\SSDNiosSoftware\SSDNiosSoftwareEmbarcado_tb.spd --output-directory=C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/ --use-relative-paths=true
 Info: Doing: ip-make-simscript --spd=C:\Projetos\Quartus\SSDNiosSoftware\SSDNiosSoftwareEmbarcado_tb.spd --output-directory=C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/ --use-relative-paths=true
@@ -345,7 +383,7 @@ Info: Generating the following file(s) for NCSIM simulator in C:/Projetos/Quartu
 Info: 	cadence/cds.lib
 Info: 	cadence/hdl.var
 Info: 	cadence/ncsim_setup.sh
-Info: 	40 .cds.lib files in cadence/cds_libs/ directory
+Info: 	43 .cds.lib files in cadence/cds_libs/ directory
 Info: Generating the following file(s) for RIVIERA simulator in C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/ directory:
 Info: 	aldec/rivierapro_setup.tcl
 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/.

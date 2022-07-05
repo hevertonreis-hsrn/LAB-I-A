@@ -1,12 +1,13 @@
 //Enderecos de Memoria
 #define IMG_A (int *) 0x00000
-#define IMG_B (int *) 0x40000
-#define IMG_C (int *) 0x30000
+#define IMG_B (int *) 0x30000
+#define IMG_C (int *) 0x20000
 
-#define MEDIDOR_LEITURA (int *) 0x51018
-#define MEDIDOR_ESCRITA (int *) 0x5101c
+#define MEDIDOR_LEITURA (int *) 0x51028
+#define MEDIDOR_ESCRITA (int *) 0x5102c
 
-#define SAIDA_IMAGEM (int *) 0x51000
+#define SAIDA_IMAGEM (int *) 0x51010
+#define PIXEL_FLAG (int *) 0x51000
 
 #define DATA_SIZE 57600
 
@@ -30,9 +31,12 @@ int main()
 	*MEDIDOR_ESCRITA = 2;
 
 	//Exportando Imagem
+	*PIXEL_FLAG = 0;
 	for (int i = 0; i < DATA_SIZE; i++)
 	{
 		*SAIDA_IMAGEM = imgC[i];
+		*PIXEL_FLAG = 1;
+		*PIXEL_FLAG = 0;
 	}
 
 	//Parte hardware

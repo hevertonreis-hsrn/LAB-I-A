@@ -40,6 +40,7 @@ DEFINE mm_interconnect_0                                                 ./libra
 DEFINE jtag_uart                                                         ./libraries/jtag_uart/                                                        
 DEFINE SaidaImagem                                                       ./libraries/SaidaImagem/                                                      
 DEFINE Processador                                                       ./libraries/Processador/                                                      
+DEFINE PixelFlag                                                         ./libraries/PixelFlag/                                                        
 DEFINE MemoriaPrograma                                                   ./libraries/MemoriaPrograma/                                                  
 DEFINE MedidorDesempenho                                                 ./libraries/MedidorDesempenho/                                                
 DEFINE ImagemC                                                           ./libraries/ImagemC/                                                          
@@ -47,6 +48,7 @@ DEFINE ImagemB                                                           ./libra
 DEFINE ImagemA                                                           ./libraries/ImagemA/                                                          
 DEFINE SSDNiosSoftwareEmbarcado_inst_saidaimagem_external_connection_bfm ./libraries/SSDNiosSoftwareEmbarcado_inst_saidaimagem_external_connection_bfm/
 DEFINE SSDNiosSoftwareEmbarcado_inst_reset_bfm                           ./libraries/SSDNiosSoftwareEmbarcado_inst_reset_bfm/                          
+DEFINE SSDNiosSoftwareEmbarcado_inst_pixelflag_external_connection_bfm   ./libraries/SSDNiosSoftwareEmbarcado_inst_pixelflag_external_connection_bfm/  
 DEFINE SSDNiosSoftwareEmbarcado_inst_medidordesempenho_conduit_bfm       ./libraries/SSDNiosSoftwareEmbarcado_inst_medidordesempenho_conduit_bfm/      
 DEFINE SSDNiosSoftwareEmbarcado_inst_clk_bfm                             ./libraries/SSDNiosSoftwareEmbarcado_inst_clk_bfm/                            
 DEFINE SSDNiosSoftwareEmbarcado_inst                                     ./libraries/SSDNiosSoftwareEmbarcado_inst/                                    

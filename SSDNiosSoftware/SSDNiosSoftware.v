@@ -14,18 +14,20 @@
 
 // PROGRAM		"Quartus Prime"
 // VERSION		"Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition"
-// CREATED		"Sat Jul 02 17:18:39 2022"
+// CREATED		"Mon Jul 04 22:08:01 2022"
 
 module SSDNiosSoftware(
 	CLOCK_50,
 	KEY,
-	GPIO
+	GPIO,
+	LEDR
 );
 
 
 input wire	CLOCK_50;
 input wire	[0:0] KEY;
 output wire	[7:0] GPIO;
+output wire	[0:0] LEDR;
 
 
 
@@ -35,6 +37,7 @@ output wire	[7:0] GPIO;
 SSDNiosSoftwareEmbarcado	b2v_inst(
 	.clk_clk(CLOCK_50),
 	.reset_reset_n(KEY),
+	.pixelflag_external_connection_export(LEDR),
 	
 	.saidaimagem_external_connection_export(GPIO));
 

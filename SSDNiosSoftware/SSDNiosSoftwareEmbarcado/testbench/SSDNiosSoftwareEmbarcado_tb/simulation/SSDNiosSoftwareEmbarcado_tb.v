@@ -8,12 +8,14 @@ module SSDNiosSoftwareEmbarcado_tb (
 
 	wire         ssdniossoftwareembarcado_inst_clk_bfm_clk_clk;                        // SSDNiosSoftwareEmbarcado_inst_clk_bfm:clk -> [SSDNiosSoftwareEmbarcado_inst:clk_clk, SSDNiosSoftwareEmbarcado_inst_medidordesempenho_conduit_bfm:clk, SSDNiosSoftwareEmbarcado_inst_reset_bfm:clk]
 	wire  [31:0] ssdniossoftwareembarcado_inst_medidordesempenho_conduit_readdata;     // SSDNiosSoftwareEmbarcado_inst:medidordesempenho_conduit_readdata -> SSDNiosSoftwareEmbarcado_inst_medidordesempenho_conduit_bfm:sig_readdata
+	wire         ssdniossoftwareembarcado_inst_pixelflag_external_connection_export;   // SSDNiosSoftwareEmbarcado_inst:pixelflag_external_connection_export -> SSDNiosSoftwareEmbarcado_inst_pixelflag_external_connection_bfm:sig_export
 	wire   [7:0] ssdniossoftwareembarcado_inst_saidaimagem_external_connection_export; // SSDNiosSoftwareEmbarcado_inst:saidaimagem_external_connection_export -> SSDNiosSoftwareEmbarcado_inst_saidaimagem_external_connection_bfm:sig_export
 	wire         ssdniossoftwareembarcado_inst_reset_bfm_reset_reset;                  // SSDNiosSoftwareEmbarcado_inst_reset_bfm:reset -> [SSDNiosSoftwareEmbarcado_inst:reset_reset_n, SSDNiosSoftwareEmbarcado_inst_medidordesempenho_conduit_bfm:reset]
 
 	SSDNiosSoftwareEmbarcado ssdniossoftwareembarcado_inst (
 		.clk_clk                                (ssdniossoftwareembarcado_inst_clk_bfm_clk_clk),                        //                             clk.clk
 		.medidordesempenho_conduit_readdata     (ssdniossoftwareembarcado_inst_medidordesempenho_conduit_readdata),     //       medidordesempenho_conduit.readdata
+		.pixelflag_external_connection_export   (ssdniossoftwareembarcado_inst_pixelflag_external_connection_export),   //   pixelflag_external_connection.export
 		.reset_reset_n                          (ssdniossoftwareembarcado_inst_reset_bfm_reset_reset),                  //                           reset.reset_n
 		.saidaimagem_external_connection_export (ssdniossoftwareembarcado_inst_saidaimagem_external_connection_export)  // saidaimagem_external_connection.export
 	);
@@ -31,6 +33,10 @@ module SSDNiosSoftwareEmbarcado_tb (
 		.sig_readdata (ssdniossoftwareembarcado_inst_medidordesempenho_conduit_readdata)  // conduit.readdata
 	);
 
+	altera_conduit_bfm_0002 ssdniossoftwareembarcado_inst_pixelflag_external_connection_bfm (
+		.sig_export (ssdniossoftwareembarcado_inst_pixelflag_external_connection_export)  // conduit.export
+	);
+
 	altera_avalon_reset_source #(
 		.ASSERT_HIGH_RESET    (0),
 		.INITIAL_RESET_CYCLES (50)
@@ -39,7 +45,7 @@ module SSDNiosSoftwareEmbarcado_tb (
 		.clk   (ssdniossoftwareembarcado_inst_clk_bfm_clk_clk)        //   clk.clk
 	);
 
-	altera_conduit_bfm_0002 ssdniossoftwareembarcado_inst_saidaimagem_external_connection_bfm (
+	altera_conduit_bfm_0003 ssdniossoftwareembarcado_inst_saidaimagem_external_connection_bfm (
 		.sig_export (ssdniossoftwareembarcado_inst_saidaimagem_external_connection_export)  // conduit.export
 	);
 

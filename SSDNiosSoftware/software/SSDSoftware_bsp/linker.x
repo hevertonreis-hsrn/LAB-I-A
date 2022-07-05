@@ -4,7 +4,7 @@
  * Machine generated for CPU 'Processador' in SOPC Builder design 'SSDNiosSoftwareEmbarcado'
  * SOPC Builder design path: ../../SSDNiosSoftwareEmbarcado.sopcinfo
  *
- * Generated: Thu Jun 30 19:56:16 BRT 2022
+ * Generated: Mon Jul 04 22:08:27 BRT 2022
  */
 
 /*
@@ -50,18 +50,18 @@
 
 MEMORY
 {
-    ImagemA : ORIGIN = 0x0, LENGTH = 58368
-    reset : ORIGIN = 0x20000, LENGTH = 32
-    MemoriaPrograma : ORIGIN = 0x20020, LENGTH = 65504
-    ImagemC : ORIGIN = 0x30000, LENGTH = 58368
-    ImagemB : ORIGIN = 0x40000, LENGTH = 58368
+    ImagemA : ORIGIN = 0x0, LENGTH = 65536
+    ImagemC : ORIGIN = 0x20000, LENGTH = 65536
+    ImagemB : ORIGIN = 0x30000, LENGTH = 65536
+    reset : ORIGIN = 0x40000, LENGTH = 32
+    MemoriaPrograma : ORIGIN = 0x40020, LENGTH = 65504
 }
 
 /* Define symbols for each memory base-address */
 __alt_mem_ImagemA = 0x0;
-__alt_mem_MemoriaPrograma = 0x20000;
-__alt_mem_ImagemC = 0x30000;
-__alt_mem_ImagemB = 0x40000;
+__alt_mem_ImagemC = 0x20000;
+__alt_mem_ImagemB = 0x30000;
+__alt_mem_MemoriaPrograma = 0x40000;
 
 OUTPUT_FORMAT( "elf32-littlenios2",
                "elf32-littlenios2",
@@ -330,27 +330,7 @@ SECTIONS
      *
      */
 
-    .MemoriaPrograma LOADADDR (.ImagemA) + SIZEOF (.ImagemA) : AT ( LOADADDR (.ImagemA) + SIZEOF (.ImagemA) )
-    {
-        PROVIDE (_alt_partition_MemoriaPrograma_start = ABSOLUTE(.));
-        *(.MemoriaPrograma .MemoriaPrograma. MemoriaPrograma.*)
-        . = ALIGN(4);
-        PROVIDE (_alt_partition_MemoriaPrograma_end = ABSOLUTE(.));
-        _end = ABSOLUTE(.);
-        end = ABSOLUTE(.);
-        __alt_stack_base = ABSOLUTE(.);
-    } > MemoriaPrograma
-
-    PROVIDE (_alt_partition_MemoriaPrograma_load_addr = LOADADDR(.MemoriaPrograma));
-
-    /*
-     *
-     * This section's LMA is set to the .text region.
-     * crt0 will copy to this section's specified mapped region virtual memory address (VMA)
-     *
-     */
-
-    .ImagemC : AT ( LOADADDR (.MemoriaPrograma) + SIZEOF (.MemoriaPrograma) )
+    .ImagemC : AT ( LOADADDR (.ImagemA) + SIZEOF (.ImagemA) )
     {
         PROVIDE (_alt_partition_ImagemC_start = ABSOLUTE(.));
         *(.ImagemC .ImagemC. ImagemC.*)
@@ -376,6 +356,26 @@ SECTIONS
     } > ImagemB
 
     PROVIDE (_alt_partition_ImagemB_load_addr = LOADADDR(.ImagemB));
+
+    /*
+     *
+     * This section's LMA is set to the .text region.
+     * crt0 will copy to this section's specified mapped region virtual memory address (VMA)
+     *
+     */
+
+    .MemoriaPrograma LOADADDR (.ImagemB) + SIZEOF (.ImagemB) : AT ( LOADADDR (.ImagemB) + SIZEOF (.ImagemB) )
+    {
+        PROVIDE (_alt_partition_MemoriaPrograma_start = ABSOLUTE(.));
+        *(.MemoriaPrograma .MemoriaPrograma. MemoriaPrograma.*)
+        . = ALIGN(4);
+        PROVIDE (_alt_partition_MemoriaPrograma_end = ABSOLUTE(.));
+        _end = ABSOLUTE(.);
+        end = ABSOLUTE(.);
+        __alt_stack_base = ABSOLUTE(.);
+    } > MemoriaPrograma
+
+    PROVIDE (_alt_partition_MemoriaPrograma_load_addr = LOADADDR(.MemoriaPrograma));
 
     /*
      * Stabs debugging sections.
@@ -424,7 +424,7 @@ SECTIONS
 /*
  * Don't override this, override the __alt_stack_* symbols instead.
  */
-__alt_data_end = 0x30000;
+__alt_data_end = 0x50000;
 
 /*
  * The next two symbols define the location of the default stack.  You can
@@ -440,4 +440,4 @@ PROVIDE( __alt_stack_limit   = __alt_stack_base );
  * Override this symbol to put the heap in a different memory.
  */
 PROVIDE( __alt_heap_start    = end );
-PROVIDE( __alt_heap_limit    = 0x30000 );
+PROVIDE( __alt_heap_limit    = 0x50000 );

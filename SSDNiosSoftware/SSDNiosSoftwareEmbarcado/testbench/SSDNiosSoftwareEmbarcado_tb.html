@@ -67,7 +67,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
   </table>
   <table class="blueBar">
    <tr>
-    <td class="l">2022.07.02.17:13:16</td>
+    <td class="l">2022.07.04.22:04:00</td>
     <td class="r">Datasheet</td>
    </tr>
   </table>
@@ -105,6 +105,9 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
      <br/>&#160;&#160;
      <a href="#module_SSDNiosSoftwareEmbarcado_inst_MemoriaPrograma"><b>SSDNiosSoftwareEmbarcado_inst_MemoriaPrograma</b>
      </a> altera_avalon_onchip_memory2 18.1
+     <br/>&#160;&#160;
+     <a href="#module_SSDNiosSoftwareEmbarcado_inst_PixelFlag"><b>SSDNiosSoftwareEmbarcado_inst_PixelFlag</b>
+     </a> altera_avalon_pio 18.1
      <br/>&#160;&#160;
      <a href="#module_SSDNiosSoftwareEmbarcado_inst_Processador"><b>SSDNiosSoftwareEmbarcado_inst_Processador</b>
      </a> altera_nios2_gen2 18.1
@@ -153,7 +156,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
    </tr>
    <tr>
     <td class="slaveb">s1&#160;</td>
-    <td class="addr"><span style="color:#989898">0x</span>00040000</td>
+    <td class="addr"><span style="color:#989898">0x</span>00030000</td>
     <td class="empty"></td>
    </tr>
    <tr>
@@ -166,7 +169,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
    </tr>
    <tr>
     <td class="slaveb">s1&#160;</td>
-    <td class="addr"><span style="color:#989898">0x</span>00030000</td>
+    <td class="addr"><span style="color:#989898">0x</span>00020000</td>
     <td class="empty"></td>
    </tr>
    <tr>
@@ -179,12 +182,12 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
    </tr>
    <tr>
     <td class="slavem">Leitura&#160;</td>
-    <td class="addr"><span style="color:#989898">0x</span>00051018</td>
+    <td class="addr"><span style="color:#989898">0x</span>00051028</td>
     <td class="empty"></td>
    </tr>
    <tr>
     <td class="slavem">Escrita&#160;</td>
-    <td class="addr"><span style="color:#989898">0x</span>0005101c</td>
+    <td class="addr"><span style="color:#989898">0x</span>0005102c</td>
     <td class="empty"></td>
    </tr>
    <tr>
@@ -197,8 +200,21 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
    </tr>
    <tr>
     <td class="slaveb">s1&#160;</td>
-    <td class="addr"><span style="color:#989898">0x</span>00020000</td>
-    <td class="addr"><span style="color:#989898">0x</span>00020000</td>
+    <td class="addr"><span style="color:#989898">0x</span>00040000</td>
+    <td class="addr"><span style="color:#989898">0x</span>00040000</td>
+   </tr>
+   <tr>
+    <td class="slavemodule">&#160;
+     <a href="#module_SSDNiosSoftwareEmbarcado_inst_PixelFlag"><b>SSDNiosSoftwareEmbarcado_inst_PixelFlag</b>
+     </a>
+    </td>
+    <td class="empty"></td>
+    <td class="empty"></td>
+   </tr>
+   <tr>
+    <td class="slaveb">s1&#160;</td>
+    <td class="addr"><span style="color:#989898">0x</span>00051000</td>
+    <td class="empty"></td>
    </tr>
    <tr>
     <td class="slavemodule">&#160;
@@ -223,7 +239,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
    </tr>
    <tr>
     <td class="slaveb">s1&#160;</td>
-    <td class="addr"><span style="color:#989898">0x</span>00051000</td>
+    <td class="addr"><span style="color:#989898">0x</span>00051010</td>
     <td class="empty"></td>
    </tr>
    <tr>
@@ -236,7 +252,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
    </tr>
    <tr>
     <td class="slaveb">avalon_jtag_slave&#160;</td>
-    <td class="addr"><span style="color:#989898">0x</span>00051010</td>
+    <td class="addr"><span style="color:#989898">0x</span>00051020</td>
     <td class="empty"></td>
    </tr>
   </table>
@@ -254,7 +270,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
       <table>
        <tr>
         <td class="parametername">AUTO_GENERATION_ID</td>
-        <td class="parametervalue">1656792796</td>
+        <td class="parametervalue">1656983040</td>
        </tr>
        <tr>
         <td class="parametername">AUTO_UNIQUE_ID</td>
@@ -399,7 +415,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">memorySize</td>
-        <td class="parametervalue">58368</td>
+        <td class="parametervalue">65536</td>
        </tr>
        <tr>
         <td class="parametername">readDuringWriteMode</td>
@@ -560,7 +576,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">SIZE_VALUE</td>
-        <td class="parametervalue">58368</td>
+        <td class="parametervalue">65536</td>
        </tr>
        <tr>
         <td class="parametername">WRITABLE</td>
@@ -667,7 +683,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">memorySize</td>
-        <td class="parametervalue">58368</td>
+        <td class="parametervalue">65536</td>
        </tr>
        <tr>
         <td class="parametername">readDuringWriteMode</td>
@@ -828,7 +844,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">SIZE_VALUE</td>
-        <td class="parametervalue">58368</td>
+        <td class="parametervalue">65536</td>
        </tr>
        <tr>
         <td class="parametername">WRITABLE</td>
@@ -935,7 +951,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">memorySize</td>
-        <td class="parametervalue">58368</td>
+        <td class="parametervalue">65536</td>
        </tr>
        <tr>
         <td class="parametername">readDuringWriteMode</td>
@@ -1096,7 +1112,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">SIZE_VALUE</td>
-        <td class="parametervalue">58368</td>
+        <td class="parametervalue">65536</td>
        </tr>
        <tr>
         <td class="parametername">WRITABLE</td>
@@ -1463,6 +1479,217 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
     </tr>
    </table>
   </div>
+  <a name="module_SSDNiosSoftwareEmbarcado_inst_PixelFlag"> </a>
+  <div>
+   <hr/>
+   <h2>SSDNiosSoftwareEmbarcado_inst_PixelFlag</h2>altera_avalon_pio v18.1
+   <br/>
+   <div class="greydiv">
+    <table class="connectionboxes">
+     <tr>
+      <td class="neighbor" rowspan="2">
+       <a href="#module_SSDNiosSoftwareEmbarcado_inst_Processador">SSDNiosSoftwareEmbarcado_inst_Processador</a>
+      </td>
+      <td class="from">data_master&#160;&#160;</td>
+      <td class="main" rowspan="10">SSDNiosSoftwareEmbarcado_inst_PixelFlag</td>
+     </tr>
+     <tr>
+      <td class="to">&#160;&#160;s1</td>
+     </tr>
+     <tr style="height:6px">
+      <td></td>
+     </tr>
+     <tr>
+      <td class="neighbor" rowspan="4">
+       <a href="#module_SSDNiosSoftwareEmbarcado_inst_clock">SSDNiosSoftwareEmbarcado_inst_clock</a>
+      </td>
+      <td class="from">clk&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td class="to">&#160;&#160;clk</td>
+     </tr>
+     <tr>
+      <td class="from">clk_reset&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td class="to">&#160;&#160;reset</td>
+     </tr>
+     <tr style="height:6px">
+      <td></td>
+     </tr>
+     <tr>
+      <td class="neighbor" rowspan="2">
+       <a
+               href="#module_SSDNiosSoftwareEmbarcado_inst_pixelflag_external_connection_bfm">SSDNiosSoftwareEmbarcado_inst_pixelflag_external_connection_bfm</a>
+      </td>
+      <td class="from">conduit&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td class="to">&#160;&#160;external_connection</td>
+     </tr>
+    </table>
+   </div>
+   <br/>
+   <br/>
+   <table class="flowbox">
+    <tr>
+     <td class="parametersbox">
+      <h2>Parameters</h2>
+      <table>
+       <tr>
+        <td class="parametername">bitClearingEdgeCapReg</td>
+        <td class="parametervalue">false</td>
+       </tr>
+       <tr>
+        <td class="parametername">bitModifyingOutReg</td>
+        <td class="parametervalue">false</td>
+       </tr>
+       <tr>
+        <td class="parametername">captureEdge</td>
+        <td class="parametervalue">false</td>
+       </tr>
+       <tr>
+        <td class="parametername">direction</td>
+        <td class="parametervalue">Output</td>
+       </tr>
+       <tr>
+        <td class="parametername">edgeType</td>
+        <td class="parametervalue">RISING</td>
+       </tr>
+       <tr>
+        <td class="parametername">generateIRQ</td>
+        <td class="parametervalue">false</td>
+       </tr>
+       <tr>
+        <td class="parametername">irqType</td>
+        <td class="parametervalue">LEVEL</td>
+       </tr>
+       <tr>
+        <td class="parametername">resetValue</td>
+        <td class="parametervalue">0</td>
+       </tr>
+       <tr>
+        <td class="parametername">simDoTestBenchWiring</td>
+        <td class="parametervalue">false</td>
+       </tr>
+       <tr>
+        <td class="parametername">simDrivenValue</td>
+        <td class="parametervalue">0</td>
+       </tr>
+       <tr>
+        <td class="parametername">width</td>
+        <td class="parametervalue">1</td>
+       </tr>
+       <tr>
+        <td class="parametername">clockRate</td>
+        <td class="parametervalue">50000000</td>
+       </tr>
+       <tr>
+        <td class="parametername">derived_has_tri</td>
+        <td class="parametervalue">false</td>
+       </tr>
+       <tr>
+        <td class="parametername">derived_has_out</td>
+        <td class="parametervalue">true</td>
+       </tr>
+       <tr>
+        <td class="parametername">derived_has_in</td>
+        <td class="parametervalue">false</td>
+       </tr>
+       <tr>
+        <td class="parametername">derived_do_test_bench_wiring</td>
+        <td class="parametervalue">false</td>
+       </tr>
+       <tr>
+        <td class="parametername">derived_capture</td>
+        <td class="parametervalue">false</td>
+       </tr>
+       <tr>
+        <td class="parametername">derived_edge_type</td>
+        <td class="parametervalue">NONE</td>
+       </tr>
+       <tr>
+        <td class="parametername">derived_irq_type</td>
+        <td class="parametervalue">NONE</td>
+       </tr>
+       <tr>
+        <td class="parametername">derived_has_irq</td>
+        <td class="parametervalue">false</td>
+       </tr>
+       <tr>
+        <td class="parametername">deviceFamily</td>
+        <td class="parametervalue">UNKNOWN</td>
+       </tr>
+       <tr>
+        <td class="parametername">generateLegacySim</td>
+        <td class="parametervalue">false</td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+   </table>&#160;&#160;
+   <table class="flowbox">
+    <tr>
+     <td class="parametersbox">
+      <h2>Software Assignments</h2>
+      <table>
+       <tr>
+        <td class="parametername">BIT_CLEARING_EDGE_REGISTER</td>
+        <td class="parametervalue">0</td>
+       </tr>
+       <tr>
+        <td class="parametername">BIT_MODIFYING_OUTPUT_REGISTER</td>
+        <td class="parametervalue">0</td>
+       </tr>
+       <tr>
+        <td class="parametername">CAPTURE</td>
+        <td class="parametervalue">0</td>
+       </tr>
+       <tr>
+        <td class="parametername">DATA_WIDTH</td>
+        <td class="parametervalue">1</td>
+       </tr>
+       <tr>
+        <td class="parametername">DO_TEST_BENCH_WIRING</td>
+        <td class="parametervalue">0</td>
+       </tr>
+       <tr>
+        <td class="parametername">DRIVEN_SIM_VALUE</td>
+        <td class="parametervalue">0</td>
+       </tr>
+       <tr>
+        <td class="parametername">EDGE_TYPE</td>
+        <td class="parametervalue">NONE</td>
+       </tr>
+       <tr>
+        <td class="parametername">FREQ</td>
+        <td class="parametervalue">50000000</td>
+       </tr>
+       <tr>
+        <td class="parametername">HAS_IN</td>
+        <td class="parametervalue">0</td>
+       </tr>
+       <tr>
+        <td class="parametername">HAS_OUT</td>
+        <td class="parametervalue">1</td>
+       </tr>
+       <tr>
+        <td class="parametername">HAS_TRI</td>
+        <td class="parametervalue">0</td>
+       </tr>
+       <tr>
+        <td class="parametername">IRQ_TYPE</td>
+        <td class="parametervalue">NONE</td>
+       </tr>
+       <tr>
+        <td class="parametername">RESET_VALUE</td>
+        <td class="parametervalue">0</td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+   </table>
+  </div>
   <a name="module_SSDNiosSoftwareEmbarcado_inst_Processador"> </a>
   <div>
    <hr/>
@@ -1475,7 +1702,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        <a href="#module_SSDNiosSoftwareEmbarcado_inst_clock">SSDNiosSoftwareEmbarcado_inst_clock</a>
       </td>
       <td class="from">clk&#160;&#160;</td>
-      <td class="main" rowspan="38">SSDNiosSoftwareEmbarcado_inst_Processador</td>
+      <td class="main" rowspan="41">SSDNiosSoftwareEmbarcado_inst_Processador</td>
      </tr>
      <tr>
       <td class="to">&#160;&#160;clk</td>
@@ -1658,6 +1885,22 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
       <td class="from">data_master&#160;&#160;</td>
       <td class="neighbor" rowspan="2">
        <a href="#module_SSDNiosSoftwareEmbarcado_inst_SaidaImagem">SSDNiosSoftwareEmbarcado_inst_SaidaImagem</a>
+      </td>
+     </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td class="to">&#160;&#160;s1</td>
+     </tr>
+     <tr style="height:6px">
+      <td></td>
+     </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td class="from">data_master&#160;&#160;</td>
+      <td class="neighbor" rowspan="2">
+       <a href="#module_SSDNiosSoftwareEmbarcado_inst_PixelFlag">SSDNiosSoftwareEmbarcado_inst_PixelFlag</a>
       </td>
      </tr>
      <tr>
@@ -2240,11 +2483,11 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">resetAbsoluteAddr</td>
-        <td class="parametervalue">131072</td>
+        <td class="parametervalue">262144</td>
        </tr>
        <tr>
         <td class="parametername">exceptionAbsoluteAddr</td>
-        <td class="parametervalue">131104</td>
+        <td class="parametervalue">262176</td>
        </tr>
        <tr>
         <td class="parametername">breakAbsoluteAddr</td>
@@ -2356,7 +2599,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">instSlaveMapParam</td>
-        <td class="parametervalue">&lt;address-map&gt;&lt;slave name='MemoriaPrograma.s1' start='0x20000' end='0x30000' type='altera_avalon_onchip_memory2.s1' /&gt;&lt;slave name='Processador.debug_mem_slave' start='0x50800' end='0x51000' type='altera_nios2_gen2.debug_mem_slave' /&gt;&lt;/address-map&gt;</td>
+        <td class="parametervalue">&lt;address-map&gt;&lt;slave name='MemoriaPrograma.s1' start='0x40000' end='0x50000' type='altera_avalon_onchip_memory2.s1' /&gt;&lt;slave name='Processador.debug_mem_slave' start='0x50800' end='0x51000' type='altera_nios2_gen2.debug_mem_slave' /&gt;&lt;/address-map&gt;</td>
        </tr>
        <tr>
         <td class="parametername">faSlaveMapParam</td>
@@ -2364,7 +2607,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">dataSlaveMapParam</td>
-        <td class="parametervalue">&lt;address-map&gt;&lt;slave name='ImagemA.s1' start='0x0' end='0xE400' type='altera_avalon_onchip_memory2.s1' /&gt;&lt;slave name='MemoriaPrograma.s1' start='0x20000' end='0x30000' type='altera_avalon_onchip_memory2.s1' /&gt;&lt;slave name='ImagemC.s1' start='0x30000' end='0x3E400' type='altera_avalon_onchip_memory2.s1' /&gt;&lt;slave name='ImagemB.s1' start='0x40000' end='0x4E400' type='altera_avalon_onchip_memory2.s1' /&gt;&lt;slave name='Processador.debug_mem_slave' start='0x50800' end='0x51000' type='altera_nios2_gen2.debug_mem_slave' /&gt;&lt;slave name='SaidaImagem.s1' start='0x51000' end='0x51010' type='altera_avalon_pio.s1' /&gt;&lt;slave name='jtag_uart.avalon_jtag_slave' start='0x51010' end='0x51018' type='altera_avalon_jtag_uart.avalon_jtag_slave' /&gt;&lt;slave name='MedidorDesempenho.Leitura' start='0x51018' end='0x5101C' type='MedidorDesempenho.Leitura' /&gt;&lt;slave name='MedidorDesempenho.Escrita' start='0x5101C' end='0x51020' type='MedidorDesempenho.Escrita' /&gt;&lt;/address-map&gt;</td>
+        <td class="parametervalue">&lt;address-map&gt;&lt;slave name='ImagemA.s1' start='0x0' end='0x10000' type='altera_avalon_onchip_memory2.s1' /&gt;&lt;slave name='ImagemC.s1' start='0x20000' end='0x30000' type='altera_avalon_onchip_memory2.s1' /&gt;&lt;slave name='ImagemB.s1' start='0x30000' end='0x40000' type='altera_avalon_onchip_memory2.s1' /&gt;&lt;slave name='MemoriaPrograma.s1' start='0x40000' end='0x50000' type='altera_avalon_onchip_memory2.s1' /&gt;&lt;slave name='Processador.debug_mem_slave' start='0x50800' end='0x51000' type='altera_nios2_gen2.debug_mem_slave' /&gt;&lt;slave name='PixelFlag.s1' start='0x51000' end='0x51010' type='altera_avalon_pio.s1' /&gt;&lt;slave name='SaidaImagem.s1' start='0x51010' end='0x51020' type='altera_avalon_pio.s1' /&gt;&lt;slave name='jtag_uart.avalon_jtag_slave' start='0x51020' end='0x51028' type='altera_avalon_jtag_uart.avalon_jtag_slave' /&gt;&lt;slave name='MedidorDesempenho.Leitura' start='0x51028' end='0x5102C' type='MedidorDesempenho.Leitura' /&gt;&lt;slave name='MedidorDesempenho.Escrita' start='0x5102C' end='0x51030' type='MedidorDesempenho.Escrita' /&gt;&lt;/address-map&gt;</td>
        </tr>
        <tr>
         <td class="parametername">tightlyCoupledDataMaster0MapParam</td>
@@ -2517,7 +2760,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">EXCEPTION_ADDR</td>
-        <td class="parametervalue">0x00020020</td>
+        <td class="parametervalue">0x00040020</td>
        </tr>
        <tr>
         <td class="parametername">FLASH_ACCELERATOR_LINES</td>
@@ -2581,7 +2824,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">RESET_ADDR</td>
-        <td class="parametervalue">0x00020000</td>
+        <td class="parametervalue">0x00040000</td>
        </tr>
       </table>
      </td>
@@ -2811,7 +3054,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        <a href="#module_SSDNiosSoftwareEmbarcado_inst_clk_bfm">SSDNiosSoftwareEmbarcado_inst_clk_bfm</a>
       </td>
       <td class="from">clk&#160;&#160;</td>
-      <td class="main" rowspan="44">SSDNiosSoftwareEmbarcado_inst_clock</td>
+      <td class="main" rowspan="49">SSDNiosSoftwareEmbarcado_inst_clock</td>
      </tr>
      <tr>
       <td class="to">&#160;&#160;clk_in</td>
@@ -2886,6 +3129,32 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
       <td class="from">clk&#160;&#160;</td>
       <td class="neighbor" rowspan="4">
        <a href="#module_SSDNiosSoftwareEmbarcado_inst_SaidaImagem">SSDNiosSoftwareEmbarcado_inst_SaidaImagem</a>
+      </td>
+     </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td class="to">&#160;&#160;clk</td>
+     </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td class="from">clk_reset&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td class="to">&#160;&#160;reset</td>
+     </tr>
+     <tr style="height:6px">
+      <td></td>
+     </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td class="from">clk&#160;&#160;</td>
+      <td class="neighbor" rowspan="4">
+       <a href="#module_SSDNiosSoftwareEmbarcado_inst_PixelFlag">SSDNiosSoftwareEmbarcado_inst_PixelFlag</a>
       </td>
      </tr>
      <tr>
@@ -3359,6 +3628,58 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
     </tr>
    </table>
   </div>
+  <a
+     name="module_SSDNiosSoftwareEmbarcado_inst_pixelflag_external_connection_bfm"> </a>
+  <div>
+   <hr/>
+   <h2>SSDNiosSoftwareEmbarcado_inst_pixelflag_external_connection_bfm</h2>altera_conduit_bfm v18.1
+   <br/>
+   <br/>
+   <br/>
+   <table class="flowbox">
+    <tr>
+     <td class="parametersbox">
+      <h2>Parameters</h2>
+      <table>
+       <tr>
+        <td class="parametername">CLOCKED_SIGNAL</td>
+        <td class="parametervalue">false</td>
+       </tr>
+       <tr>
+        <td class="parametername">ENABLE_RESET</td>
+        <td class="parametervalue">false</td>
+       </tr>
+       <tr>
+        <td class="parametername">SIGNAL_ROLES</td>
+        <td class="parametervalue">export</td>
+       </tr>
+       <tr>
+        <td class="parametername">SIGNAL_WIDTHS</td>
+        <td class="parametervalue">1</td>
+       </tr>
+       <tr>
+        <td class="parametername">SIGNAL_DIRECTIONS</td>
+        <td class="parametervalue">input</td>
+       </tr>
+       <tr>
+        <td class="parametername">deviceFamily</td>
+        <td class="parametervalue">UNKNOWN</td>
+       </tr>
+       <tr>
+        <td class="parametername">generateLegacySim</td>
+        <td class="parametervalue">false</td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+   </table>&#160;&#160;
+   <table class="flowbox">
+    <tr>
+     <td class="parametersbox">
+      <h2>Software Assignments</h2>(none)</td>
+    </tr>
+   </table>
+  </div>
   <a name="module_SSDNiosSoftwareEmbarcado_inst_reset_bfm"> </a>
   <div>
    <hr/>
@@ -3497,7 +3818,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
   <table class="blueBar">
    <tr>
     <td class="l">generation took 0,00 seconds</td>
-    <td class="r">rendering took 0,03 seconds</td>
+    <td class="r">rendering took 0,06 seconds</td>
    </tr>
   </table>
  </body>

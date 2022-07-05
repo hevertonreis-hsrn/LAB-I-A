@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 dC:/Projetos/Quartus/SSDNiosSoftware/software/SSDSoftware/obj/default/runtime/sim/mentor
 vClock_Counter
-Z1 !s110 1656793413
+Z1 !s110 1656983372
 !i10b 1
 !s100 hAbh9<HJh558ZEmMP>40@1
 IB[CL9iQW7Lk90QY1X?AFS1
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1656792804
+Z3 w1656983050
 8C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/Clock_Counter.v
 FC:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/Clock_Counter.v
 L0 1
@@ -23,7 +23,7 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1656793413.000000
+Z5 !s108 1656983372.000000
 !s107 C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/Clock_Counter.v|
 !s90 -reportprogress|300|C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/Clock_Counter.v|-work|MedidorDesempenho|
 !i113 1

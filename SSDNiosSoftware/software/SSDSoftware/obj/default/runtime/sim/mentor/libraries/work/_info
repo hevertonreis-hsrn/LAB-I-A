@@ -30,13 +30,13 @@ r1
 Z3 tCvgOpt 0
 n@separador
 vSSDNiosSoftware
-Z4 !s110 1656793458
+Z4 !s110 1656983387
 !i10b 1
-!s100 fcX]XBkMA<SRka4T?fL;n0
-IY`hG2bnom:Ql29caBU0_S2
+!s100 8MJ:gi=:Blba9h:=9EkOI2
+IHYn3Mjbh28NSc7OT_SL^:0
 R1
 R0
-w1656793119
+w1656983281
 8C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/mentor/../../../SSDNiosSoftware.v
 FC:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/mentor/../../../SSDNiosSoftware.v
 L0 19
@@ -44,20 +44,20 @@ R2
 r1
 !s85 0
 31
-Z5 !s108 1656793458.000000
+Z5 !s108 1656983387.000000
 !s107 C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/mentor/../../../SSDNiosSoftware.v|
 !s90 -reportprogress|300|C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/mentor/../../../SSDNiosSoftware.v|
 !i113 1
 R3
 n@s@s@d@nios@software
 vSSDNiosSoftwareEmbarcado_tb
-!s110 1656793414
+!s110 1656983374
 !i10b 1
-!s100 _nS<nT<<:c[hlUQ0c:ZQ?2
-I41VP`U`GCLi0cmJzM9m920
+!s100 I5PZNzRozIHZZnX<F1^X_2
+I0FHMHNFfi<PHJCfmY7mib1
 R1
 R0
-w1656792798
+w1656983043
 8C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/SSDNiosSoftwareEmbarcado_tb.v
 FC:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/SSDNiosSoftwareEmbarcado_tb.v
 L0 6
@@ -65,7 +65,7 @@ R2
 r1
 !s85 0
 31
-!s108 1656793414.000000
+!s108 1656983374.000000
 !s107 C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/SSDNiosSoftwareEmbarcado_tb.v|
 !s90 -reportprogress|300|C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/SSDNiosSoftwareEmbarcado_tb.v|
 !i113 1
@@ -74,11 +74,11 @@ n@s@s@d@nios@software@embarcado_tb
 vSSDNiosSoftwareTB
 R4
 !i10b 1
-!s100 ;VVfo77Ugik]@hS9ImFNz3
-Ini4TQbSCB6`GgVWzI<_n`0
+!s100 eeEVjWaT8[z;T:0>>Na0F0
+I@a0:z4kY71me@Hd]hV?Hk1
 R1
 R0
-w1656789197
+w1656979863
 8C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/mentor/../../../SSDNiosSoftwareTB.v
 FC:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/mentor/../../../SSDNiosSoftwareTB.v
 L0 3

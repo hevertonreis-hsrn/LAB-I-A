@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 dC:/Projetos/Quartus/SSDNiosSoftware/software/SSDSoftware/obj/default/runtime/sim/mentor
 vSSDNiosSoftwareEmbarcado_jtag_uart
-Z1 !s110 1656793413
+Z1 !s110 1656983372
 !i10b 1
 !s100 c69GYD6UdV`0mgGRQ`[_;2
 IZ1N0n@kQPMFE9SIk2^0F_1
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1656792806
+Z3 w1656983052
 Z4 8C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_jtag_uart.v
 Z5 FC:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_jtag_uart.v
 L0 331
@@ -23,7 +23,7 @@ Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1656793413.000000
+Z7 !s108 1656983372.000000
 Z8 !s107 C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_jtag_uart.v|
 Z9 !s90 -reportprogress|300|C:/Projetos/Quartus/SSDNiosSoftware/SSDNiosSoftwareEmbarcado/testbench/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_jtag_uart.v|-work|jtag_uart|
 !i113 1

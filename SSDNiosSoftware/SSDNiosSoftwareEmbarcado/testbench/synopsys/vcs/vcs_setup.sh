@@ -12,7 +12,7 @@
 # or its authorized distributors. Please refer to the applicable 
 # agreement for further details.
 
-# ACDS 18.1 625 win32 2022.07.02.17:13:45
+# ACDS 18.1 625 win32 2022.07.04.22:04:35
 
 # ----------------------------------------
 # vcs - auto-generated simulation script
@@ -94,7 +94,7 @@
 # within the Quartus project, and generate a unified
 # script which supports all the Altera IP within the design.
 # ----------------------------------------
-# ACDS 18.1 625 win32 2022.07.02.17:13:45
+# ACDS 18.1 625 win32 2022.07.04.22:04:35
 # ----------------------------------------
 # initialize variables
 TOP_LEVEL_NAME="SSDNiosSoftwareEmbarcado_tb"
@@ -198,14 +198,16 @@ vcs -lca -timescale=1ps/1ps -sverilog +verilog2001ext+.v -ntb_opts dtm $ELAB_OPT
   $QSYS_SIMDIR/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_jtag_uart.v \
   $QSYS_SIMDIR/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_SaidaImagem.v \
   $QSYS_SIMDIR/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_Processador.v \
+  $QSYS_SIMDIR/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_PixelFlag.v \
   $QSYS_SIMDIR/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_MemoriaPrograma.v \
   $QSYS_SIMDIR/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/Clock_Counter_Interface.v \
   $QSYS_SIMDIR/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/Clock_Counter.v \
   $QSYS_SIMDIR/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemC.v \
   $QSYS_SIMDIR/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemB.v \
   $QSYS_SIMDIR/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado_ImagemA.v \
-  $QSYS_SIMDIR/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_conduit_bfm_0002.sv \
+  $QSYS_SIMDIR/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_conduit_bfm_0003.sv \
   $QSYS_SIMDIR/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_avalon_reset_source.sv \
+  $QSYS_SIMDIR/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_conduit_bfm_0002.sv \
   $QSYS_SIMDIR/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_conduit_bfm.sv \
   $QSYS_SIMDIR/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/altera_avalon_clock_source.sv \
   $QSYS_SIMDIR/SSDNiosSoftwareEmbarcado_tb/simulation/submodules/SSDNiosSoftwareEmbarcado.v \

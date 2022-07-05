@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>02/07/2022 17:19:50</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1656793190980</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>04/07/2022 22:08:27</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1656983307242</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>C:\Projetos\Quartus\SSDNiosSoftware\software\SSDSoftware_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>..\..\SSDNiosSoftwareEmbarcado.sopcinfo</SopcDesignFile>
@@ -912,49 +912,55 @@
         </Setting>
         <MemoryMap>
                 <slaveDescriptor>ImagemA</slaveDescriptor>
-                <addressRange>0x00000000 - 0x0000E3FF</addressRange>
-                <addressSpan>58368</addressSpan>
+                <addressRange>0x00000000 - 0x0000FFFF</addressRange>
+                <addressSpan>65536</addressSpan>
                 <attributes>memory, non-volatile</attributes>
         </MemoryMap>
         <MemoryMap>
-                <slaveDescriptor>MemoriaPrograma</slaveDescriptor>
+                <slaveDescriptor>ImagemC</slaveDescriptor>
                 <addressRange>0x00020000 - 0x0002FFFF</addressRange>
                 <addressSpan>65536</addressSpan>
                 <attributes>memory</attributes>
         </MemoryMap>
         <MemoryMap>
-                <slaveDescriptor>ImagemC</slaveDescriptor>
-                <addressRange>0x00030000 - 0x0003E3FF</addressRange>
-                <addressSpan>58368</addressSpan>
-                <attributes>memory</attributes>
-        </MemoryMap>
-        <MemoryMap>
                 <slaveDescriptor>ImagemB</slaveDescriptor>
-                <addressRange>0x00040000 - 0x0004E3FF</addressRange>
-                <addressSpan>58368</addressSpan>
+                <addressRange>0x00030000 - 0x0003FFFF</addressRange>
+                <addressSpan>65536</addressSpan>
                 <attributes>memory, non-volatile</attributes>
         </MemoryMap>
         <MemoryMap>
-                <slaveDescriptor>SaidaImagem</slaveDescriptor>
+                <slaveDescriptor>MemoriaPrograma</slaveDescriptor>
+                <addressRange>0x00040000 - 0x0004FFFF</addressRange>
+                <addressSpan>65536</addressSpan>
+                <attributes>memory</attributes>
+        </MemoryMap>
+        <MemoryMap>
+                <slaveDescriptor>PixelFlag</slaveDescriptor>
                 <addressRange>0x00051000 - 0x0005100F</addressRange>
                 <addressSpan>16</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
+                <slaveDescriptor>SaidaImagem</slaveDescriptor>
+                <addressRange>0x00051010 - 0x0005101F</addressRange>
+                <addressSpan>16</addressSpan>
+                <attributes/>
+        </MemoryMap>
+        <MemoryMap>
                 <slaveDescriptor>jtag_uart</slaveDescriptor>
-                <addressRange>0x00051010 - 0x00051017</addressRange>
+                <addressRange>0x00051020 - 0x00051027</addressRange>
                 <addressSpan>8</addressSpan>
                 <attributes>printable</attributes>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>MedidorDesempenho_Leitura</slaveDescriptor>
-                <addressRange>0x00051018 - 0x0005101B</addressRange>
+                <addressRange>0x00051028 - 0x0005102B</addressRange>
                 <addressSpan>4</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>MedidorDesempenho_Escrita</slaveDescriptor>
-                <addressRange>0x0005101C - 0x0005101F</addressRange>
+                <addressRange>0x0005102C - 0x0005102F</addressRange>
                 <addressSpan>4</addressSpan>
                 <attributes/>
         </MemoryMap>
